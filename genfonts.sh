@@ -106,7 +106,7 @@ genfont () {
 }
 
 mkdir -p ttf
-find ttf -type f -exec rm -v {} +
+find ttf -type f -exec rm {} +
 
 generate_lucida_typewriter () {
     genfont xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf 'Lucida-Typewriter-{pixelSize}-Bold-100dpi' 'Lucida Typewriter {pixelSize}' 'Bold'
