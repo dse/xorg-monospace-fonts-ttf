@@ -108,7 +108,7 @@ genfont () {
     bitmapfont2ttf \
         --save-sfd \
         --sfd-dir=sfd \
-        --nearest-multiple-of-three \
+        --nearest-multiple-of-four \
         "${script_args[@]}" \
         "${ttffontname:+--font-name=${ttffontname}}" \
         "${ttffullname:+--full-name=${ttffullname}}" \
