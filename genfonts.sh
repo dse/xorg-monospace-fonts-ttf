@@ -159,36 +159,36 @@ generate_dec_terminal () {
 }
 
 generate_misc_fixed_6x13 () {
-    genfont xorg-misc-misc/6x13.bdf  '6x13'  'Misc Fixed 6x13'
-    genfont xorg-misc-misc/6x13B.bdf '6x13B' 'Misc Fixed 6x13' 'Bold'
-    genfont xorg-misc-misc/6x13O.bdf '6x13O' 'Misc Fixed 6x13' 'Oblique'
+    genfont xorg-misc-misc/6x13.bdf  'Misc-Fixed-6x13'  'Misc Fixed 6x13'
+    genfont xorg-misc-misc/6x13B.bdf 'Misc-Fixed-6x13B' 'Misc Fixed 6x13' 'Bold'
+    genfont xorg-misc-misc/6x13O.bdf 'Misc-Fixed-6x13O' 'Misc Fixed 6x13' 'Oblique'
 }
 
 generate_misc_fixed () {
-    genfont xorg-misc-misc/10x20.bdf '10x20' 'Misc Fixed 10x20'
-    genfont xorg-misc-misc/4x6.bdf   '4x6'   'Misc Fixed 4x6'
-    genfont xorg-misc-misc/5x7.bdf   '5x7'   'Misc Fixed 5x7'
-    genfont xorg-misc-misc/5x8.bdf   '5x8'   'Misc Fixed 5x8'
-    genfont xorg-misc-misc/6x10.bdf  '6x10'  'Misc Fixed 6x10'
-    genfont xorg-misc-misc/6x12.bdf  '6x12'  'Misc Fixed 6x12'
-    genfont xorg-misc-misc/6x9.bdf   '6x9'   'Misc Fixed 6x9'
-    genfont xorg-misc-misc/7x13.bdf  '7x13'  'Misc Fixed 7x13'
-    genfont xorg-misc-misc/7x13B.bdf '7x13B' 'Misc Fixed 7x13' 'Bold'
-    genfont xorg-misc-misc/7x13O.bdf '7x13O' 'Misc Fixed 7x13' 'Oblique'
-    genfont xorg-misc-misc/7x14.bdf  '7x14'  'Misc Fixed 7x14'
-    genfont xorg-misc-misc/7x14B.bdf '7x14B' 'Misc Fixed 7x14' 'Bold'
-    genfont xorg-misc-misc/8x13.bdf  '8x13'  'Misc Fixed 8x13'
-    genfont xorg-misc-misc/8x13B.bdf '8x13B' 'Misc Fixed 8x13' 'Bold'
-    genfont xorg-misc-misc/8x13O.bdf '8x13O' 'Misc Fixed 8x13' 'Oblique'
-    genfont xorg-misc-misc/9x15.bdf  '9x15'  'Misc Fixed 9x15'
-    genfont xorg-misc-misc/9x15B.bdf '9x15B' 'Misc Fixed 9x15' 'Bold'
-    genfont xorg-misc-misc/9x18.bdf  '9x18'  'Misc Fixed 9x18'
-    genfont xorg-misc-misc/9x18B.bdf '9x18B' 'Misc Fixed 9x18' 'Bold'
+    genfont xorg-misc-misc/10x20.bdf 'Misc-Fixed-10x20' 'Misc Fixed 10x20'
+    genfont xorg-misc-misc/4x6.bdf   'Misc-Fixed-4x6'   'Misc Fixed 4x6'
+    genfont xorg-misc-misc/5x7.bdf   'Misc-Fixed-5x7'   'Misc Fixed 5x7'
+    genfont xorg-misc-misc/5x8.bdf   'Misc-Fixed-5x8'   'Misc Fixed 5x8'
+    genfont xorg-misc-misc/6x10.bdf  'Misc-Fixed-6x10'  'Misc Fixed 6x10'
+    genfont xorg-misc-misc/6x12.bdf  'Misc-Fixed-6x12'  'Misc Fixed 6x12'
+    genfont xorg-misc-misc/6x9.bdf   'Misc-Fixed-6x9'   'Misc Fixed 6x9'
+    genfont xorg-misc-misc/7x13.bdf  'Misc-Fixed-7x13'  'Misc Fixed 7x13'
+    genfont xorg-misc-misc/7x13B.bdf 'Misc-Fixed-7x13B' 'Misc Fixed 7x13' 'Bold'
+    genfont xorg-misc-misc/7x13O.bdf 'Misc-Fixed-7x13O' 'Misc Fixed 7x13' 'Oblique'
+    genfont xorg-misc-misc/7x14.bdf  'Misc-Fixed-7x14'  'Misc Fixed 7x14'
+    genfont xorg-misc-misc/7x14B.bdf 'Misc-Fixed-7x14B' 'Misc Fixed 7x14' 'Bold'
+    genfont xorg-misc-misc/8x13.bdf  'Misc-Fixed-8x13'  'Misc Fixed 8x13'
+    genfont xorg-misc-misc/8x13B.bdf 'Misc-Fixed-8x13B' 'Misc Fixed 8x13' 'Bold'
+    genfont xorg-misc-misc/8x13O.bdf 'Misc-Fixed-8x13O' 'Misc Fixed 8x13' 'Oblique'
+    genfont xorg-misc-misc/9x15.bdf  'Misc-Fixed-9x15'  'Misc Fixed 9x15'
+    genfont xorg-misc-misc/9x15B.bdf 'Misc-Fixed-9x15B' 'Misc Fixed 9x15' 'Bold'
+    genfont xorg-misc-misc/9x18.bdf  'Misc-Fixed-9x18'  'Misc Fixed 9x18'
+    genfont xorg-misc-misc/9x18B.bdf 'Misc-Fixed-9x18B' 'Misc Fixed 9x18' 'Bold'
 }
 
 generate_sony_misc () {
-    genfont xorg-sony-misc/12x24.bdf Sony-12x24 'Sony Fixed 12x24'
-    genfont xorg-sony-misc/8x16.bdf  Sony-8x16  'Sony Fixed 8x16'
+    genfont xorg-sony-misc/12x24.bdf Sony-Fixed-12x24 'Sony Fixed 12x24'
+    genfont xorg-sony-misc/8x16.bdf  Sony-Fixed-8x16  'Sony Fixed 8x16'
 }
 
 if (( fixed6x13only )) ; then
