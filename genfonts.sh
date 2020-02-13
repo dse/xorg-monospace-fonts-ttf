@@ -5,6 +5,8 @@ set -o pipefail
 declare -a script_args
 
 fixed6x13only=0
+decterminalonly=0
+scale_option=--nearest-multiple-of-four
 
 usage () { cat <<"EOF"; }
 usage:
@@ -14,6 +16,8 @@ options:
     -h, --help
         --ascii-only
         --fixed-6x13-only
+        --dec-terminal-only
+        --no-scale
 EOF
 
 while getopts 'hv-:' OPTION ; do
@@ -39,11 +43,17 @@ while getopts 'hv-:' OPTION ; do
         'v'|'verbose')
             script_args+=("--verbose")
             ;;
+        'no-scale')
+            scale_option=''
+            ;;
         'ascii-only')
             script_args+=("--ascii-only")
             ;;
         'fixed-6x13-only')
             fixed6x13only=1
+            ;;
+        'dec-terminal-only')
+            decterminalonly=1
             ;;
         '?')
             # short option invalid or missing argument
@@ -108,7 +118,7 @@ genfont () {
     bitmapfont2ttf \
         --save-sfd \
         --sfd-dir=sfd \
-        --nearest-multiple-of-four \
+        $scale_option \
         "${script_args[@]}" \
         "${ttffontname:+--font-name=${ttffontname}}" \
         "${ttffullname:+--full-name=${ttffullname}}" \
@@ -119,6 +129,9 @@ genfont () {
 
 mkdir -p ttf
 find ttf -type f -exec rm {} +
+
+mkdir -p sfd
+find sfd -type f -exec rm {} +
 
 generate_lucida_typewriter () {
     genfont xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf 'Lucida-Typewriter-11-Bold' 'Lucida Typewriter 11' 'Bold'
@@ -193,6 +206,8 @@ generate_sony_misc () {
 
 if (( fixed6x13only )) ; then
     generate_misc_fixed_6x13
+elif (( decterminalonly )) ; then
+    generate_dec_terminal
 else
     generate_misc_fixed_6x13
     generate_misc_fixed
