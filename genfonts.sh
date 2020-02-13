@@ -121,41 +121,41 @@ mkdir -p ttf
 find ttf -type f -exec rm {} +
 
 generate_lucida_typewriter () {
-    genfont xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf 'Lucida-Typewriter-11-Bold-100dpi' 'Lucida Typewriter 11' 'Bold'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutBS10.bdf 'Lucida-Typewriter-14-Bold-100dpi' 'Lucida Typewriter 14' 'Bold'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutBS12.bdf 'Lucida-Typewriter-17-Bold-100dpi' 'Lucida Typewriter 17' 'Bold'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutBS14.bdf 'Lucida-Typewriter-20-Bold-100dpi' 'Lucida Typewriter 20' 'Bold'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutBS18.bdf 'Lucida-Typewriter-25-Bold-100dpi' 'Lucida Typewriter 25' 'Bold'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutBS19.bdf 'Lucida-Typewriter-26-Bold-100dpi' 'Lucida Typewriter 26' 'Bold'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutBS24.bdf 'Lucida-Typewriter-34-Bold-100dpi' 'Lucida Typewriter 34' 'Bold'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutRS08.bdf 'Lucida-Typewriter-11-100dpi' 'Lucida Typewriter 11'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutRS10.bdf 'Lucida-Typewriter-14-100dpi' 'Lucida Typewriter 14'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutRS12.bdf 'Lucida-Typewriter-17-100dpi' 'Lucida Typewriter 17'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutRS14.bdf 'Lucida-Typewriter-20-100dpi' 'Lucida Typewriter 20'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutRS18.bdf 'Lucida-Typewriter-25-100dpi' 'Lucida Typewriter 25'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutRS19.bdf 'Lucida-Typewriter-26-100dpi' 'Lucida Typewriter 26'
-    genfont xorg-bh-lucidatypewriter-100dpi/lutRS24.bdf 'Lucida-Typewriter-34-100dpi' 'Lucida Typewriter 34'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutBS08.bdf  'Lucida-Typewriter-8-Bold-75dpi' 'Lucida Typewriter 8' 'Bold'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutBS10.bdf  'Lucida-Typewriter-10-Bold-75dpi' 'Lucida Typewriter 10' 'Bold'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutBS12.bdf  'Lucida-Typewriter-12-Bold-75dpi' 'Lucida Typewriter 12' 'Bold'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutBS14.bdf  'Lucida-Typewriter-14-Bold-75dpi' 'Lucida Typewriter 14' 'Bold'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutBS18.bdf  'Lucida-Typewriter-18-Bold-75dpi' 'Lucida Typewriter 18' 'Bold'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf  'Lucida-Typewriter-19-Bold-75dpi' 'Lucida Typewriter 19' 'Bold'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf  'Lucida-Typewriter-24-Bold-75dpi' 'Lucida Typewriter 24' 'Bold'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutRS08.bdf  'Lucida-Typewriter-8-75dpi' 'Lucida Typewriter 8'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutRS10.bdf  'Lucida-Typewriter-10-75dpi' 'Lucida Typewriter 10'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutRS12.bdf  'Lucida-Typewriter-12-75dpi' 'Lucida Typewriter 12'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutRS14.bdf  'Lucida-Typewriter-14-75dpi' 'Lucida Typewriter 14'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutRS18.bdf  'Lucida-Typewriter-18-75dpi' 'Lucida Typewriter 18'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutRS19.bdf  'Lucida-Typewriter-19-75dpi' 'Lucida Typewriter 19'
-    genfont xorg-bh-lucidatypewriter-75dpi/lutRS24.bdf  'Lucida-Typewriter-24-75dpi' 'Lucida Typewriter 24'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf 'Lucida-Typewriter-11-Bold' 'Lucida Typewriter 11' 'Bold'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutBS10.bdf 'Lucida-Typewriter-14c-Bold' 'Lucida Typewriter 14' 'Bold'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutBS12.bdf 'Lucida-Typewriter-17-Bold' 'Lucida Typewriter 17' 'Bold'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutBS14.bdf 'Lucida-Typewriter-20-Bold' 'Lucida Typewriter 20' 'Bold'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutBS18.bdf 'Lucida-Typewriter-25-Bold' 'Lucida Typewriter 25' 'Bold'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutBS19.bdf 'Lucida-Typewriter-26-Bold' 'Lucida Typewriter 26' 'Bold'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutBS24.bdf 'Lucida-Typewriter-34-Bold' 'Lucida Typewriter 34' 'Bold'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutRS08.bdf 'Lucida-Typewriter-11' 'Lucida Typewriter 11'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutRS10.bdf 'Lucida-Typewriter-14c' 'Lucida Typewriter 14'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutRS12.bdf 'Lucida-Typewriter-17' 'Lucida Typewriter 17'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutRS14.bdf 'Lucida-Typewriter-20' 'Lucida Typewriter 20'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutRS18.bdf 'Lucida-Typewriter-25' 'Lucida Typewriter 25'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutRS19.bdf 'Lucida-Typewriter-26' 'Lucida Typewriter 26'
+    genfont xorg-bh-lucidatypewriter-100dpi/lutRS24.bdf 'Lucida-Typewriter-34' 'Lucida Typewriter 34'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutBS08.bdf  'Lucida-Typewriter-8-Bold' 'Lucida Typewriter 8' 'Bold'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutBS10.bdf  'Lucida-Typewriter-10-Bold' 'Lucida Typewriter 10' 'Bold'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutBS12.bdf  'Lucida-Typewriter-12-Bold' 'Lucida Typewriter 12' 'Bold'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutBS14.bdf  'Lucida-Typewriter-14-Bold' 'Lucida Typewriter 14' 'Bold'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutBS18.bdf  'Lucida-Typewriter-18-Bold' 'Lucida Typewriter 18' 'Bold'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf  'Lucida-Typewriter-19-Bold' 'Lucida Typewriter 19' 'Bold'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf  'Lucida-Typewriter-24-Bold' 'Lucida Typewriter 24' 'Bold'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutRS08.bdf  'Lucida-Typewriter-8' 'Lucida Typewriter 8'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutRS10.bdf  'Lucida-Typewriter-10' 'Lucida Typewriter 10'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutRS12.bdf  'Lucida-Typewriter-12' 'Lucida Typewriter 12'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutRS14.bdf  'Lucida-Typewriter-14' 'Lucida Typewriter 14'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutRS18.bdf  'Lucida-Typewriter-18' 'Lucida Typewriter 18'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutRS19.bdf  'Lucida-Typewriter-19' 'Lucida Typewriter 19'
+    genfont xorg-bh-lucidatypewriter-75dpi/lutRS24.bdf  'Lucida-Typewriter-24' 'Lucida Typewriter 24'
 }
 
 generate_dec_terminal () {
-    genfont xorg-bitstream-100dpi/term14.bdf  'DEC-Terminal-18-100dpi' 'DEC Terminal 18'
-    genfont xorg-bitstream-100dpi/termB14.bdf 'DEC-Terminal-18-Bold-100dpi' 'DEC Terminal 18' 'Bold'
-    genfont xorg-bitstream-75dpi/term14.bdf   'DEC-Terminal-14-75dpi' 'DEC Terminal 14'
-    genfont xorg-bitstream-75dpi/termB14.bdf  'DEC-Terminal-14-Bold-75dpi' 'DEC Terminal 14' 'Bold'
+    genfont xorg-bitstream-100dpi/term14.bdf  'DEC-Terminal-18' 'DEC Terminal 18'
+    genfont xorg-bitstream-100dpi/termB14.bdf 'DEC-Terminal-18-Bold' 'DEC Terminal 18' 'Bold'
+    genfont xorg-bitstream-75dpi/term14.bdf   'DEC-Terminal-14' 'DEC Terminal 14'
+    genfont xorg-bitstream-75dpi/termB14.bdf  'DEC-Terminal-14-Bold' 'DEC Terminal 14' 'Bold'
 }
 
  generate_misc_fixed_6x13 () {
@@ -225,35 +225,35 @@ generate_dec_terminal () {
  # genfont xorg-adobe-100dpi/courR14.bdf courR14-100dpi
  # genfont xorg-adobe-100dpi/courR18.bdf courR18-100dpi
  # genfont xorg-adobe-100dpi/courR24.bdf courR24-100dpi
- # genfont xorg-adobe-75dpi/courB08.bdf courB08-75dpi
- # genfont xorg-adobe-75dpi/courB10.bdf courB10-75dpi
- # genfont xorg-adobe-75dpi/courB12.bdf courB12-75dpi
- # genfont xorg-adobe-75dpi/courB14.bdf courB14-75dpi
- # genfont xorg-adobe-75dpi/courB18.bdf courB18-75dpi
- # genfont xorg-adobe-75dpi/courB24.bdf courB24-75dpi
- # genfont xorg-adobe-75dpi/courBO08.bdf courBO08-75dpi
- # genfont xorg-adobe-75dpi/courBO10.bdf courBO10-75dpi
- # genfont xorg-adobe-75dpi/courBO12.bdf courBO12-75dpi
- # genfont xorg-adobe-75dpi/courBO14.bdf courBO14-75dpi
- # genfont xorg-adobe-75dpi/courBO18.bdf courBO18-75dpi
- # genfont xorg-adobe-75dpi/courBO24.bdf courBO24-75dpi
- # genfont xorg-adobe-75dpi/courO08.bdf courO08-75dpi
- # genfont xorg-adobe-75dpi/courO10.bdf courO10-75dpi
- # genfont xorg-adobe-75dpi/courO12.bdf courO12-75dpi
- # genfont xorg-adobe-75dpi/courO14.bdf courO14-75dpi
- # genfont xorg-adobe-75dpi/courO18.bdf courO18-75dpi
- # genfont xorg-adobe-75dpi/courO24.bdf courO24-75dpi
- # genfont xorg-adobe-75dpi/courR08.bdf courR08-75dpi
- # genfont xorg-adobe-75dpi/courR10.bdf courR10-75dpi
- # genfont xorg-adobe-75dpi/courR12.bdf courR12-75dpi
- # genfont xorg-adobe-75dpi/courR14.bdf courR14-75dpi
- # genfont xorg-adobe-75dpi/courR18.bdf courR18-75dpi
- # genfont xorg-adobe-75dpi/courR24.bdf courR24-75dpi
+ # genfont xorg-adobe-75dpi/courB08.bdf courB08
+ # genfont xorg-adobe-75dpi/courB10.bdf courB10
+ # genfont xorg-adobe-75dpi/courB12.bdf courB12
+ # genfont xorg-adobe-75dpi/courB14.bdf courB14
+ # genfont xorg-adobe-75dpi/courB18.bdf courB18
+ # genfont xorg-adobe-75dpi/courB24.bdf courB24
+ # genfont xorg-adobe-75dpi/courBO08.bdf courBO08
+ # genfont xorg-adobe-75dpi/courBO10.bdf courBO10
+ # genfont xorg-adobe-75dpi/courBO12.bdf courBO12
+ # genfont xorg-adobe-75dpi/courBO14.bdf courBO14
+ # genfont xorg-adobe-75dpi/courBO18.bdf courBO18
+ # genfont xorg-adobe-75dpi/courBO24.bdf courBO24
+ # genfont xorg-adobe-75dpi/courO08.bdf courO08
+ # genfont xorg-adobe-75dpi/courO10.bdf courO10
+ # genfont xorg-adobe-75dpi/courO12.bdf courO12
+ # genfont xorg-adobe-75dpi/courO14.bdf courO14
+ # genfont xorg-adobe-75dpi/courO18.bdf courO18
+ # genfont xorg-adobe-75dpi/courO24.bdf courO24
+ # genfont xorg-adobe-75dpi/courR08.bdf courR08
+ # genfont xorg-adobe-75dpi/courR10.bdf courR10
+ # genfont xorg-adobe-75dpi/courR12.bdf courR12
+ # genfont xorg-adobe-75dpi/courR14.bdf courR14
+ # genfont xorg-adobe-75dpi/courR18.bdf courR18
+ # genfont xorg-adobe-75dpi/courR24.bdf courR24
 
  # genfont xorg-bitstream-100dpi/tech14.bdf tech14-100dpi
  # genfont xorg-bitstream-100dpi/techB14.bdf techB14-100dpi
- # genfont xorg-bitstream-75dpi/tech14.bdf tech14-75dpi
- # genfont xorg-bitstream-75dpi/techB14.bdf techB14-75dpi
+ # genfont xorg-bitstream-75dpi/tech14.bdf tech14
+ # genfont xorg-bitstream-75dpi/techB14.bdf techB14
 
  # genfont xorg-sony-misc/12x24rk.bdf
  # genfont xorg-sony-misc/8x16rk.bdf
