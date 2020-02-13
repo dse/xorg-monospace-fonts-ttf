@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: Fixed12x24
-FullName: Fixed 12x24
-FamilyName: Fixed 12x24
+FontName: SonyFixed12x24
+FullName: Sony Fixed 12x24
+FamilyName: Sony Fixed 12x24
 Weight: Medium
 Copyright: Copyright (c) 1987, 1988 Sony Corp.
-UComments: "2020-2-12: Created with FontForge (http://fontforge.org)"
+UComments: "2020-2-13: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 113 1697873412 6923147]
+XUID: [1021 931 1401556295 156117]
 StyleMap: 0x0000
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581564505
-ModificationTime: 1581564506
+CreationTime: 1581572105
+ModificationTime: 1581572107
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0

@@ -4,7 +4,7 @@ FullName: DEC Terminal 14
 FamilyName: DEC Terminal 14
 Weight: Medium
 Copyright: Copyright (c) 1991 Digital Equipment Corporation. All Rights Reserved.
-UComments: "2020-2-12: Created with FontForge (http://fontforge.org)"
+UComments: "2020-2-13: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 930 -1035662127 3242035]
+XUID: [1021 161 1452174125 6057856]
 StyleMap: 0x0000
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581564510
-ModificationTime: 1581564511
+CreationTime: 1581572110
+ModificationTime: 1581572111
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0

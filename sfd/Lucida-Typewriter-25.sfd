@@ -4,7 +4,7 @@ FullName: Lucida Typewriter 25
 FamilyName: Lucida Typewriter 25
 Weight: Medium
 Copyright: Copyright Bigelow & Holmes 1986, 1985.
-UComments: "2020-2-12: Created with FontForge (http://fontforge.org)"
+UComments: "2020-2-13: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 703 10260207 2288743]
+XUID: [1021 462 -467785074 8650280]
 StyleMap: 0x0000
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581564579
-ModificationTime: 1581564584
+CreationTime: 1581572171
+ModificationTime: 1581572176
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
