@@ -2,7 +2,9 @@
 set -o errexit
 set -o pipefail
 
-declare -a verbose_args
+declare -a script_args
+
+fixed6x13only=0
 
 usage () { cat <<"EOF"; }
 usage:
@@ -10,6 +12,8 @@ usage:
 options:
     -v, --verbose
     -h, --help
+        --ascii-only
+        --fixed-6x13-only
 EOF
 
 while getopts 'hv-:' OPTION ; do
@@ -33,7 +37,13 @@ while getopts 'hv-:' OPTION ; do
             exit 0
             ;;
         'v'|'verbose')
-            verbose_args+=("--verbose")
+            script_args+=("--verbose")
+            ;;
+        'ascii-only')
+            script_args+=("--ascii-only")
+            ;;
+        'fixed-6x13-only')
+            fixed6x13only=1
             ;;
         '?')
             # short option invalid or missing argument
@@ -97,7 +107,8 @@ genfont () {
     set -x
     bitmapfont2ttf \
         --save-sfd \
-        "${verbose_args[@]}" \
+        --nearest-multiple-of-three \
+        "${script_args[@]}" \
         "${ttffontname:+--font-name=${ttffontname}}" \
         "${ttffullname:+--full-name=${ttffullname}}" \
         "${ttffamilyname:+--family-name=${ttffamilyname}}" \
@@ -179,11 +190,15 @@ generate_sony_misc () {
     genfont xorg-sony-misc/8x16.bdf  Sony-8x16  '{familyName} 8x16'
 }
 
-generate_misc_fixed_6x13
-generate_misc_fixed
-generate_sony_misc
-generate_dec_terminal
-generate_lucida_typewriter
+if (( fixed6x13only )) ; then
+    generate_misc_fixed_6x13
+else
+    generate_misc_fixed_6x13
+    generate_misc_fixed
+    generate_sony_misc
+    generate_dec_terminal
+    generate_lucida_typewriter
+fi
 
 # genfont xorg-adobe-100dpi/courB08.bdf courB08-100dpi
 # genfont xorg-adobe-100dpi/courB10.bdf courB10-100dpi
