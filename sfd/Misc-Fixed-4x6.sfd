@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 543 1864289622 12280838]
+XUID: [1021 122 1023331650 5142342]
 StyleMap: 0x0000
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581571875
-ModificationTime: 1581571880
+CreationTime: 1581580068
+ModificationTime: 1581580074
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0

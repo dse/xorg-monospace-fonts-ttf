@@ -9,20 +9,20 @@ Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
 UnderlineWidth: 50
-Ascent: 750
-Descent: 250
+Ascent: 875
+Descent: 125
 InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 558 -1158642019 9413261]
+XUID: [1021 81 1611585010 9046367]
 StyleMap: 0x0000
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581571880
-ModificationTime: 1581571889
+CreationTime: 1581580075
+ModificationTime: 1581580087
 OS2TypoAscent: 0
 OS2TypoAOffset: 1
 OS2TypoDescent: 0
