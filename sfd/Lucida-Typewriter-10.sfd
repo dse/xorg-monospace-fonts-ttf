@@ -4,7 +4,7 @@ FullName: Lucida Typewriter 10
 FamilyName: Lucida Typewriter 10
 Weight: Book
 Copyright: Copyright Bigelow & Holmes 1986, 1985.
-UComments: "2020-2-13: Created with FontForge (http://fontforge.org)"
+UComments: "2020-2-14: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 106 -446193205 6988763]
+XUID: [1021 129 40439004 9022218]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581634548
-ModificationTime: 1581634551
+CreationTime: 1581715564
+ModificationTime: 1581715568
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5

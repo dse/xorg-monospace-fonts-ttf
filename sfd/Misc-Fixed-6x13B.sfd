@@ -4,7 +4,7 @@ FullName: Misc Fixed 6x13 Bold
 FamilyName: Misc Fixed 6x13
 Weight: Bold
 Copyright: Public domain font.  Share and enjoy.
-UComments: "2020-2-13: Created with FontForge (http://fontforge.org)"
+UComments: "2020-2-14: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 290 528215322 12879995]
+XUID: [1021 292 -652619958 14964351]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581634177
-ModificationTime: 1581634184
+CreationTime: 1581715216
+ModificationTime: 1581715222
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5

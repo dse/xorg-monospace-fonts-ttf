@@ -4,7 +4,7 @@ FullName: DEC Terminal 18 Bold
 FamilyName: DEC Terminal 18
 Weight: Bold
 Copyright: Copyright (c) 1991 Digital Equipment Corporation. All Rights Reserved.
-UComments: "2020-2-13: Created with FontForge (http://fontforge.org)"
+UComments: "2020-2-14: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 760 2117932926 5649170]
+XUID: [1021 782 -1937768690 2928910]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581634435
-ModificationTime: 1581634436
+CreationTime: 1581715459
+ModificationTime: 1581715460
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5
@@ -54,13 +54,13 @@ OS2StrikeYSize: 49
 OS2StrikeYPos: 258
 OS2Vendor: 'PfEd'
 DEI: 91125
-Encoding: ISO8859-1
+Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: 18
 AntiAlias: 1
 FitToEm: 0
-BeginChars: 256 195
+BeginChars: 65536 197
 
 StartChar: space
 Encoding: 32 32 0
@@ -685,7 +685,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteright
-Encoding: 39 8217 7
+Encoding: 8217 8217 7
 Width: 549
 VWidth: 0
 Flags: HW
@@ -1101,7 +1101,7 @@ EndSplineSet
 EndChar
 
 StartChar: minus
-Encoding: 45 8722 13
+Encoding: 8722 8722 13
 Width: 549
 VWidth: 0
 Flags: HW
@@ -5617,7 +5617,7 @@ EndSplineSet
 EndChar
 
 StartChar: quoteleft
-Encoding: 96 8216 64
+Encoding: 8216 8216 64
 Width: 549
 VWidth: 0
 Flags: HW
@@ -8483,7 +8483,7 @@ EndSplineSet
 EndChar
 
 StartChar: OE
-Encoding: 128 338 95
+Encoding: 338 338 95
 Width: 549
 VWidth: 0
 Flags: HW
@@ -8600,7 +8600,7 @@ EndSplineSet
 EndChar
 
 StartChar: oe
-Encoding: 129 339 96
+Encoding: 339 339 96
 Width: 549
 VWidth: 0
 Flags: HW
@@ -8706,7 +8706,7 @@ EndSplineSet
 EndChar
 
 StartChar: Ydieresis
-Encoding: 130 376 97
+Encoding: 376 376 97
 Width: 549
 VWidth: 0
 Flags: HW
@@ -8930,7 +8930,7 @@ EndSplineSet
 EndChar
 
 StartChar: space
-Encoding: 160 32 99
+Encoding: 32 32 99
 Width: 549
 VWidth: 0
 Flags: HW
@@ -9999,7 +9999,7 @@ EndSplineSet
 EndChar
 
 StartChar: hyphen
-Encoding: 173 45 112
+Encoding: 45 45 112
 Width: 549
 VWidth: 0
 Flags: HW
@@ -18462,6 +18462,22 @@ SplineSet
  100 -150.299804688 l 1
  100 -200.299804688 l 1
 EndSplineSet
+EndChar
+
+StartChar: quotesingle
+Encoding: 39 39 195
+Width: 549
+VWidth: 0
+Flags: HW
+LayerCount: 2
+EndChar
+
+StartChar: grave
+Encoding: 96 96 196
+Width: 549
+VWidth: 0
+Flags: HW
+LayerCount: 2
 EndChar
 EndChars
 EndSplineFont

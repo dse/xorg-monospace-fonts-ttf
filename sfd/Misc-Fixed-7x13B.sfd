@@ -4,7 +4,7 @@ FullName: Misc Fixed 7x13 Bold
 FamilyName: Misc Fixed 7x13
 Weight: Bold
 Copyright: Public domain font.  Share and enjoy.
-UComments: "2020-2-13: Created with FontForge (http://fontforge.org)"
+UComments: "2020-2-14: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 388 806760792 14292074]
+XUID: [1021 647 492567574 8324143]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581634293
-ModificationTime: 1581634298
+CreationTime: 1581715336
+ModificationTime: 1581715341
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5

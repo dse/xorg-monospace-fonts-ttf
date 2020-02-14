@@ -4,7 +4,7 @@ FullName: Sony Fixed 8x16
 FamilyName: Sony Fixed 8x16
 Weight: Book
 Copyright: Copyright (c) 1987, 1988 Sony Corp.
-UComments: "2020-2-13: Created with FontForge (http://fontforge.org)"
+UComments: "2020-2-14: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 293 228639871 7402472]
+XUID: [1021 348 -1677676997 16514253]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581634432
-ModificationTime: 1581634433
+CreationTime: 1581715457
+ModificationTime: 1581715458
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5
@@ -54,13 +54,13 @@ OS2StrikeYSize: 49
 OS2StrikeYPos: 258
 OS2Vendor: 'PfEd'
 DEI: 91125
-Encoding: ISO8859-1
+Encoding: UnicodeBmp
 UnicodeInterp: none
 NameList: AGL For New Fonts
 DisplaySize: 16
 AntiAlias: 1
 FitToEm: 0
-BeginChars: 256 221
+BeginChars: 65536 221
 
 StartChar: C001
 Encoding: 1 1 0

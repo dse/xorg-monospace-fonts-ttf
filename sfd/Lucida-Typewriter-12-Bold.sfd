@@ -4,7 +4,7 @@ FullName: Lucida Typewriter 12 Bold
 FamilyName: Lucida Typewriter 12
 Weight: Bold
 Copyright: Copyright Bigelow & Holmes 1986, 1985.
-UComments: "2020-2-13: Created with FontForge (http://fontforge.org)"
+UComments: "2020-2-14: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 162 171781419 5638334]
+XUID: [1021 798 -1635094348 1070482]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581634520
-ModificationTime: 1581634525
+CreationTime: 1581715537
+ModificationTime: 1581715541
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5
