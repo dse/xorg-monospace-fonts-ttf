@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 288 1714758709 15911801]
+XUID: [1021 521 423818681 15658044]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581715461
-ModificationTime: 1581715462
+CreationTime: 1581721143
+ModificationTime: 1581721144
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5
@@ -13824,6 +13824,24 @@ Width: 499
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+SplineSet
+187.5 562.375 m 1
+ 312.5 562.375 l 1
+ 312.5 624.875 l 1
+ 187.5 624.875 l 1
+ 187.5 562.375 l 1025
+187.5 499.875 m 1
+ 312.5 499.875 l 1
+ 312.5 562.375 l 1
+ 187.5 562.375 l 1
+ 187.5 499.875 l 1025
+125 437.375 m 1
+ 250 437.375 l 1
+ 250 499.875 l 1
+ 125 499.875 l 1
+ 125 437.375 l 1
+EndSplineSet
 EndChar
 
 StartChar: grave
@@ -13832,6 +13850,24 @@ Width: 499
 VWidth: 0
 Flags: HW
 LayerCount: 2
+Fore
+SplineSet
+187.5 562.375 m 1
+ 312.5 562.375 l 1
+ 312.5 624.875 l 1
+ 187.5 624.875 l 1
+ 187.5 562.375 l 1025
+187.5 499.875 m 1
+ 312.5 499.875 l 1
+ 312.5 562.375 l 1
+ 187.5 562.375 l 1
+ 187.5 499.875 l 1025
+250 437.375 m 1
+ 375 437.375 l 1
+ 375 499.875 l 1
+ 250 499.875 l 1
+ 250 437.375 l 1
+EndSplineSet
 EndChar
 EndChars
 EndSplineFont

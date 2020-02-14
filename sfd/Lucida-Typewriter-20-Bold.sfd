@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 631 -666429993 13901046]
+XUID: [1021 261 -1391845876 4181428]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581715475
-ModificationTime: 1581715479
+CreationTime: 1581721161
+ModificationTime: 1581721165
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5
