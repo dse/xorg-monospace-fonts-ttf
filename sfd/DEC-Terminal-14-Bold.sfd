@@ -4,7 +4,7 @@ FullName: DEC Terminal 14 Bold
 FamilyName: DEC Terminal 14
 Weight: Bold
 Copyright: Copyright (c) 1991 Digital Equipment Corporation. All Rights Reserved.
-UComments: "2020-2-14: Created with FontForge (http://fontforge.org)"
+UComments: "2020-11-5: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 521 423818681 15658044]
+XUID: [1021 103 2098137624 13192267]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1581721143
-ModificationTime: 1581721144
+CreationTime: 1604633427
+ModificationTime: 1604633428
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5
@@ -65,7 +65,7 @@ BeginChars: 65536 197
 StartChar: space
 Encoding: 32 32 0
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -78,7 +78,7 @@ EndChar
 StartChar: exclam
 Encoding: 33 33 1
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -119,9 +119,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -129,7 +129,7 @@ EndChar
 StartChar: quotedbl
 Encoding: 34 34 2
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -165,9 +165,9 @@ SplineSet
  62.5 499.875 l 1
  62.5 437.375 l 1025
 250 437.375 m 1
- 375 437.375 l 1
- 375 499.875 l 1
  250 499.875 l 1
+ 375 499.875 l 1
+ 375 437.375 l 1
  250 437.375 l 1
 EndSplineSet
 EndChar
@@ -175,7 +175,7 @@ EndChar
 StartChar: numbersign
 Encoding: 35 35 3
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -251,9 +251,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 312.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  312.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -261,7 +261,7 @@ EndChar
 StartChar: dollar
 Encoding: 36 36 4
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -322,9 +322,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 250 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  250 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  250 -0.125 l 1
 EndSplineSet
 EndChar
@@ -332,7 +332,7 @@ EndChar
 StartChar: percent
 Encoding: 37 37 5
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -398,9 +398,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -408,7 +408,7 @@ EndChar
 StartChar: ampersand
 Encoding: 38 38 6
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -484,9 +484,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 437.5 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  437.5 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  437.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -494,7 +494,7 @@ EndChar
 StartChar: quoteright
 Encoding: 8217 8217 7
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -515,9 +515,9 @@ SplineSet
  187.5 562.375 l 1
  187.5 499.875 l 1025
 125 437.375 m 1
- 250 437.375 l 1
- 250 499.875 l 1
  125 499.875 l 1
+ 250 499.875 l 1
+ 250 437.375 l 1
  125 437.375 l 1
 EndSplineSet
 EndChar
@@ -525,7 +525,7 @@ EndChar
 StartChar: parenleft
 Encoding: 40 40 8
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -581,9 +581,9 @@ SplineSet
  250 62.375 l 1
  250 -0.125 l 1025
 312.5 -62.625 m 1
- 437.5 -62.625 l 1
- 437.5 -0.125 l 1
  312.5 -0.125 l 1
+ 437.5 -0.125 l 1
+ 437.5 -62.625 l 1
  312.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -591,7 +591,7 @@ EndChar
 StartChar: parenright
 Encoding: 41 41 9
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -647,9 +647,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 62.5 -62.625 m 1
- 187.5 -62.625 l 1
- 187.5 -0.125 l 1
  62.5 -0.125 l 1
+ 187.5 -0.125 l 1
+ 187.5 -62.625 l 1
  62.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -657,7 +657,7 @@ EndChar
 StartChar: asterisk
 Encoding: 42 42 10
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -718,9 +718,9 @@ SplineSet
  375 187.375 l 1
  375 124.875 l 1025
 250 62.375 m 1
- 312.5 62.375 l 1
- 312.5 124.875 l 1
  250 124.875 l 1
+ 312.5 124.875 l 1
+ 312.5 62.375 l 1
  250 62.375 l 1
 EndSplineSet
 EndChar
@@ -728,7 +728,7 @@ EndChar
 StartChar: plus
 Encoding: 43 43 11
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -764,9 +764,9 @@ SplineSet
  187.5 187.375 l 1
  187.5 124.875 l 1025
 187.5 62.375 m 1
- 312.5 62.375 l 1
- 312.5 124.875 l 1
  187.5 124.875 l 1
+ 312.5 124.875 l 1
+ 312.5 62.375 l 1
  187.5 62.375 l 1
 EndSplineSet
 EndChar
@@ -774,7 +774,7 @@ EndChar
 StartChar: comma
 Encoding: 44 44 12
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -795,9 +795,9 @@ SplineSet
  187.5 62.375 l 1
  187.5 -0.125 l 1025
 125 -62.625 m 1
- 250 -62.625 l 1
- 250 -0.125 l 1
  125 -0.125 l 1
+ 250 -0.125 l 1
+ 250 -62.625 l 1
  125 -62.625 l 1
 EndSplineSet
 EndChar
@@ -805,7 +805,7 @@ EndChar
 StartChar: minus
 Encoding: 8722 8722 13
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -821,9 +821,9 @@ SplineSet
  62.5 312.375 l 1
  62.5 249.875 l 1025
 62.5 187.375 m 1
- 437.5 187.375 l 1
- 437.5 249.875 l 1
  62.5 249.875 l 1
+ 437.5 249.875 l 1
+ 437.5 187.375 l 1
  62.5 187.375 l 1
 EndSplineSet
 EndChar
@@ -831,7 +831,7 @@ EndChar
 StartChar: period
 Encoding: 46 46 14
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -847,9 +847,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 125 -0.125 m 1
- 250 -0.125 l 1
- 250 62.375 l 1
  125 62.375 l 1
+ 250 62.375 l 1
+ 250 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -857,7 +857,7 @@ EndChar
 StartChar: slash
 Encoding: 47 47 15
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -913,9 +913,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 125 -62.625 m 1
- 250 -62.625 l 1
- 250 -0.125 l 1
  125 -0.125 l 1
+ 250 -0.125 l 1
+ 250 -62.625 l 1
  125 -62.625 l 1
 EndSplineSet
 EndChar
@@ -923,7 +923,7 @@ EndChar
 StartChar: zero
 Encoding: 48 48 16
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -999,9 +999,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 187.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  187.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1009,7 +1009,7 @@ EndChar
 StartChar: one
 Encoding: 49 49 17
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1055,9 +1055,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1065,7 +1065,7 @@ EndChar
 StartChar: two
 Encoding: 50 50 18
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1116,9 +1116,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1126,7 +1126,7 @@ EndChar
 StartChar: three
 Encoding: 51 51 19
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1182,9 +1182,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 187.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  187.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1192,7 +1192,7 @@ EndChar
 StartChar: four
 Encoding: 52 52 20
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1248,9 +1248,9 @@ SplineSet
  250 124.875 l 1
  250 62.375 l 1025
 250 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  250 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  250 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1258,7 +1258,7 @@ EndChar
 StartChar: five
 Encoding: 53 53 21
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1309,9 +1309,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 187.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  187.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1319,7 +1319,7 @@ EndChar
 StartChar: six
 Encoding: 54 54 22
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1380,9 +1380,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 187.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  187.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1390,7 +1390,7 @@ EndChar
 StartChar: seven
 Encoding: 55 55 23
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1436,9 +1436,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1446,7 +1446,7 @@ EndChar
 StartChar: eight
 Encoding: 56 56 24
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1517,9 +1517,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 187.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  187.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1527,7 +1527,7 @@ EndChar
 StartChar: nine
 Encoding: 57 57 25
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1593,9 +1593,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 187.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  187.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1603,7 +1603,7 @@ EndChar
 StartChar: colon
 Encoding: 58 58 26
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1629,9 +1629,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1639,7 +1639,7 @@ EndChar
 StartChar: semicolon
 Encoding: 59 59 27
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1670,9 +1670,9 @@ SplineSet
  187.5 62.375 l 1
  187.5 -0.125 l 1025
 125 -62.625 m 1
- 250 -62.625 l 1
- 250 -0.125 l 1
  125 -0.125 l 1
+ 250 -0.125 l 1
+ 250 -62.625 l 1
  125 -62.625 l 1
 EndSplineSet
 EndChar
@@ -1680,7 +1680,7 @@ EndChar
 StartChar: less
 Encoding: 60 60 28
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1726,9 +1726,9 @@ SplineSet
  250 124.875 l 1
  250 62.375 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1736,7 +1736,7 @@ EndChar
 StartChar: equal
 Encoding: 61 61 29
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1762,9 +1762,9 @@ SplineSet
  62.5 249.875 l 1
  62.5 187.375 l 1025
 62.5 124.875 m 1
- 437.5 124.875 l 1
- 437.5 187.375 l 1
  62.5 187.375 l 1
+ 437.5 187.375 l 1
+ 437.5 124.875 l 1
  62.5 124.875 l 1
 EndSplineSet
 EndChar
@@ -1772,7 +1772,7 @@ EndChar
 StartChar: greater
 Encoding: 62 62 30
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1818,9 +1818,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 62.5 -0.125 m 1
- 187.5 -0.125 l 1
- 187.5 62.375 l 1
  62.5 62.375 l 1
+ 187.5 62.375 l 1
+ 187.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1828,7 +1828,7 @@ EndChar
 StartChar: question
 Encoding: 63 63 31
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1879,9 +1879,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1889,7 +1889,7 @@ EndChar
 StartChar: at
 Encoding: 64 64 32
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -1970,9 +1970,9 @@ SplineSet
  62.5 124.875 l 1
  62.5 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -1980,7 +1980,7 @@ EndChar
 StartChar: A
 Encoding: 65 65 33
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2051,9 +2051,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2061,7 +2061,7 @@ EndChar
 StartChar: B
 Encoding: 66 66 34
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2132,9 +2132,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 62.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  62.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2142,7 +2142,7 @@ EndChar
 StartChar: C
 Encoding: 67 67 35
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2198,9 +2198,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2208,7 +2208,7 @@ EndChar
 StartChar: D
 Encoding: 68 68 36
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2284,9 +2284,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 62.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  62.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2294,7 +2294,7 @@ EndChar
 StartChar: E
 Encoding: 69 69 37
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2340,9 +2340,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2350,7 +2350,7 @@ EndChar
 StartChar: F
 Encoding: 70 70 38
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2396,9 +2396,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 125 -0.125 m 1
- 250 -0.125 l 1
- 250 62.375 l 1
  125 62.375 l 1
+ 250 62.375 l 1
+ 250 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2406,7 +2406,7 @@ EndChar
 StartChar: G
 Encoding: 71 71 39
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2477,9 +2477,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2487,7 +2487,7 @@ EndChar
 StartChar: H
 Encoding: 72 72 40
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2568,9 +2568,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2578,7 +2578,7 @@ EndChar
 StartChar: I
 Encoding: 73 73 41
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2624,9 +2624,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2634,7 +2634,7 @@ EndChar
 StartChar: J
 Encoding: 74 74 42
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2685,9 +2685,9 @@ SplineSet
  250 124.875 l 1
  250 62.375 l 1025
 125 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  125 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2695,7 +2695,7 @@ EndChar
 StartChar: K
 Encoding: 75 75 43
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2771,9 +2771,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 375 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  375 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  375 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2781,7 +2781,7 @@ EndChar
 StartChar: L
 Encoding: 76 76 44
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2827,9 +2827,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2837,7 +2837,7 @@ EndChar
 StartChar: M
 Encoding: 77 77 45
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -2923,9 +2923,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 375 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  375 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  375 -0.125 l 1
 EndSplineSet
 EndChar
@@ -2933,7 +2933,7 @@ EndChar
 StartChar: N
 Encoding: 78 78 46
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3019,9 +3019,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3029,7 +3029,7 @@ EndChar
 StartChar: O
 Encoding: 79 79 47
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3105,9 +3105,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3115,7 +3115,7 @@ EndChar
 StartChar: P
 Encoding: 80 80 48
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3176,9 +3176,9 @@ SplineSet
  62.5 124.875 l 1
  62.5 62.375 l 1025
 62.5 -0.125 m 1
- 187.5 -0.125 l 1
- 187.5 62.375 l 1
  62.5 62.375 l 1
+ 187.5 62.375 l 1
+ 187.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3186,7 +3186,7 @@ EndChar
 StartChar: Q
 Encoding: 81 81 49
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3267,9 +3267,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 312.5 -62.625 m 1
- 437.5 -62.625 l 1
- 437.5 -0.125 l 1
  312.5 -0.125 l 1
+ 437.5 -0.125 l 1
+ 437.5 -62.625 l 1
  312.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -3277,7 +3277,7 @@ EndChar
 StartChar: R
 Encoding: 82 82 50
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3353,9 +3353,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  312.5 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3363,7 +3363,7 @@ EndChar
 StartChar: S
 Encoding: 83 83 51
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3419,9 +3419,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3429,7 +3429,7 @@ EndChar
 StartChar: T
 Encoding: 84 84 52
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3475,9 +3475,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3485,7 +3485,7 @@ EndChar
 StartChar: U
 Encoding: 85 85 53
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3566,9 +3566,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3576,7 +3576,7 @@ EndChar
 StartChar: V
 Encoding: 86 86 54
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3652,9 +3652,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3662,7 +3662,7 @@ EndChar
 StartChar: W
 Encoding: 87 87 55
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3758,9 +3758,9 @@ SplineSet
  187.5 62.375 l 1
  187.5 -0.125 l 1025
 312.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  312.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3768,7 +3768,7 @@ EndChar
 StartChar: X
 Encoding: 88 88 56
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3834,9 +3834,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3844,7 +3844,7 @@ EndChar
 StartChar: Y
 Encoding: 89 89 57
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3905,9 +3905,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3915,7 +3915,7 @@ EndChar
 StartChar: Z
 Encoding: 90 90 58
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -3961,9 +3961,9 @@ SplineSet
  62.5 124.875 l 1
  62.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -3971,7 +3971,7 @@ EndChar
 StartChar: bracketleft
 Encoding: 91 91 59
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4027,9 +4027,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 125 -62.625 m 1
- 375 -62.625 l 1
- 375 -0.125 l 1
  125 -0.125 l 1
+ 375 -0.125 l 1
+ 375 -62.625 l 1
  125 -62.625 l 1
 EndSplineSet
 EndChar
@@ -4037,7 +4037,7 @@ EndChar
 StartChar: backslash
 Encoding: 92 92 60
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4093,9 +4093,9 @@ SplineSet
  250 62.375 l 1
  250 -0.125 l 1025
 250 -62.625 m 1
- 375 -62.625 l 1
- 375 -0.125 l 1
  250 -0.125 l 1
+ 375 -0.125 l 1
+ 375 -62.625 l 1
  250 -62.625 l 1
 EndSplineSet
 EndChar
@@ -4103,7 +4103,7 @@ EndChar
 StartChar: bracketright
 Encoding: 93 93 61
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4159,9 +4159,9 @@ SplineSet
  250 62.375 l 1
  250 -0.125 l 1025
 125 -62.625 m 1
- 375 -62.625 l 1
- 375 -0.125 l 1
  125 -0.125 l 1
+ 375 -0.125 l 1
+ 375 -62.625 l 1
  125 -62.625 l 1
 EndSplineSet
 EndChar
@@ -4169,7 +4169,7 @@ EndChar
 StartChar: asciicircum
 Encoding: 94 94 62
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4195,9 +4195,9 @@ SplineSet
  62.5 249.875 l 1
  62.5 187.375 l 1025
 312.5 187.375 m 1
- 437.5 187.375 l 1
- 437.5 249.875 l 1
  312.5 249.875 l 1
+ 437.5 249.875 l 1
+ 437.5 187.375 l 1
  312.5 187.375 l 1
 EndSplineSet
 EndChar
@@ -4205,7 +4205,7 @@ EndChar
 StartChar: underscore
 Encoding: 95 95 63
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4221,9 +4221,9 @@ SplineSet
  62.5 124.875 l 1
  62.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -4231,7 +4231,7 @@ EndChar
 StartChar: quoteleft
 Encoding: 8216 8216 64
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4252,9 +4252,9 @@ SplineSet
  187.5 562.375 l 1
  187.5 499.875 l 1025
 250 437.375 m 1
- 375 437.375 l 1
- 375 499.875 l 1
  250 499.875 l 1
+ 375 499.875 l 1
+ 375 437.375 l 1
  250 437.375 l 1
 EndSplineSet
 EndChar
@@ -4262,7 +4262,7 @@ EndChar
 StartChar: a
 Encoding: 97 97 65
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4313,9 +4313,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 375 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  375 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  375 -0.125 l 1
 EndSplineSet
 EndChar
@@ -4323,7 +4323,7 @@ EndChar
 StartChar: b
 Encoding: 98 98 66
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4389,9 +4389,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 62.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  62.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -4399,7 +4399,7 @@ EndChar
 StartChar: c
 Encoding: 99 99 67
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4445,9 +4445,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -4455,7 +4455,7 @@ EndChar
 StartChar: d
 Encoding: 100 100 68
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4521,9 +4521,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -4531,7 +4531,7 @@ EndChar
 StartChar: e
 Encoding: 101 101 69
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4577,9 +4577,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -4587,7 +4587,7 @@ EndChar
 StartChar: f
 Encoding: 102 102 70
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4638,9 +4638,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 125 -0.125 m 1
- 250 -0.125 l 1
- 250 62.375 l 1
  125 62.375 l 1
+ 250 62.375 l 1
+ 250 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -4648,7 +4648,7 @@ EndChar
 StartChar: g
 Encoding: 103 103 71
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4709,9 +4709,9 @@ SplineSet
  312.5 -0.125 l 1
  312.5 -62.625 l 1025
 125 -125.125 m 1
- 375 -125.125 l 1
- 375 -62.625 l 1
  125 -62.625 l 1
+ 375 -62.625 l 1
+ 375 -125.125 l 1
  125 -125.125 l 1
 EndSplineSet
 EndChar
@@ -4719,7 +4719,7 @@ EndChar
 StartChar: h
 Encoding: 104 104 72
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4790,9 +4790,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -4800,7 +4800,7 @@ EndChar
 StartChar: i
 Encoding: 105 105 73
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4846,9 +4846,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -4856,7 +4856,7 @@ EndChar
 StartChar: j
 Encoding: 106 106 74
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4912,9 +4912,9 @@ SplineSet
  250 -0.125 l 1
  250 -62.625 l 1025
 62.5 -125.125 m 1
- 312.5 -125.125 l 1
- 312.5 -62.625 l 1
  62.5 -62.625 l 1
+ 312.5 -62.625 l 1
+ 312.5 -125.125 l 1
  62.5 -125.125 l 1
 EndSplineSet
 EndChar
@@ -4922,7 +4922,7 @@ EndChar
 StartChar: k
 Encoding: 107 107 75
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -4988,9 +4988,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -4998,7 +4998,7 @@ EndChar
 StartChar: l
 Encoding: 108 108 76
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5044,9 +5044,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -5054,7 +5054,7 @@ EndChar
 StartChar: m
 Encoding: 109 109 77
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5140,9 +5140,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 375 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  375 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  375 -0.125 l 1
 EndSplineSet
 EndChar
@@ -5150,7 +5150,7 @@ EndChar
 StartChar: n
 Encoding: 110 110 78
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5211,9 +5211,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -5221,7 +5221,7 @@ EndChar
 StartChar: o
 Encoding: 111 111 79
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5277,9 +5277,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -5287,7 +5287,7 @@ EndChar
 StartChar: p
 Encoding: 112 112 80
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5353,9 +5353,9 @@ SplineSet
  62.5 -0.125 l 1
  62.5 -62.625 l 1025
 62.5 -125.125 m 1
- 187.5 -125.125 l 1
- 187.5 -62.625 l 1
  62.5 -62.625 l 1
+ 187.5 -62.625 l 1
+ 187.5 -125.125 l 1
  62.5 -125.125 l 1
 EndSplineSet
 EndChar
@@ -5363,7 +5363,7 @@ EndChar
 StartChar: q
 Encoding: 113 113 81
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5429,9 +5429,9 @@ SplineSet
  312.5 -0.125 l 1
  312.5 -62.625 l 1025
 312.5 -125.125 m 1
- 437.5 -125.125 l 1
- 437.5 -62.625 l 1
  312.5 -62.625 l 1
+ 437.5 -62.625 l 1
+ 437.5 -125.125 l 1
  312.5 -125.125 l 1
 EndSplineSet
 EndChar
@@ -5439,7 +5439,7 @@ EndChar
 StartChar: r
 Encoding: 114 114 82
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5485,9 +5485,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 125 -0.125 m 1
- 250 -0.125 l 1
- 250 62.375 l 1
  125 62.375 l 1
+ 250 62.375 l 1
+ 250 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -5495,7 +5495,7 @@ EndChar
 StartChar: s
 Encoding: 115 115 83
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5531,9 +5531,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 62.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  62.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -5541,7 +5541,7 @@ EndChar
 StartChar: t
 Encoding: 116 116 84
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5592,9 +5592,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 187.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  187.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -5602,7 +5602,7 @@ EndChar
 StartChar: u
 Encoding: 117 117 85
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5663,9 +5663,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -5673,7 +5673,7 @@ EndChar
 StartChar: v
 Encoding: 118 118 86
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5729,9 +5729,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -5739,7 +5739,7 @@ EndChar
 StartChar: w
 Encoding: 119 119 87
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5815,9 +5815,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -5825,7 +5825,7 @@ EndChar
 StartChar: x
 Encoding: 120 120 88
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5881,9 +5881,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 375 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  375 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  375 -0.125 l 1
 EndSplineSet
 EndChar
@@ -5891,7 +5891,7 @@ EndChar
 StartChar: y
 Encoding: 121 121 89
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -5957,9 +5957,9 @@ SplineSet
  312.5 -0.125 l 1
  312.5 -62.625 l 1025
 125 -125.125 m 1
- 375 -125.125 l 1
- 375 -62.625 l 1
  125 -62.625 l 1
+ 375 -62.625 l 1
+ 375 -125.125 l 1
  125 -125.125 l 1
 EndSplineSet
 EndChar
@@ -5967,7 +5967,7 @@ EndChar
 StartChar: z
 Encoding: 122 122 90
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6003,9 +6003,9 @@ SplineSet
  62.5 124.875 l 1
  62.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -6013,7 +6013,7 @@ EndChar
 StartChar: braceleft
 Encoding: 123 123 91
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6069,9 +6069,9 @@ SplineSet
  187.5 62.375 l 1
  187.5 -0.125 l 1025
 250 -62.625 m 1
- 437.5 -62.625 l 1
- 437.5 -0.125 l 1
  250 -0.125 l 1
+ 437.5 -0.125 l 1
+ 437.5 -62.625 l 1
  250 -62.625 l 1
 EndSplineSet
 EndChar
@@ -6079,7 +6079,7 @@ EndChar
 StartChar: bar
 Encoding: 124 124 92
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6135,9 +6135,9 @@ SplineSet
  187.5 62.375 l 1
  187.5 -0.125 l 1025
 187.5 -62.625 m 1
- 312.5 -62.625 l 1
- 312.5 -0.125 l 1
  187.5 -0.125 l 1
+ 312.5 -0.125 l 1
+ 312.5 -62.625 l 1
  187.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -6145,7 +6145,7 @@ EndChar
 StartChar: braceright
 Encoding: 125 125 93
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6201,9 +6201,9 @@ SplineSet
  187.5 62.375 l 1
  187.5 -0.125 l 1025
 62.5 -62.625 m 1
- 250 -62.625 l 1
- 250 -0.125 l 1
  62.5 -0.125 l 1
+ 250 -0.125 l 1
+ 250 -62.625 l 1
  62.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -6211,7 +6211,7 @@ EndChar
 StartChar: asciitilde
 Encoding: 126 126 94
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6242,9 +6242,9 @@ SplineSet
  62.5 249.875 l 1
  62.5 187.375 l 1025
 250 187.375 m 1
- 375 187.375 l 1
- 375 249.875 l 1
  250 249.875 l 1
+ 375 249.875 l 1
+ 375 187.375 l 1
  250 187.375 l 1
 EndSplineSet
 EndChar
@@ -6252,7 +6252,7 @@ EndChar
 StartChar: OE
 Encoding: 338 338 95
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6328,9 +6328,9 @@ SplineSet
  250 124.875 l 1
  250 62.375 l 1025
 125 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  125 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -6338,7 +6338,7 @@ EndChar
 StartChar: oe
 Encoding: 339 339 96
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6404,9 +6404,9 @@ SplineSet
  375 124.875 l 1
  375 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -6414,7 +6414,7 @@ EndChar
 StartChar: Ydieresis
 Encoding: 376 376 97
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6495,9 +6495,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -6505,7 +6505,7 @@ EndChar
 StartChar: Error
 Encoding: 159 159 98
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6586,9 +6586,9 @@ SplineSet
  187.5 -0.125 l 1
  187.5 -62.625 l 1025
 187.5 -125.125 m 1
- 375 -125.125 l 1
- 375 -62.625 l 1
  187.5 -62.625 l 1
+ 375 -62.625 l 1
+ 375 -125.125 l 1
  187.5 -125.125 l 1
 EndSplineSet
 EndChar
@@ -6596,7 +6596,7 @@ EndChar
 StartChar: space
 Encoding: 32 32 99
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6609,7 +6609,7 @@ EndChar
 StartChar: exclamdown
 Encoding: 161 161 100
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6655,9 +6655,9 @@ SplineSet
  187.5 62.375 l 1
  187.5 -0.125 l 1025
 187.5 -62.625 m 1
- 312.5 -62.625 l 1
- 312.5 -0.125 l 1
  187.5 -0.125 l 1
+ 312.5 -0.125 l 1
+ 312.5 -62.625 l 1
  187.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -6665,7 +6665,7 @@ EndChar
 StartChar: cent
 Encoding: 162 162 101
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6726,9 +6726,9 @@ SplineSet
  187.5 62.375 l 1
  187.5 -0.125 l 1025
 187.5 -62.625 m 1
- 312.5 -62.625 l 1
- 312.5 -0.125 l 1
  187.5 -0.125 l 1
+ 312.5 -0.125 l 1
+ 312.5 -62.625 l 1
  187.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -6736,7 +6736,7 @@ EndChar
 StartChar: sterling
 Encoding: 163 163 102
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6797,9 +6797,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 187.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  187.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -6807,7 +6807,7 @@ EndChar
 StartChar: currency
 Encoding: 164 164 103
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6863,9 +6863,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 312.5 62.375 m 1
- 437.5 62.375 l 1
- 437.5 124.875 l 1
  312.5 124.875 l 1
+ 437.5 124.875 l 1
+ 437.5 62.375 l 1
  312.5 62.375 l 1
 EndSplineSet
 EndChar
@@ -6873,7 +6873,7 @@ EndChar
 StartChar: yen
 Encoding: 165 165 104
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6929,9 +6929,9 @@ SplineSet
  62.5 124.875 l 1
  62.5 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -6939,7 +6939,7 @@ EndChar
 StartChar: brokenbar
 Encoding: 166 166 105
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -6985,9 +6985,9 @@ SplineSet
  187.5 62.375 l 1
  187.5 -0.125 l 1025
 187.5 -62.625 m 1
- 312.5 -62.625 l 1
- 312.5 -0.125 l 1
  187.5 -0.125 l 1
+ 312.5 -0.125 l 1
+ 312.5 -62.625 l 1
  187.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -6995,7 +6995,7 @@ EndChar
 StartChar: section
 Encoding: 167 167 106
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7071,9 +7071,9 @@ SplineSet
  312.5 62.375 l 1
  312.5 -0.125 l 1025
 125 -62.625 m 1
- 375 -62.625 l 1
- 375 -0.125 l 1
  125 -0.125 l 1
+ 375 -0.125 l 1
+ 375 -62.625 l 1
  125 -62.625 l 1
 EndSplineSet
 EndChar
@@ -7081,7 +7081,7 @@ EndChar
 StartChar: dieresis
 Encoding: 168 168 107
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7107,9 +7107,9 @@ SplineSet
  62.5 562.375 l 1
  62.5 499.875 l 1025
 312.5 499.875 m 1
- 437.5 499.875 l 1
- 437.5 562.375 l 1
  312.5 562.375 l 1
+ 437.5 562.375 l 1
+ 437.5 499.875 l 1
  312.5 499.875 l 1
 EndSplineSet
 EndChar
@@ -7117,7 +7117,7 @@ EndChar
 StartChar: copyright
 Encoding: 169 169 108
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7213,9 +7213,9 @@ SplineSet
  375 124.875 l 1
  375 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -7223,7 +7223,7 @@ EndChar
 StartChar: ordfeminine
 Encoding: 170 170 109
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7264,9 +7264,9 @@ SplineSet
  125 374.875 l 1
  125 312.375 l 1025
 62.5 187.375 m 1
- 375 187.375 l 1
- 375 249.875 l 1
  62.5 249.875 l 1
+ 375 249.875 l 1
+ 375 187.375 l 1
  62.5 187.375 l 1
 EndSplineSet
 EndChar
@@ -7274,7 +7274,7 @@ EndChar
 StartChar: guillemotleft
 Encoding: 171 171 110
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7330,9 +7330,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 375 62.375 m 1
- 500 62.375 l 1
- 500 124.875 l 1
  375 124.875 l 1
+ 500 124.875 l 1
+ 500 62.375 l 1
  375 62.375 l 1
 EndSplineSet
 EndChar
@@ -7340,7 +7340,7 @@ EndChar
 StartChar: logicalnot
 Encoding: 172 172 111
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7361,9 +7361,9 @@ SplineSet
  62.5 249.875 l 1
  62.5 187.375 l 1025
 312.5 124.875 m 1
- 437.5 124.875 l 1
- 437.5 187.375 l 1
  312.5 187.375 l 1
+ 437.5 187.375 l 1
+ 437.5 124.875 l 1
  312.5 124.875 l 1
 EndSplineSet
 EndChar
@@ -7371,7 +7371,7 @@ EndChar
 StartChar: hyphen
 Encoding: 45 45 112
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7387,9 +7387,9 @@ SplineSet
  125 312.375 l 1
  125 249.875 l 1025
 125 187.375 m 1
- 375 187.375 l 1
- 375 249.875 l 1
  125 249.875 l 1
+ 375 249.875 l 1
+ 375 187.375 l 1
  125 187.375 l 1
 EndSplineSet
 EndChar
@@ -7397,7 +7397,7 @@ EndChar
 StartChar: registered
 Encoding: 174 174 113
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7513,9 +7513,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 125 -62.625 m 1
- 375 -62.625 l 1
- 375 -0.125 l 1
  125 -0.125 l 1
+ 375 -0.125 l 1
+ 375 -62.625 l 1
  125 -62.625 l 1
 EndSplineSet
 EndChar
@@ -7523,7 +7523,7 @@ EndChar
 StartChar: macron
 Encoding: 175 175 114
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7539,9 +7539,9 @@ SplineSet
  62.5 624.875 l 1
  62.5 562.375 l 1025
 62.5 499.875 m 1
- 437.5 499.875 l 1
- 437.5 562.375 l 1
  62.5 562.375 l 1
+ 437.5 562.375 l 1
+ 437.5 499.875 l 1
  62.5 499.875 l 1
 EndSplineSet
 EndChar
@@ -7549,7 +7549,7 @@ EndChar
 StartChar: degree
 Encoding: 176 176 115
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7575,9 +7575,9 @@ SplineSet
  250 499.875 l 1
  250 437.375 l 1025
 125 374.875 m 1
- 312.5 374.875 l 1
- 312.5 437.375 l 1
  125 437.375 l 1
+ 312.5 437.375 l 1
+ 312.5 374.875 l 1
  125 374.875 l 1
 EndSplineSet
 EndChar
@@ -7585,7 +7585,7 @@ EndChar
 StartChar: plusminus
 Encoding: 177 177 116
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7626,9 +7626,9 @@ SplineSet
  62.5 187.375 l 1
  62.5 124.875 l 1025
 62.5 62.375 m 1
- 437.5 62.375 l 1
- 437.5 124.875 l 1
  62.5 124.875 l 1
+ 437.5 124.875 l 1
+ 437.5 62.375 l 1
  62.5 62.375 l 1
 EndSplineSet
 EndChar
@@ -7636,7 +7636,7 @@ EndChar
 StartChar: twosuperior
 Encoding: 178 178 117
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7677,9 +7677,9 @@ SplineSet
  62.5 374.875 l 1
  62.5 312.375 l 1025
 62.5 249.875 m 1
- 375 249.875 l 1
- 375 312.375 l 1
  62.5 312.375 l 1
+ 375 312.375 l 1
+ 375 249.875 l 1
  62.5 249.875 l 1
 EndSplineSet
 EndChar
@@ -7687,7 +7687,7 @@ EndChar
 StartChar: threesuperior
 Encoding: 179 179 118
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7733,9 +7733,9 @@ SplineSet
  250 374.875 l 1
  250 312.375 l 1025
 125 249.875 m 1
- 312.5 249.875 l 1
- 312.5 312.375 l 1
  125 312.375 l 1
+ 312.5 312.375 l 1
+ 312.5 249.875 l 1
  125 249.875 l 1
 EndSplineSet
 EndChar
@@ -7743,7 +7743,7 @@ EndChar
 StartChar: acute
 Encoding: 180 180 119
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7764,9 +7764,9 @@ SplineSet
  187.5 562.375 l 1
  187.5 499.875 l 1025
 125 437.375 m 1
- 250 437.375 l 1
- 250 499.875 l 1
  125 499.875 l 1
+ 250 499.875 l 1
+ 250 437.375 l 1
  125 437.375 l 1
 EndSplineSet
 EndChar
@@ -7774,7 +7774,7 @@ EndChar
 StartChar: mu
 Encoding: 181 181 120
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7840,9 +7840,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 62.5 -62.625 m 1
- 187.5 -62.625 l 1
- 187.5 -0.125 l 1
  62.5 -0.125 l 1
+ 187.5 -0.125 l 1
+ 187.5 -62.625 l 1
  62.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -7850,7 +7850,7 @@ EndChar
 StartChar: paragraph
 Encoding: 182 182 121
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7951,9 +7951,9 @@ SplineSet
  187.5 -0.125 l 1
  187.5 -62.625 l 1025
 375 -62.625 m 1
- 437.5 -62.625 l 1
- 437.5 -0.125 l 1
  375 -0.125 l 1
+ 437.5 -0.125 l 1
+ 437.5 -62.625 l 1
  375 -62.625 l 1
 EndSplineSet
 EndChar
@@ -7961,7 +7961,7 @@ EndChar
 StartChar: periodcentered
 Encoding: 183 183 122
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -7977,9 +7977,9 @@ SplineSet
  187.5 312.375 l 1
  187.5 249.875 l 1025
 187.5 187.375 m 1
- 312.5 187.375 l 1
- 312.5 249.875 l 1
  187.5 249.875 l 1
+ 312.5 249.875 l 1
+ 312.5 187.375 l 1
  187.5 187.375 l 1
 EndSplineSet
 EndChar
@@ -7987,7 +7987,7 @@ EndChar
 StartChar: cedilla
 Encoding: 184 184 123
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8013,9 +8013,9 @@ SplineSet
  187.5 -0.125 l 1
  187.5 -62.625 l 1025
 125 -125.125 m 1
- 250 -125.125 l 1
- 250 -62.625 l 1
  125 -62.625 l 1
+ 250 -62.625 l 1
+ 250 -125.125 l 1
  125 -125.125 l 1
 EndSplineSet
 EndChar
@@ -8023,7 +8023,7 @@ EndChar
 StartChar: onesuperior
 Encoding: 185 185 124
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8059,9 +8059,9 @@ SplineSet
  187.5 374.875 l 1
  187.5 312.375 l 1025
 125 249.875 m 1
- 375 249.875 l 1
- 375 312.375 l 1
  125 312.375 l 1
+ 375 312.375 l 1
+ 375 249.875 l 1
  125 249.875 l 1
 EndSplineSet
 EndChar
@@ -8069,7 +8069,7 @@ EndChar
 StartChar: ordmasculine
 Encoding: 186 186 125
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8120,9 +8120,9 @@ SplineSet
  125 374.875 l 1
  125 312.375 l 1025
 62.5 187.375 m 1
- 375 187.375 l 1
- 375 249.875 l 1
  62.5 249.875 l 1
+ 375 249.875 l 1
+ 375 187.375 l 1
  62.5 187.375 l 1
 EndSplineSet
 EndChar
@@ -8130,7 +8130,7 @@ EndChar
 StartChar: guillemotright
 Encoding: 187 187 126
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8186,9 +8186,9 @@ SplineSet
  0 124.875 l 1
  0 62.375 l 1025
 187.5 62.375 m 1
- 312.5 62.375 l 1
- 312.5 124.875 l 1
  187.5 124.875 l 1
+ 312.5 124.875 l 1
+ 312.5 62.375 l 1
  187.5 62.375 l 1
 EndSplineSet
 EndChar
@@ -8196,7 +8196,7 @@ EndChar
 StartChar: onequarter
 Encoding: 188 188 127
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8298,9 +8298,9 @@ SplineSet
  312.5 62.375 l 1
  312.5 -0.125 l 1025
 312.5 -62.625 m 1
- 437.5 -62.625 l 1
- 437.5 -0.125 l 1
  312.5 -0.125 l 1
+ 437.5 -0.125 l 1
+ 437.5 -62.625 l 1
  312.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -8308,7 +8308,7 @@ EndChar
 StartChar: onehalf
 Encoding: 189 189 128
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8410,9 +8410,9 @@ SplineSet
  250 62.375 l 1
  250 -0.125 l 1025
 250 -62.625 m 1
- 500 -62.625 l 1
- 500 -0.125 l 1
  250 -0.125 l 1
+ 500 -0.125 l 1
+ 500 -62.625 l 1
  250 -62.625 l 1
 EndSplineSet
 EndChar
@@ -8420,7 +8420,7 @@ EndChar
 StartChar: threequarters
 Encoding: 190 190 129
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8521,9 +8521,9 @@ SplineSet
  312.5 62.375 l 1
  312.5 -0.125 l 1025
 312.5 -62.625 m 1
- 437.5 -62.625 l 1
- 437.5 -0.125 l 1
  312.5 -0.125 l 1
+ 437.5 -0.125 l 1
+ 437.5 -62.625 l 1
  312.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -8531,7 +8531,7 @@ EndChar
 StartChar: questiondown
 Encoding: 191 191 130
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8587,9 +8587,9 @@ SplineSet
  312.5 62.375 l 1
  312.5 -0.125 l 1025
 125 -62.625 m 1
- 375 -62.625 l 1
- 375 -0.125 l 1
  125 -0.125 l 1
+ 375 -0.125 l 1
+ 375 -62.625 l 1
  125 -62.625 l 1
 EndSplineSet
 EndChar
@@ -8597,7 +8597,7 @@ EndChar
 StartChar: Agrave
 Encoding: 192 192 131
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8678,9 +8678,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -8688,7 +8688,7 @@ EndChar
 StartChar: Aacute
 Encoding: 193 193 132
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8769,9 +8769,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -8779,7 +8779,7 @@ EndChar
 StartChar: Acircumflex
 Encoding: 194 194 133
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8865,9 +8865,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -8875,7 +8875,7 @@ EndChar
 StartChar: Atilde
 Encoding: 195 195 134
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -8966,9 +8966,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -8976,7 +8976,7 @@ EndChar
 StartChar: Adieresis
 Encoding: 196 196 135
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9067,9 +9067,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9077,7 +9077,7 @@ EndChar
 StartChar: Aring
 Encoding: 197 197 136
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9178,9 +9178,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9188,7 +9188,7 @@ EndChar
 StartChar: AE
 Encoding: 198 198 137
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9264,9 +9264,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 250 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  250 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  250 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9274,7 +9274,7 @@ EndChar
 StartChar: Ccedilla
 Encoding: 199 199 138
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9340,9 +9340,9 @@ SplineSet
  250 -0.125 l 1
  250 -62.625 l 1025
 187.5 -125.125 m 1
- 312.5 -125.125 l 1
- 312.5 -62.625 l 1
  187.5 -62.625 l 1
+ 312.5 -62.625 l 1
+ 312.5 -125.125 l 1
  187.5 -125.125 l 1
 EndSplineSet
 EndChar
@@ -9350,7 +9350,7 @@ EndChar
 StartChar: Egrave
 Encoding: 200 200 139
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9406,9 +9406,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9416,7 +9416,7 @@ EndChar
 StartChar: Eacute
 Encoding: 201 201 140
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9472,9 +9472,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9482,7 +9482,7 @@ EndChar
 StartChar: Ecircumflex
 Encoding: 202 202 141
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9543,9 +9543,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9553,7 +9553,7 @@ EndChar
 StartChar: Edieresis
 Encoding: 203 203 142
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9619,9 +9619,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9629,7 +9629,7 @@ EndChar
 StartChar: Igrave
 Encoding: 204 204 143
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9685,9 +9685,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9695,7 +9695,7 @@ EndChar
 StartChar: Iacute
 Encoding: 205 205 144
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9751,9 +9751,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9761,7 +9761,7 @@ EndChar
 StartChar: Icircumflex
 Encoding: 206 206 145
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9822,9 +9822,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9832,7 +9832,7 @@ EndChar
 StartChar: Idieresis
 Encoding: 207 207 146
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9898,9 +9898,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9908,7 +9908,7 @@ EndChar
 StartChar: Eth
 Encoding: 208 208 147
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -9984,9 +9984,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 62.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  62.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -9994,7 +9994,7 @@ EndChar
 StartChar: Ntilde
 Encoding: 209 209 148
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -10100,9 +10100,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -10110,7 +10110,7 @@ EndChar
 StartChar: Ograve
 Encoding: 210 210 149
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -10196,9 +10196,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -10206,7 +10206,7 @@ EndChar
 StartChar: Oacute
 Encoding: 211 211 150
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -10292,9 +10292,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -10302,7 +10302,7 @@ EndChar
 StartChar: Ocircumflex
 Encoding: 212 212 151
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -10393,9 +10393,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -10403,7 +10403,7 @@ EndChar
 StartChar: Otilde
 Encoding: 213 213 152
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -10499,9 +10499,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -10509,7 +10509,7 @@ EndChar
 StartChar: Odieresis
 Encoding: 214 214 153
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -10605,9 +10605,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -10615,7 +10615,7 @@ EndChar
 StartChar: multiply
 Encoding: 215 215 154
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -10656,9 +10656,9 @@ SplineSet
  62.5 187.375 l 1
  62.5 124.875 l 1025
 312.5 124.875 m 1
- 437.5 124.875 l 1
- 437.5 187.375 l 1
  312.5 187.375 l 1
+ 437.5 187.375 l 1
+ 437.5 124.875 l 1
  312.5 124.875 l 1
 EndSplineSet
 EndChar
@@ -10666,7 +10666,7 @@ EndChar
 StartChar: Oslash
 Encoding: 216 216 155
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -10742,9 +10742,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 62.5 -62.625 m 1
- 125 -62.625 l 1
- 125 -0.125 l 1
  62.5 -0.125 l 1
+ 125 -0.125 l 1
+ 125 -62.625 l 1
  62.5 -62.625 l 1
 EndSplineSet
 EndChar
@@ -10752,7 +10752,7 @@ EndChar
 StartChar: Ugrave
 Encoding: 217 217 156
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -10843,9 +10843,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -10853,7 +10853,7 @@ EndChar
 StartChar: Uacute
 Encoding: 218 218 157
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -10944,9 +10944,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -10954,7 +10954,7 @@ EndChar
 StartChar: Ucircumflex
 Encoding: 219 219 158
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11045,9 +11045,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11055,7 +11055,7 @@ EndChar
 StartChar: Udieresis
 Encoding: 220 220 159
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11156,9 +11156,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11166,7 +11166,7 @@ EndChar
 StartChar: Yacute
 Encoding: 221 221 160
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11237,9 +11237,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11247,7 +11247,7 @@ EndChar
 StartChar: Thorn
 Encoding: 222 222 161
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11303,9 +11303,9 @@ SplineSet
  125 124.875 l 1
  125 62.375 l 1025
 62.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  62.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11313,7 +11313,7 @@ EndChar
 StartChar: germandbls
 Encoding: 223 223 162
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11394,9 +11394,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 250 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  250 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  250 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11404,7 +11404,7 @@ EndChar
 StartChar: agrave
 Encoding: 224 224 163
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11465,9 +11465,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 375 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  375 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  375 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11475,7 +11475,7 @@ EndChar
 StartChar: aacute
 Encoding: 225 225 164
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11536,9 +11536,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 375 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  375 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  375 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11546,7 +11546,7 @@ EndChar
 StartChar: acircumflex
 Encoding: 226 226 165
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11612,9 +11612,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 375 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  375 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  375 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11622,7 +11622,7 @@ EndChar
 StartChar: atilde
 Encoding: 227 227 166
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11693,9 +11693,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 375 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  375 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  375 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11703,7 +11703,7 @@ EndChar
 StartChar: adieresis
 Encoding: 228 228 167
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11774,9 +11774,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 375 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  375 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  375 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11784,7 +11784,7 @@ EndChar
 StartChar: aring
 Encoding: 229 229 168
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11855,9 +11855,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 375 -0.125 m 1
- 500 -0.125 l 1
- 500 62.375 l 1
  375 62.375 l 1
+ 500 62.375 l 1
+ 500 -0.125 l 1
  375 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11865,7 +11865,7 @@ EndChar
 StartChar: ae
 Encoding: 230 230 169
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11931,9 +11931,9 @@ SplineSet
  125 62.375 l 1
  125 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -11941,7 +11941,7 @@ EndChar
 StartChar: ccedilla
 Encoding: 231 231 170
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -11997,9 +11997,9 @@ SplineSet
  250 -0.125 l 1
  250 -62.625 l 1025
 187.5 -125.125 m 1
- 312.5 -125.125 l 1
- 312.5 -62.625 l 1
  187.5 -62.625 l 1
+ 312.5 -62.625 l 1
+ 312.5 -125.125 l 1
  187.5 -125.125 l 1
 EndSplineSet
 EndChar
@@ -12007,7 +12007,7 @@ EndChar
 StartChar: egrave
 Encoding: 232 232 171
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12063,9 +12063,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12073,7 +12073,7 @@ EndChar
 StartChar: eacute
 Encoding: 233 233 172
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12129,9 +12129,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12139,7 +12139,7 @@ EndChar
 StartChar: ecircumflex
 Encoding: 234 234 173
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12200,9 +12200,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12210,7 +12210,7 @@ EndChar
 StartChar: edieresis
 Encoding: 235 235 174
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12276,9 +12276,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12286,7 +12286,7 @@ EndChar
 StartChar: igrave
 Encoding: 236 236 175
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12332,9 +12332,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12342,7 +12342,7 @@ EndChar
 StartChar: iacute
 Encoding: 237 237 176
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12388,9 +12388,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12398,7 +12398,7 @@ EndChar
 StartChar: icircumflex
 Encoding: 238 238 177
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12449,9 +12449,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12459,7 +12459,7 @@ EndChar
 StartChar: idieresis
 Encoding: 239 239 178
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12515,9 +12515,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 62.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  62.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  62.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12525,7 +12525,7 @@ EndChar
 StartChar: eth
 Encoding: 240 240 179
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12586,9 +12586,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12596,7 +12596,7 @@ EndChar
 StartChar: ntilde
 Encoding: 241 241 180
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12677,9 +12677,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 312.5 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  312.5 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  312.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12687,7 +12687,7 @@ EndChar
 StartChar: ograve
 Encoding: 242 242 181
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12753,9 +12753,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12763,7 +12763,7 @@ EndChar
 StartChar: oacute
 Encoding: 243 243 182
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12829,9 +12829,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12839,7 +12839,7 @@ EndChar
 StartChar: ocircumflex
 Encoding: 244 244 183
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12910,9 +12910,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -12920,7 +12920,7 @@ EndChar
 StartChar: otilde
 Encoding: 245 245 184
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -12996,9 +12996,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -13006,7 +13006,7 @@ EndChar
 StartChar: odieresis
 Encoding: 246 246 185
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -13082,9 +13082,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  125 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -13092,7 +13092,7 @@ EndChar
 StartChar: divide
 Encoding: 247 247 186
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -13128,9 +13128,9 @@ SplineSet
  187.5 124.875 l 1
  187.5 62.375 l 1025
 187.5 -0.125 m 1
- 312.5 -0.125 l 1
- 312.5 62.375 l 1
  187.5 62.375 l 1
+ 312.5 62.375 l 1
+ 312.5 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -13138,7 +13138,7 @@ EndChar
 StartChar: oslash
 Encoding: 248 248 187
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -13194,9 +13194,9 @@ SplineSet
  62.5 62.375 l 1
  62.5 -0.125 l 1025
 187.5 -0.125 m 1
- 375 -0.125 l 1
- 375 62.375 l 1
  187.5 62.375 l 1
+ 375 62.375 l 1
+ 375 -0.125 l 1
  187.5 -0.125 l 1
 EndSplineSet
 EndChar
@@ -13204,7 +13204,7 @@ EndChar
 StartChar: ugrave
 Encoding: 249 249 188
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -13275,9 +13275,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -13285,7 +13285,7 @@ EndChar
 StartChar: uacute
 Encoding: 250 250 189
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -13356,9 +13356,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -13366,7 +13366,7 @@ EndChar
 StartChar: ucircumflex
 Encoding: 251 251 190
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -13442,9 +13442,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -13452,7 +13452,7 @@ EndChar
 StartChar: udieresis
 Encoding: 252 252 191
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -13533,9 +13533,9 @@ SplineSet
  312.5 124.875 l 1
  312.5 62.375 l 1025
 125 -0.125 m 1
- 437.5 -0.125 l 1
- 437.5 62.375 l 1
  125 62.375 l 1
+ 437.5 62.375 l 1
+ 437.5 -0.125 l 1
  125 -0.125 l 1
 EndSplineSet
 EndChar
@@ -13543,7 +13543,7 @@ EndChar
 StartChar: yacute
 Encoding: 253 253 192
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -13624,9 +13624,9 @@ SplineSet
  312.5 -0.125 l 1
  312.5 -62.625 l 1025
 125 -125.125 m 1
- 375 -125.125 l 1
- 375 -62.625 l 1
  125 -62.625 l 1
+ 375 -62.625 l 1
+ 375 -125.125 l 1
  125 -125.125 l 1
 EndSplineSet
 EndChar
@@ -13634,7 +13634,7 @@ EndChar
 StartChar: thorn
 Encoding: 254 254 193
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -13710,9 +13710,9 @@ SplineSet
  62.5 -0.125 l 1
  62.5 -62.625 l 1025
 62.5 -125.125 m 1
- 187.5 -125.125 l 1
- 187.5 -62.625 l 1
  62.5 -62.625 l 1
+ 187.5 -62.625 l 1
+ 187.5 -125.125 l 1
  62.5 -125.125 l 1
 EndSplineSet
 EndChar
@@ -13720,7 +13720,7 @@ EndChar
 StartChar: ydieresis
 Encoding: 255 255 194
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Back
@@ -13811,9 +13811,9 @@ SplineSet
  312.5 -0.125 l 1
  312.5 -62.625 l 1025
 125 -125.125 m 1
- 375 -125.125 l 1
- 375 -62.625 l 1
  125 -62.625 l 1
+ 375 -62.625 l 1
+ 375 -125.125 l 1
  125 -125.125 l 1
 EndSplineSet
 EndChar
@@ -13821,7 +13821,7 @@ EndChar
 StartChar: quotesingle
 Encoding: 39 39 195
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Fore
@@ -13837,9 +13837,9 @@ SplineSet
  187.5 562.375 l 1
  187.5 499.875 l 1025
 125 437.375 m 1
- 250 437.375 l 1
- 250 499.875 l 1
  125 499.875 l 1
+ 250 499.875 l 1
+ 250 437.375 l 1
  125 437.375 l 1
 EndSplineSet
 EndChar
@@ -13847,7 +13847,7 @@ EndChar
 StartChar: grave
 Encoding: 96 96 196
 Width: 499
-VWidth: 0
+VWidth: 875
 Flags: HW
 LayerCount: 2
 Fore
@@ -13863,9 +13863,9 @@ SplineSet
  187.5 562.375 l 1
  187.5 499.875 l 1025
 250 437.375 m 1
- 375 437.375 l 1
- 375 499.875 l 1
  250 499.875 l 1
+ 375 499.875 l 1
+ 375 437.375 l 1
  250 437.375 l 1
 EndSplineSet
 EndChar
