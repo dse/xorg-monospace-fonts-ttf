@@ -5,6 +5,7 @@ set -o pipefail
 declare -a script_args
 
 fixed6x13only=0
+fixed7x13only=0
 decterminalonly=0
 scale_option=--nearest-multiple-of-four
 
@@ -16,6 +17,7 @@ options:
     -h, --help
         --ascii-only
         --fixed-6x13-only
+        --fixed-7x13-only
         --dec-terminal-only
         --no-scale
 EOF
@@ -51,6 +53,9 @@ while getopts 'hv-:' OPTION ; do
             ;;
         'fixed-6x13-only')
             fixed6x13only=1
+            ;;
+        'fixed-7x13-only')
+            fixed7x13only=1
             ;;
         'dec-terminal-only')
             decterminalonly=1
@@ -177,6 +182,12 @@ generate_misc_fixed_6x13 () {
     genfont xorg-misc-misc/6x13O.bdf 'Misc-Fixed-6x13O' 'Misc Fixed 6x13' 'Oblique'
 }
 
+generate_misc_fixed_7x13 () {
+    genfont xorg-misc-misc/7x13.bdf  'Misc-Fixed-7x13'  'Misc Fixed 7x13'
+    genfont xorg-misc-misc/7x13B.bdf 'Misc-Fixed-7x13B' 'Misc Fixed 7x13' 'Bold'
+    genfont xorg-misc-misc/7x13O.bdf 'Misc-Fixed-7x13O' 'Misc Fixed 7x13' 'Oblique'
+}
+
 generate_misc_fixed () {
     genfont xorg-misc-misc/10x20.bdf 'Misc-Fixed-10x20' 'Misc Fixed 10x20'
     genfont xorg-misc-misc/4x6.bdf   'Misc-Fixed-4x6'   'Misc Fixed 4x6'
@@ -206,6 +217,8 @@ generate_sony_misc () {
 
 if (( fixed6x13only )) ; then
     generate_misc_fixed_6x13
+elif (( fixed7x13only )) ; then
+    generate_misc_fixed_7x13
 elif (( decterminalonly )) ; then
     generate_dec_terminal
 else
