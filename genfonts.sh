@@ -7,6 +7,7 @@ declare -a script_args
 fixed6x13only=0
 fixed7x13only=0
 decterminalonly=0
+lucidatypewriteronly=0
 scale_option=--nearest-multiple-of-four
 
 usage () { cat <<"EOF"; }
@@ -19,6 +20,7 @@ options:
         --fixed-6x13-only
         --fixed-7x13-only
         --dec-terminal-only
+        --lucida-typewriter-only
         --no-scale
 EOF
 
@@ -59,6 +61,9 @@ while getopts 'hv-:' OPTION ; do
             ;;
         'dec-terminal-only')
             decterminalonly=1
+            ;;
+        'lucida-typewriter-only')
+            lucidatypewriteronly=1
             ;;
         '?')
             # short option invalid or missing argument
@@ -215,12 +220,53 @@ generate_sony_misc () {
     genfont xorg-sony-misc/8x16.bdf  Sony-Fixed-8x16  'Sony Fixed 8x16'
 }
 
+install_bitmapfont2ttf () {
+    if which bitmapfont2ttf >/dev/null 2>/dev/null ; then
+        return
+    fi
+    local dir="${HOME}/git/dse.d/bitmapfont2ttf"
+    if [[ -d "${dir}" ]] ; then
+        export PATH="${dir}/bin:${PATH}"
+        return
+    fi
+    if [[ -e "${dir}" ]] ; then
+        >&2 echo "genfonts.sh: ${dir} exists but is not a directory"
+        exit 1
+    fi
+    git clone git@github.com:dse/bitmapfont2ttf.git "${dir}"
+    export PATH="${dir}/bin:${PATH}"
+}
+
+install_exact_autotrace_c () {
+    if which exact-autotrace-c >/dev/null 2>/dev/null ; then
+        return
+    fi
+    local dir="${HOME}/git/dse.d/exact-autotrace"
+    if [[ -d "${dir}" ]] ; then
+        export PATH="${dir}/bin:${PATH}"
+        (cd "${dir}" && make)
+        return
+    fi
+    if [[ -e "${dir}" ]] ; then
+        >&2 echo "genfonts.sh: ${dir} exists but is not a directory"
+        exit 1
+    fi
+    git clone --recurse-submodules git@github.com:dse/exact-autotrace.git "${dir}"
+    (cd "${dir}" && make)
+    export PATH="${dir}/bin:${PATH}"
+}
+
+install_bitmapfont2ttf
+install_exact_autotrace_c
+
 if (( fixed6x13only )) ; then
     generate_misc_fixed_6x13
 elif (( fixed7x13only )) ; then
     generate_misc_fixed_7x13
 elif (( decterminalonly )) ; then
     generate_dec_terminal
+elif (( lucidatypewriteronly )) ; then
+    generate_lucida_typewriter
 else
     generate_misc_fixed_6x13
     generate_misc_fixed
