@@ -4,7 +4,7 @@ FullName: Lucida Typewriter 24 Bold
 FamilyName: Lucida Typewriter 24
 Weight: Bold
 Copyright: Copyright Bigelow & Holmes 1986, 1985.
-UComments: "2020-11-5: Created with FontForge (http://fontforge.org)"
+UComments: "2021-1-30: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 731 326057961 16688968]
+XUID: [1021 665 1305438383 11401588]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1604633537
-ModificationTime: 1604633542
+CreationTime: 1612040605
+ModificationTime: 1612040609
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5
@@ -64,7 +64,7 @@ BeginChars: 65536 873
 
 StartChar: char0
 Encoding: 0 0 0
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -221,7 +221,7 @@ EndChar
 
 StartChar: exclam
 Encoding: 33 33 2
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -306,7 +306,7 @@ EndChar
 
 StartChar: quotedbl
 Encoding: 34 34 3
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -391,7 +391,7 @@ EndChar
 
 StartChar: numbersign
 Encoding: 35 35 4
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -557,7 +557,7 @@ EndChar
 
 StartChar: dollar
 Encoding: 36 36 5
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -703,7 +703,7 @@ EndChar
 
 StartChar: percent
 Encoding: 37 37 6
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -934,7 +934,7 @@ EndChar
 
 StartChar: ampersand
 Encoding: 38 38 7
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -1115,7 +1115,7 @@ EndChar
 
 StartChar: quotesingle
 Encoding: 39 39 8
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -1165,7 +1165,7 @@ EndChar
 
 StartChar: parenleft
 Encoding: 40 40 9
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -1291,7 +1291,7 @@ EndChar
 
 StartChar: parenright
 Encoding: 41 41 10
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -1417,7 +1417,7 @@ EndChar
 
 StartChar: asterisk
 Encoding: 42 42 11
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -1543,7 +1543,7 @@ EndChar
 
 StartChar: plus
 Encoding: 43 43 12
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -1623,7 +1623,7 @@ EndChar
 
 StartChar: comma
 Encoding: 44 44 13
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -1708,7 +1708,7 @@ EndChar
 
 StartChar: period
 Encoding: 46 46 15
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -1738,7 +1738,7 @@ EndChar
 
 StartChar: slash
 Encoding: 47 47 16
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -1864,7 +1864,7 @@ EndChar
 
 StartChar: zero
 Encoding: 48 48 17
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -2030,7 +2030,7 @@ EndChar
 
 StartChar: one
 Encoding: 49 49 18
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -2130,7 +2130,7 @@ EndChar
 
 StartChar: two
 Encoding: 50 50 19
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -2236,7 +2236,7 @@ EndChar
 
 StartChar: three
 Encoding: 51 51 20
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -2347,7 +2347,7 @@ EndChar
 
 StartChar: four
 Encoding: 52 52 21
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -2473,7 +2473,7 @@ EndChar
 
 StartChar: five
 Encoding: 53 53 22
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -2579,7 +2579,7 @@ EndChar
 
 StartChar: six
 Encoding: 54 54 23
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -2725,7 +2725,7 @@ EndChar
 
 StartChar: seven
 Encoding: 55 55 24
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -2826,7 +2826,7 @@ EndChar
 
 StartChar: eight
 Encoding: 56 56 25
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -2972,7 +2972,7 @@ EndChar
 
 StartChar: nine
 Encoding: 57 57 26
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -3118,7 +3118,7 @@ EndChar
 
 StartChar: colon
 Encoding: 58 58 27
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -3163,7 +3163,7 @@ EndChar
 
 StartChar: semicolon
 Encoding: 59 59 28
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -3233,7 +3233,7 @@ EndChar
 
 StartChar: less
 Encoding: 60 60 29
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -3314,7 +3314,7 @@ EndChar
 
 StartChar: equal
 Encoding: 61 61 30
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -3349,7 +3349,7 @@ EndChar
 
 StartChar: greater
 Encoding: 62 62 31
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -3430,7 +3430,7 @@ EndChar
 
 StartChar: question
 Encoding: 63 63 32
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -3531,7 +3531,7 @@ EndChar
 
 StartChar: at
 Encoding: 64 64 33
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -3732,7 +3732,7 @@ EndChar
 
 StartChar: A
 Encoding: 65 65 34
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -3888,7 +3888,7 @@ EndChar
 
 StartChar: B
 Encoding: 66 66 35
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -4044,7 +4044,7 @@ EndChar
 
 StartChar: C
 Encoding: 67 67 36
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -4155,7 +4155,7 @@ EndChar
 
 StartChar: D
 Encoding: 68 68 37
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -4321,7 +4321,7 @@ EndChar
 
 StartChar: E
 Encoding: 69 69 38
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -4421,7 +4421,7 @@ EndChar
 
 StartChar: F
 Encoding: 70 70 39
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -4521,7 +4521,7 @@ EndChar
 
 StartChar: G
 Encoding: 71 71 40
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -4657,7 +4657,7 @@ EndChar
 
 StartChar: H
 Encoding: 72 72 41
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -4832,7 +4832,7 @@ EndChar
 
 StartChar: I
 Encoding: 73 73 42
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -4932,7 +4932,7 @@ EndChar
 
 StartChar: J
 Encoding: 74 74 43
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -5037,7 +5037,7 @@ EndChar
 
 StartChar: K
 Encoding: 75 75 44
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -5208,7 +5208,7 @@ EndChar
 
 StartChar: L
 Encoding: 76 76 45
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -5308,7 +5308,7 @@ EndChar
 
 StartChar: M
 Encoding: 77 77 46
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -5569,7 +5569,7 @@ EndChar
 
 StartChar: N
 Encoding: 78 78 47
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -5790,7 +5790,7 @@ EndChar
 
 StartChar: O
 Encoding: 79 79 48
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -5956,7 +5956,7 @@ EndChar
 
 StartChar: P
 Encoding: 80 80 49
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -6087,7 +6087,7 @@ EndChar
 
 StartChar: Q
 Encoding: 81 81 50
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -6273,7 +6273,7 @@ EndChar
 
 StartChar: R
 Encoding: 82 82 51
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -6439,7 +6439,7 @@ EndChar
 
 StartChar: S
 Encoding: 83 83 52
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -6550,7 +6550,7 @@ EndChar
 
 StartChar: T
 Encoding: 84 84 53
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -6650,7 +6650,7 @@ EndChar
 
 StartChar: U
 Encoding: 85 85 54
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -6825,7 +6825,7 @@ EndChar
 
 StartChar: V
 Encoding: 86 86 55
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -6991,7 +6991,7 @@ EndChar
 
 StartChar: W
 Encoding: 87 87 56
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -7227,7 +7227,7 @@ EndChar
 
 StartChar: X
 Encoding: 88 88 57
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -7388,7 +7388,7 @@ EndChar
 
 StartChar: Y
 Encoding: 89 89 58
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -7524,7 +7524,7 @@ EndChar
 
 StartChar: Z
 Encoding: 90 90 59
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -7625,7 +7625,7 @@ EndChar
 
 StartChar: bracketleft
 Encoding: 91 91 60
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -7750,7 +7750,7 @@ EndChar
 
 StartChar: backslash
 Encoding: 92 92 61
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -7876,7 +7876,7 @@ EndChar
 
 StartChar: bracketright
 Encoding: 93 93 62
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -8001,7 +8001,7 @@ EndChar
 
 StartChar: asciicircum
 Encoding: 94 94 63
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -8117,7 +8117,7 @@ EndChar
 
 StartChar: underscore
 Encoding: 95 95 64
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -8142,7 +8142,7 @@ EndChar
 
 StartChar: grave
 Encoding: 96 96 65
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -8172,7 +8172,7 @@ EndChar
 
 StartChar: a
 Encoding: 97 97 66
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -8283,7 +8283,7 @@ EndChar
 
 StartChar: b
 Encoding: 98 98 67
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -8444,7 +8444,7 @@ EndChar
 
 StartChar: c
 Encoding: 99 99 68
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -8535,7 +8535,7 @@ EndChar
 
 StartChar: d
 Encoding: 100 100 69
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -8696,7 +8696,7 @@ EndChar
 
 StartChar: e
 Encoding: 101 101 70
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -8797,7 +8797,7 @@ EndChar
 
 StartChar: f
 Encoding: 102 102 71
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -8907,7 +8907,7 @@ EndChar
 
 StartChar: g
 Encoding: 103 103 72
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -9073,7 +9073,7 @@ EndChar
 
 StartChar: h
 Encoding: 104 104 73
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -9238,7 +9238,7 @@ EndChar
 
 StartChar: i
 Encoding: 105 105 74
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -9333,7 +9333,7 @@ EndChar
 
 StartChar: j
 Encoding: 106 106 75
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -9459,7 +9459,7 @@ EndChar
 
 StartChar: k
 Encoding: 107 107 76
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -9625,7 +9625,7 @@ EndChar
 
 StartChar: l
 Encoding: 108 108 77
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -9730,7 +9730,7 @@ EndChar
 
 StartChar: m
 Encoding: 109 109 78
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -9930,7 +9930,7 @@ EndChar
 
 StartChar: n
 Encoding: 110 110 79
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -10070,7 +10070,7 @@ EndChar
 
 StartChar: o
 Encoding: 111 111 80
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -10196,7 +10196,7 @@ EndChar
 
 StartChar: p
 Encoding: 112 112 81
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -10357,7 +10357,7 @@ EndChar
 
 StartChar: q
 Encoding: 113 113 82
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -10518,7 +10518,7 @@ EndChar
 
 StartChar: r
 Encoding: 114 114 83
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -10618,7 +10618,7 @@ EndChar
 
 StartChar: s
 Encoding: 115 115 84
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -10709,7 +10709,7 @@ EndChar
 
 StartChar: t
 Encoding: 116 116 85
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -10809,7 +10809,7 @@ EndChar
 
 StartChar: u
 Encoding: 117 117 86
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -10949,7 +10949,7 @@ EndChar
 
 StartChar: v
 Encoding: 118 118 87
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -11080,7 +11080,7 @@ EndChar
 
 StartChar: w
 Encoding: 119 119 88
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -11256,7 +11256,7 @@ EndChar
 
 StartChar: x
 Encoding: 120 120 89
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -11377,7 +11377,7 @@ EndChar
 
 StartChar: y
 Encoding: 121 121 90
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -11528,7 +11528,7 @@ EndChar
 
 StartChar: z
 Encoding: 122 122 91
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -11609,7 +11609,7 @@ EndChar
 
 StartChar: braceleft
 Encoding: 123 123 92
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -11735,7 +11735,7 @@ EndChar
 
 StartChar: bar
 Encoding: 124 124 93
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -11860,7 +11860,7 @@ EndChar
 
 StartChar: braceright
 Encoding: 125 125 94
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -11986,7 +11986,7 @@ EndChar
 
 StartChar: asciitilde
 Encoding: 126 126 95
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -12056,7 +12056,7 @@ EndChar
 
 StartChar: space
 Encoding: 32 32 96
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -12068,7 +12068,7 @@ EndChar
 
 StartChar: exclamdown
 Encoding: 161 161 97
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -12163,7 +12163,7 @@ EndChar
 
 StartChar: cent
 Encoding: 162 162 98
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -12274,7 +12274,7 @@ EndChar
 
 StartChar: sterling
 Encoding: 163 163 99
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -12375,7 +12375,7 @@ EndChar
 
 StartChar: currency
 Encoding: 164 164 100
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -12501,7 +12501,7 @@ EndChar
 
 StartChar: yen
 Encoding: 165 165 101
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -12627,7 +12627,7 @@ EndChar
 
 StartChar: brokenbar
 Encoding: 166 166 102
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -12732,7 +12732,7 @@ EndChar
 
 StartChar: section
 Encoding: 167 167 103
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -12898,7 +12898,7 @@ EndChar
 
 StartChar: dieresis
 Encoding: 168 168 104
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -12933,7 +12933,7 @@ EndChar
 
 StartChar: copyright
 Encoding: 169 169 105
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -13154,7 +13154,7 @@ EndChar
 
 StartChar: ordfeminine
 Encoding: 170 170 106
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -13235,7 +13235,7 @@ EndChar
 
 StartChar: guillemotleft
 Encoding: 171 171 107
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -13361,7 +13361,7 @@ EndChar
 
 StartChar: logicalnot
 Encoding: 172 172 108
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -13406,7 +13406,7 @@ EndChar
 
 StartChar: hyphen
 Encoding: 45 45 109
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -13431,7 +13431,7 @@ EndChar
 
 StartChar: registered
 Encoding: 174 174 110
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -13622,7 +13622,7 @@ EndChar
 
 StartChar: degree
 Encoding: 176 176 112
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -13667,7 +13667,7 @@ EndChar
 
 StartChar: plusminus
 Encoding: 177 177 113
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -13737,7 +13737,7 @@ EndChar
 
 StartChar: twosuperior
 Encoding: 178 178 114
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -13797,7 +13797,7 @@ EndChar
 
 StartChar: threesuperior
 Encoding: 179 179 115
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -13857,7 +13857,7 @@ EndChar
 
 StartChar: acute
 Encoding: 180 180 116
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -14042,7 +14042,7 @@ EndChar
 
 StartChar: paragraph
 Encoding: 182 182 118
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -14287,7 +14287,7 @@ EndChar
 
 StartChar: cedilla
 Encoding: 184 184 120
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -14332,7 +14332,7 @@ EndChar
 
 StartChar: onesuperior
 Encoding: 185 185 121
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -14392,7 +14392,7 @@ EndChar
 
 StartChar: ordmasculine
 Encoding: 186 186 122
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -14477,7 +14477,7 @@ EndChar
 
 StartChar: guillemotright
 Encoding: 187 187 123
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -14603,7 +14603,7 @@ EndChar
 
 StartChar: onequarter
 Encoding: 188 188 124
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -14789,7 +14789,7 @@ EndChar
 
 StartChar: onehalf
 Encoding: 189 189 125
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -14970,7 +14970,7 @@ EndChar
 
 StartChar: threequarters
 Encoding: 190 190 126
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -15166,7 +15166,7 @@ EndChar
 
 StartChar: questiondown
 Encoding: 191 191 127
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -15277,7 +15277,7 @@ EndChar
 
 StartChar: Agrave
 Encoding: 192 192 128
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -15448,7 +15448,7 @@ EndChar
 
 StartChar: Aacute
 Encoding: 193 193 129
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -15619,7 +15619,7 @@ EndChar
 
 StartChar: Acircumflex
 Encoding: 194 194 130
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -15800,7 +15800,7 @@ EndChar
 
 StartChar: Atilde
 Encoding: 195 195 131
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -15981,7 +15981,7 @@ EndChar
 
 StartChar: Adieresis
 Encoding: 196 196 132
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -16157,7 +16157,7 @@ EndChar
 
 StartChar: Aring
 Encoding: 197 197 133
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -16333,7 +16333,7 @@ EndChar
 
 StartChar: AE
 Encoding: 198 198 134
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -16479,7 +16479,7 @@ EndChar
 
 StartChar: Ccedilla
 Encoding: 199 199 135
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -16615,7 +16615,7 @@ EndChar
 
 StartChar: Egrave
 Encoding: 200 200 136
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -16731,7 +16731,7 @@ EndChar
 
 StartChar: Eacute
 Encoding: 201 201 137
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -16847,7 +16847,7 @@ EndChar
 
 StartChar: Ecircumflex
 Encoding: 202 202 138
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -16973,7 +16973,7 @@ EndChar
 
 StartChar: Edieresis
 Encoding: 203 203 139
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -17094,7 +17094,7 @@ EndChar
 
 StartChar: Igrave
 Encoding: 204 204 140
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -17209,7 +17209,7 @@ EndChar
 
 StartChar: Iacute
 Encoding: 205 205 141
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -17324,7 +17324,7 @@ EndChar
 
 StartChar: Icircumflex
 Encoding: 206 206 142
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -17449,7 +17449,7 @@ EndChar
 
 StartChar: Idieresis
 Encoding: 207 207 143
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -17569,7 +17569,7 @@ EndChar
 
 StartChar: Eth
 Encoding: 208 208 144
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -17735,7 +17735,7 @@ EndChar
 
 StartChar: Ntilde
 Encoding: 209 209 145
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -17981,7 +17981,7 @@ EndChar
 
 StartChar: Ograve
 Encoding: 210 210 146
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -18162,7 +18162,7 @@ EndChar
 
 StartChar: Oacute
 Encoding: 211 211 147
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -18343,7 +18343,7 @@ EndChar
 
 StartChar: Ocircumflex
 Encoding: 212 212 148
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -18534,7 +18534,7 @@ EndChar
 
 StartChar: Otilde
 Encoding: 213 213 149
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -18725,7 +18725,7 @@ EndChar
 
 StartChar: Odieresis
 Encoding: 214 214 150
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -18911,7 +18911,7 @@ EndChar
 
 StartChar: multiply
 Encoding: 215 215 151
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -19042,7 +19042,7 @@ EndChar
 
 StartChar: Oslash
 Encoding: 216 216 152
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -19243,7 +19243,7 @@ EndChar
 
 StartChar: Ugrave
 Encoding: 217 217 153
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -19433,7 +19433,7 @@ EndChar
 
 StartChar: Uacute
 Encoding: 218 218 154
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -19623,7 +19623,7 @@ EndChar
 
 StartChar: Ucircumflex
 Encoding: 219 219 155
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -19824,7 +19824,7 @@ EndChar
 
 StartChar: Udieresis
 Encoding: 220 220 156
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -20019,7 +20019,7 @@ EndChar
 
 StartChar: Yacute
 Encoding: 221 221 157
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -20170,7 +20170,7 @@ EndChar
 
 StartChar: Thorn
 Encoding: 222 222 158
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -20301,7 +20301,7 @@ EndChar
 
 StartChar: germandbls
 Encoding: 223 223 159
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -20492,7 +20492,7 @@ EndChar
 
 StartChar: agrave
 Encoding: 224 224 160
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -20618,7 +20618,7 @@ EndChar
 
 StartChar: aacute
 Encoding: 225 225 161
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -20744,7 +20744,7 @@ EndChar
 
 StartChar: acircumflex
 Encoding: 226 226 162
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -20880,7 +20880,7 @@ EndChar
 
 StartChar: atilde
 Encoding: 227 227 163
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -21016,7 +21016,7 @@ EndChar
 
 StartChar: adieresis
 Encoding: 228 228 164
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -21147,7 +21147,7 @@ EndChar
 
 StartChar: aring
 Encoding: 229 229 165
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -21278,7 +21278,7 @@ EndChar
 
 StartChar: ae
 Encoding: 230 230 166
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -21414,7 +21414,7 @@ EndChar
 
 StartChar: ccedilla
 Encoding: 231 231 167
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -21530,7 +21530,7 @@ EndChar
 
 StartChar: egrave
 Encoding: 232 232 168
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -21646,7 +21646,7 @@ EndChar
 
 StartChar: eacute
 Encoding: 233 233 169
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -21762,7 +21762,7 @@ EndChar
 
 StartChar: ecircumflex
 Encoding: 234 234 170
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -21888,7 +21888,7 @@ EndChar
 
 StartChar: edieresis
 Encoding: 235 235 171
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -22009,7 +22009,7 @@ EndChar
 
 StartChar: igrave
 Encoding: 236 236 172
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -22104,7 +22104,7 @@ EndChar
 
 StartChar: iacute
 Encoding: 237 237 173
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -22199,7 +22199,7 @@ EndChar
 
 StartChar: icircumflex
 Encoding: 238 238 174
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -22304,7 +22304,7 @@ EndChar
 
 StartChar: idieresis
 Encoding: 239 239 175
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -22404,7 +22404,7 @@ EndChar
 
 StartChar: eth
 Encoding: 240 240 176
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -22565,7 +22565,7 @@ EndChar
 
 StartChar: ntilde
 Encoding: 241 241 177
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -22731,7 +22731,7 @@ EndChar
 
 StartChar: ograve
 Encoding: 242 242 178
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -22872,7 +22872,7 @@ EndChar
 
 StartChar: oacute
 Encoding: 243 243 179
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -23013,7 +23013,7 @@ EndChar
 
 StartChar: ocircumflex
 Encoding: 244 244 180
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -23164,7 +23164,7 @@ EndChar
 
 StartChar: otilde
 Encoding: 245 245 181
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -23315,7 +23315,7 @@ EndChar
 
 StartChar: odieresis
 Encoding: 246 246 182
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -23461,7 +23461,7 @@ EndChar
 
 StartChar: divide
 Encoding: 247 247 183
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -23516,7 +23516,7 @@ EndChar
 
 StartChar: oslash
 Encoding: 248 248 184
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -23657,7 +23657,7 @@ EndChar
 
 StartChar: ugrave
 Encoding: 249 249 185
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -23813,7 +23813,7 @@ EndChar
 
 StartChar: uacute
 Encoding: 250 250 186
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -23969,7 +23969,7 @@ EndChar
 
 StartChar: ucircumflex
 Encoding: 251 251 187
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -24135,7 +24135,7 @@ EndChar
 
 StartChar: udieresis
 Encoding: 252 252 188
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -24295,7 +24295,7 @@ EndChar
 
 StartChar: yacute
 Encoding: 253 253 189
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -24461,7 +24461,7 @@ EndChar
 
 StartChar: thorn
 Encoding: 254 254 190
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -24637,7 +24637,7 @@ EndChar
 
 StartChar: ydieresis
 Encoding: 255 255 191
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -24808,7 +24808,7 @@ EndChar
 
 StartChar: Amacron
 Encoding: 256 256 192
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -24974,7 +24974,7 @@ EndChar
 
 StartChar: amacron
 Encoding: 257 257 193
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -25095,7 +25095,7 @@ EndChar
 
 StartChar: Abreve
 Encoding: 258 258 194
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -25271,7 +25271,7 @@ EndChar
 
 StartChar: abreve
 Encoding: 259 259 195
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -25402,7 +25402,7 @@ EndChar
 
 StartChar: Aogonek
 Encoding: 260 260 196
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -25583,7 +25583,7 @@ EndChar
 
 StartChar: aogonek
 Encoding: 261 261 197
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -25719,7 +25719,7 @@ EndChar
 
 StartChar: Cacute
 Encoding: 262 262 198
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -25845,7 +25845,7 @@ EndChar
 
 StartChar: cacute
 Encoding: 263 263 199
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -25951,7 +25951,7 @@ EndChar
 
 StartChar: Ccircumflex
 Encoding: 264 264 200
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -26087,7 +26087,7 @@ EndChar
 
 StartChar: ccircumflex
 Encoding: 265 265 201
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -26203,7 +26203,7 @@ EndChar
 
 StartChar: Cdotaccent
 Encoding: 266 266 202
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -26324,7 +26324,7 @@ EndChar
 
 StartChar: cdotaccent
 Encoding: 267 267 203
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -26425,7 +26425,7 @@ EndChar
 
 StartChar: Ccaron
 Encoding: 268 268 204
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -26561,7 +26561,7 @@ EndChar
 
 StartChar: ccaron
 Encoding: 269 269 205
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -26677,7 +26677,7 @@ EndChar
 
 StartChar: Dcaron
 Encoding: 270 270 206
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -26868,7 +26868,7 @@ EndChar
 
 StartChar: dcaron
 Encoding: 271 271 207
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -27054,7 +27054,7 @@ EndChar
 
 StartChar: Dcroat
 Encoding: 272 272 208
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -27220,7 +27220,7 @@ EndChar
 
 StartChar: dcroat
 Encoding: 273 273 209
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -27381,7 +27381,7 @@ EndChar
 
 StartChar: Emacron
 Encoding: 274 274 210
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -27492,7 +27492,7 @@ EndChar
 
 StartChar: emacron
 Encoding: 275 275 211
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -27603,7 +27603,7 @@ EndChar
 
 StartChar: Ebreve
 Encoding: 276 276 212
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -27724,7 +27724,7 @@ EndChar
 
 StartChar: ebreve
 Encoding: 277 277 213
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -27845,7 +27845,7 @@ EndChar
 
 StartChar: Edotaccent
 Encoding: 278 278 214
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -27956,7 +27956,7 @@ EndChar
 
 StartChar: edotaccent
 Encoding: 279 279 215
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -28067,7 +28067,7 @@ EndChar
 
 StartChar: Eogonek
 Encoding: 280 280 216
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -28193,7 +28193,7 @@ EndChar
 
 StartChar: eogonek
 Encoding: 281 281 217
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -28319,7 +28319,7 @@ EndChar
 
 StartChar: Ecaron
 Encoding: 282 282 218
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -28445,7 +28445,7 @@ EndChar
 
 StartChar: ecaron
 Encoding: 283 283 219
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -28571,7 +28571,7 @@ EndChar
 
 StartChar: Gcircumflex
 Encoding: 284 284 220
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -28732,7 +28732,7 @@ EndChar
 
 StartChar: gcircumflex
 Encoding: 285 285 221
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -28923,7 +28923,7 @@ EndChar
 
 StartChar: Gbreve
 Encoding: 286 286 222
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -29079,7 +29079,7 @@ EndChar
 
 StartChar: gbreve
 Encoding: 287 287 223
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -29265,7 +29265,7 @@ EndChar
 
 StartChar: Gdotaccent
 Encoding: 288 288 224
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -29411,7 +29411,7 @@ EndChar
 
 StartChar: gdotaccent
 Encoding: 289 289 225
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -29587,7 +29587,7 @@ EndChar
 
 StartChar: Gcommaaccent
 Encoding: 290 290 226
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -29768,7 +29768,7 @@ EndChar
 
 StartChar: gcommaaccent
 Encoding: 291 291 227
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -29969,7 +29969,7 @@ EndChar
 
 StartChar: Hcircumflex
 Encoding: 292 292 228
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -30170,7 +30170,7 @@ EndChar
 
 StartChar: hcircumflex
 Encoding: 293 293 229
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -30361,7 +30361,7 @@ EndChar
 
 StartChar: Hbar
 Encoding: 294 294 230
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -30526,7 +30526,7 @@ EndChar
 
 StartChar: hbar
 Encoding: 295 295 231
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -30692,7 +30692,7 @@ EndChar
 
 StartChar: Itilde
 Encoding: 296 296 232
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -30817,7 +30817,7 @@ EndChar
 
 StartChar: itilde
 Encoding: 297 297 233
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -30922,7 +30922,7 @@ EndChar
 
 StartChar: Imacron
 Encoding: 298 298 234
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -31032,7 +31032,7 @@ EndChar
 
 StartChar: imacron
 Encoding: 299 299 235
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -31122,7 +31122,7 @@ EndChar
 
 StartChar: Ibreve
 Encoding: 300 300 236
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -31242,7 +31242,7 @@ EndChar
 
 StartChar: ibreve
 Encoding: 301 301 237
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -31342,7 +31342,7 @@ EndChar
 
 StartChar: Iogonek
 Encoding: 302 302 238
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -31467,7 +31467,7 @@ EndChar
 
 StartChar: iogonek
 Encoding: 303 303 239
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -31587,7 +31587,7 @@ EndChar
 
 StartChar: Idotaccent
 Encoding: 304 304 240
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -31697,7 +31697,7 @@ EndChar
 
 StartChar: dotlessi
 Encoding: 305 305 241
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -31777,7 +31777,7 @@ EndChar
 
 StartChar: IJ
 Encoding: 306 306 242
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -31942,7 +31942,7 @@ EndChar
 
 StartChar: ij
 Encoding: 307 307 243
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -32068,7 +32068,7 @@ EndChar
 
 StartChar: Jcircumflex
 Encoding: 308 308 244
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -32199,7 +32199,7 @@ EndChar
 
 StartChar: jcircumflex
 Encoding: 309 309 245
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -32335,7 +32335,7 @@ EndChar
 
 StartChar: Kcommaaccent
 Encoding: 310 310 246
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -32551,7 +32551,7 @@ EndChar
 
 StartChar: kcommaaccent
 Encoding: 311 311 247
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -32762,7 +32762,7 @@ EndChar
 
 StartChar: kgreenlandic
 Encoding: 312 312 248
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -32903,7 +32903,7 @@ EndChar
 
 StartChar: Lacute
 Encoding: 313 313 249
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -33018,7 +33018,7 @@ EndChar
 
 StartChar: lacute
 Encoding: 314 314 250
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -33138,7 +33138,7 @@ EndChar
 
 StartChar: Lcommaaccent
 Encoding: 315 315 251
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -33284,7 +33284,7 @@ EndChar
 
 StartChar: lcommaaccent
 Encoding: 316 316 252
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -33434,7 +33434,7 @@ EndChar
 
 StartChar: Lcaron
 Encoding: 317 317 253
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -33559,7 +33559,7 @@ EndChar
 
 StartChar: lcaron
 Encoding: 318 318 254
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -33689,7 +33689,7 @@ EndChar
 
 StartChar: Ldot
 Encoding: 319 319 255
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -33804,7 +33804,7 @@ EndChar
 
 StartChar: ldot
 Encoding: 320 320 256
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -33909,7 +33909,7 @@ EndChar
 
 StartChar: Lslash
 Encoding: 321 321 257
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -34020,7 +34020,7 @@ EndChar
 
 StartChar: lslash
 Encoding: 322 322 258
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -34136,7 +34136,7 @@ EndChar
 
 StartChar: Nacute
 Encoding: 323 323 259
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -34372,7 +34372,7 @@ EndChar
 
 StartChar: nacute
 Encoding: 324 324 260
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -34528,7 +34528,7 @@ EndChar
 
 StartChar: Ncommaaccent
 Encoding: 325 325 261
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -34794,7 +34794,7 @@ EndChar
 
 StartChar: ncommaaccent
 Encoding: 326 326 262
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -34980,7 +34980,7 @@ EndChar
 
 StartChar: Ncaron
 Encoding: 327 327 263
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -35226,7 +35226,7 @@ EndChar
 
 StartChar: ncaron
 Encoding: 328 328 264
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -35392,7 +35392,7 @@ EndChar
 
 StartChar: napostrophe
 Encoding: 329 329 265
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -35558,7 +35558,7 @@ EndChar
 
 StartChar: Eng
 Encoding: 330 330 266
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -35804,7 +35804,7 @@ EndChar
 
 StartChar: eng
 Encoding: 331 331 267
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -35975,7 +35975,7 @@ EndChar
 
 StartChar: Omacron
 Encoding: 332 332 268
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -36151,7 +36151,7 @@ EndChar
 
 StartChar: omacron
 Encoding: 333 333 269
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -36287,7 +36287,7 @@ EndChar
 
 StartChar: Obreve
 Encoding: 334 334 270
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -36473,7 +36473,7 @@ EndChar
 
 StartChar: obreve
 Encoding: 335 335 271
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -36619,7 +36619,7 @@ EndChar
 
 StartChar: Ohungarumlaut
 Encoding: 336 336 272
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -36815,7 +36815,7 @@ EndChar
 
 StartChar: ohungarumlaut
 Encoding: 337 337 273
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -36971,7 +36971,7 @@ EndChar
 
 StartChar: OE
 Encoding: 338 338 274
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -37137,7 +37137,7 @@ EndChar
 
 StartChar: oe
 Encoding: 339 339 275
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -37293,7 +37293,7 @@ EndChar
 
 StartChar: Racute
 Encoding: 340 340 276
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -37474,7 +37474,7 @@ EndChar
 
 StartChar: racute
 Encoding: 341 341 277
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -37590,7 +37590,7 @@ EndChar
 
 StartChar: Rcommaaccent
 Encoding: 342 342 278
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -37801,7 +37801,7 @@ EndChar
 
 StartChar: rcommaaccent
 Encoding: 343 343 279
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -37947,7 +37947,7 @@ EndChar
 
 StartChar: Rcaron
 Encoding: 344 344 280
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -38138,7 +38138,7 @@ EndChar
 
 StartChar: rcaron
 Encoding: 345 345 281
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -38264,7 +38264,7 @@ EndChar
 
 StartChar: Sacute
 Encoding: 346 346 282
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -38390,7 +38390,7 @@ EndChar
 
 StartChar: sacute
 Encoding: 347 347 283
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -38496,7 +38496,7 @@ EndChar
 
 StartChar: Scircumflex
 Encoding: 348 348 284
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -38632,7 +38632,7 @@ EndChar
 
 StartChar: scircumflex
 Encoding: 349 349 285
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -38748,7 +38748,7 @@ EndChar
 
 StartChar: Scedilla
 Encoding: 350 350 286
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -38884,7 +38884,7 @@ EndChar
 
 StartChar: scedilla
 Encoding: 351 351 287
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -39000,7 +39000,7 @@ EndChar
 
 StartChar: Scaron
 Encoding: 352 352 288
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -39136,7 +39136,7 @@ EndChar
 
 StartChar: scaron
 Encoding: 353 353 289
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -39503,7 +39503,7 @@ EndChar
 
 StartChar: Tcaron
 Encoding: 356 356 292
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -39628,7 +39628,7 @@ EndChar
 
 StartChar: tcaron
 Encoding: 357 357 293
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -39754,7 +39754,7 @@ EndChar
 
 StartChar: Tbar
 Encoding: 358 358 294
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -39854,7 +39854,7 @@ EndChar
 
 StartChar: tbar
 Encoding: 359 359 295
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -39954,7 +39954,7 @@ EndChar
 
 StartChar: Utilde
 Encoding: 360 360 296
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -40155,7 +40155,7 @@ EndChar
 
 StartChar: utilde
 Encoding: 361 361 297
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -40321,7 +40321,7 @@ EndChar
 
 StartChar: Umacron
 Encoding: 362 362 298
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -40506,7 +40506,7 @@ EndChar
 
 StartChar: umacron
 Encoding: 363 363 299
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -40656,7 +40656,7 @@ EndChar
 
 StartChar: Ubreve
 Encoding: 364 364 300
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -40852,7 +40852,7 @@ EndChar
 
 StartChar: ubreve
 Encoding: 365 365 301
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -41013,7 +41013,7 @@ EndChar
 
 StartChar: Uring
 Encoding: 366 366 302
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -41208,7 +41208,7 @@ EndChar
 
 StartChar: uring
 Encoding: 367 367 303
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -41369,7 +41369,7 @@ EndChar
 
 StartChar: Uhungarumlaut
 Encoding: 368 368 304
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -41574,7 +41574,7 @@ EndChar
 
 StartChar: uhungarumlaut
 Encoding: 369 369 305
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -41745,7 +41745,7 @@ EndChar
 
 StartChar: Uogonek
 Encoding: 370 370 306
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -41946,7 +41946,7 @@ EndChar
 
 StartChar: uogonek
 Encoding: 371 371 307
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -42112,7 +42112,7 @@ EndChar
 
 StartChar: Wcircumflex
 Encoding: 372 372 308
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -42373,7 +42373,7 @@ EndChar
 
 StartChar: wcircumflex
 Encoding: 373 373 309
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -42574,7 +42574,7 @@ EndChar
 
 StartChar: Ycircumflex
 Encoding: 374 374 310
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -42735,7 +42735,7 @@ EndChar
 
 StartChar: ycircumflex
 Encoding: 375 375 311
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -42911,7 +42911,7 @@ EndChar
 
 StartChar: Ydieresis
 Encoding: 376 376 312
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -43067,7 +43067,7 @@ EndChar
 
 StartChar: Zacute
 Encoding: 377 377 313
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -43183,7 +43183,7 @@ EndChar
 
 StartChar: zacute
 Encoding: 378 378 314
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -43279,7 +43279,7 @@ EndChar
 
 StartChar: Zdotaccent
 Encoding: 379 379 315
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -43390,7 +43390,7 @@ EndChar
 
 StartChar: zdotaccent
 Encoding: 380 380 316
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -43481,7 +43481,7 @@ EndChar
 
 StartChar: Zcaron
 Encoding: 381 381 317
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -43607,7 +43607,7 @@ EndChar
 
 StartChar: zcaron
 Encoding: 382 382 318
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -43713,7 +43713,7 @@ EndChar
 
 StartChar: uni0186
 Encoding: 390 390 319
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -43824,7 +43824,7 @@ EndChar
 
 StartChar: uni0189
 Encoding: 393 393 320
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -43990,7 +43990,7 @@ EndChar
 
 StartChar: uni018E
 Encoding: 398 398 321
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -44090,7 +44090,7 @@ EndChar
 
 StartChar: florin
 Encoding: 402 402 322
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -44211,7 +44211,7 @@ EndChar
 
 StartChar: uni0197
 Encoding: 407 407 323
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -44311,7 +44311,7 @@ EndChar
 
 StartChar: uni019A
 Encoding: 410 410 324
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -44416,7 +44416,7 @@ EndChar
 
 StartChar: uni019D
 Encoding: 413 413 325
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -44667,7 +44667,7 @@ EndChar
 
 StartChar: uni019F
 Encoding: 415 415 326
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -44823,7 +44823,7 @@ EndChar
 
 StartChar: Ohorn
 Encoding: 416 416 327
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -45009,7 +45009,7 @@ EndChar
 
 StartChar: ohorn
 Encoding: 417 417 328
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -45150,7 +45150,7 @@ EndChar
 
 StartChar: uni01A7
 Encoding: 423 423 329
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -45261,7 +45261,7 @@ EndChar
 
 StartChar: uni01A8
 Encoding: 424 424 330
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -45352,7 +45352,7 @@ EndChar
 
 StartChar: uni01AE
 Encoding: 430 430 331
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -45482,7 +45482,7 @@ EndChar
 
 StartChar: Uhorn
 Encoding: 431 431 332
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -45662,7 +45662,7 @@ EndChar
 
 StartChar: uhorn
 Encoding: 432 432 333
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -45808,7 +45808,7 @@ EndChar
 
 StartChar: uni01B5
 Encoding: 437 437 334
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -45909,7 +45909,7 @@ EndChar
 
 StartChar: uni01B6
 Encoding: 438 438 335
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -45990,7 +45990,7 @@ EndChar
 
 StartChar: uni01BB
 Encoding: 443 443 336
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -46096,7 +46096,7 @@ EndChar
 
 StartChar: uni01BC
 Encoding: 444 444 337
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -46202,7 +46202,7 @@ EndChar
 
 StartChar: uni01C0
 Encoding: 448 448 338
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -46327,7 +46327,7 @@ EndChar
 
 StartChar: uni01C2
 Encoding: 450 450 339
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -46452,7 +46452,7 @@ EndChar
 
 StartChar: uni01C3
 Encoding: 451 451 340
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -46537,7 +46537,7 @@ EndChar
 
 StartChar: uni01CD
 Encoding: 461 461 341
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -46718,7 +46718,7 @@ EndChar
 
 StartChar: uni01CE
 Encoding: 462 462 342
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -46854,7 +46854,7 @@ EndChar
 
 StartChar: uni01CF
 Encoding: 463 463 343
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -46979,7 +46979,7 @@ EndChar
 
 StartChar: uni01D0
 Encoding: 464 464 344
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -47084,7 +47084,7 @@ EndChar
 
 StartChar: uni01D1
 Encoding: 465 465 345
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -47275,7 +47275,7 @@ EndChar
 
 StartChar: uni01D2
 Encoding: 466 466 346
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -47426,7 +47426,7 @@ EndChar
 
 StartChar: uni01D3
 Encoding: 467 467 347
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -47626,7 +47626,7 @@ EndChar
 
 StartChar: uni01D4
 Encoding: 468 468 348
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -47792,7 +47792,7 @@ EndChar
 
 StartChar: uni01D5
 Encoding: 469 469 349
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -47998,7 +47998,7 @@ EndChar
 
 StartChar: uni01D6
 Encoding: 470 470 350
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -48169,7 +48169,7 @@ EndChar
 
 StartChar: uni01D7
 Encoding: 471 471 351
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -48380,7 +48380,7 @@ EndChar
 
 StartChar: uni01D8
 Encoding: 472 472 352
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -48556,7 +48556,7 @@ EndChar
 
 StartChar: uni01D9
 Encoding: 473 473 353
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -48777,7 +48777,7 @@ EndChar
 
 StartChar: uni01DA
 Encoding: 474 474 354
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -48963,7 +48963,7 @@ EndChar
 
 StartChar: uni01DB
 Encoding: 475 475 355
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -49174,7 +49174,7 @@ EndChar
 
 StartChar: uni01DC
 Encoding: 476 476 356
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -49350,7 +49350,7 @@ EndChar
 
 StartChar: uni01DD
 Encoding: 477 477 357
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -49451,7 +49451,7 @@ EndChar
 
 StartChar: uni01DE
 Encoding: 478 478 358
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -49637,7 +49637,7 @@ EndChar
 
 StartChar: uni01DF
 Encoding: 479 479 359
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -49778,7 +49778,7 @@ EndChar
 
 StartChar: uni01E0
 Encoding: 480 480 360
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -49954,7 +49954,7 @@ EndChar
 
 StartChar: uni01E1
 Encoding: 481 481 361
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -50085,7 +50085,7 @@ EndChar
 
 StartChar: uni01E2
 Encoding: 482 482 362
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -50241,7 +50241,7 @@ EndChar
 
 StartChar: uni01E3
 Encoding: 483 483 363
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -50387,7 +50387,7 @@ EndChar
 
 StartChar: uni01E4
 Encoding: 484 484 364
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -50523,7 +50523,7 @@ EndChar
 
 StartChar: uni01E5
 Encoding: 485 485 365
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -50684,7 +50684,7 @@ EndChar
 
 StartChar: Gcaron
 Encoding: 486 486 366
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -50845,7 +50845,7 @@ EndChar
 
 StartChar: gcaron
 Encoding: 487 487 367
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -51036,7 +51036,7 @@ EndChar
 
 StartChar: uni01E8
 Encoding: 488 488 368
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -51232,7 +51232,7 @@ EndChar
 
 StartChar: uni01E9
 Encoding: 489 489 369
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -51423,7 +51423,7 @@ EndChar
 
 StartChar: uni01EA
 Encoding: 490 490 370
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -51614,7 +51614,7 @@ EndChar
 
 StartChar: uni01EB
 Encoding: 491 491 371
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -51765,7 +51765,7 @@ EndChar
 
 StartChar: uni01EC
 Encoding: 492 492 372
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -51966,7 +51966,7 @@ EndChar
 
 StartChar: uni01ED
 Encoding: 493 493 373
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -52127,7 +52127,7 @@ EndChar
 
 StartChar: uni01F0
 Encoding: 496 496 374
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -52263,7 +52263,7 @@ EndChar
 
 StartChar: uni01F4
 Encoding: 500 500 375
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -52414,7 +52414,7 @@ EndChar
 
 StartChar: uni01F5
 Encoding: 501 501 376
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -52595,7 +52595,7 @@ EndChar
 
 StartChar: uni01F8
 Encoding: 504 504 377
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -52831,7 +52831,7 @@ EndChar
 
 StartChar: uni01F9
 Encoding: 505 505 378
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -52987,7 +52987,7 @@ EndChar
 
 StartChar: Aringacute
 Encoding: 506 506 379
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -53178,7 +53178,7 @@ EndChar
 
 StartChar: aringacute
 Encoding: 507 507 380
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -53324,7 +53324,7 @@ EndChar
 
 StartChar: AEacute
 Encoding: 508 508 381
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -53485,7 +53485,7 @@ EndChar
 
 StartChar: aeacute
 Encoding: 509 509 382
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -53636,7 +53636,7 @@ EndChar
 
 StartChar: Oslashacute
 Encoding: 510 510 383
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -53852,7 +53852,7 @@ EndChar
 
 StartChar: oslashacute
 Encoding: 511 511 384
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -54008,7 +54008,7 @@ EndChar
 
 StartChar: uni0200
 Encoding: 512 512 385
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -54194,7 +54194,7 @@ EndChar
 
 StartChar: uni0201
 Encoding: 513 513 386
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -54335,7 +54335,7 @@ EndChar
 
 StartChar: uni0202
 Encoding: 514 514 387
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -54511,7 +54511,7 @@ EndChar
 
 StartChar: uni0203
 Encoding: 515 515 388
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -54642,7 +54642,7 @@ EndChar
 
 StartChar: uni0204
 Encoding: 516 516 389
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -54773,7 +54773,7 @@ EndChar
 
 StartChar: uni0205
 Encoding: 517 517 390
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -54904,7 +54904,7 @@ EndChar
 
 StartChar: uni0206
 Encoding: 518 518 391
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -55025,7 +55025,7 @@ EndChar
 
 StartChar: uni0207
 Encoding: 519 519 392
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -55146,7 +55146,7 @@ EndChar
 
 StartChar: uni0208
 Encoding: 520 520 393
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -55276,7 +55276,7 @@ EndChar
 
 StartChar: uni0209
 Encoding: 521 521 394
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -55386,7 +55386,7 @@ EndChar
 
 StartChar: uni020A
 Encoding: 522 522 395
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -55506,7 +55506,7 @@ EndChar
 
 StartChar: uni020B
 Encoding: 523 523 396
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -55606,7 +55606,7 @@ EndChar
 
 StartChar: uni020C
 Encoding: 524 524 397
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -55802,7 +55802,7 @@ EndChar
 
 StartChar: uni020D
 Encoding: 525 525 398
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -55958,7 +55958,7 @@ EndChar
 
 StartChar: uni020E
 Encoding: 526 526 399
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -56144,7 +56144,7 @@ EndChar
 
 StartChar: uni020F
 Encoding: 527 527 400
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -56290,7 +56290,7 @@ EndChar
 
 StartChar: uni0210
 Encoding: 528 528 401
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -56486,7 +56486,7 @@ EndChar
 
 StartChar: uni0211
 Encoding: 529 529 402
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -56617,7 +56617,7 @@ EndChar
 
 StartChar: uni0212
 Encoding: 530 530 403
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -56803,7 +56803,7 @@ EndChar
 
 StartChar: uni0213
 Encoding: 531 531 404
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -56924,7 +56924,7 @@ EndChar
 
 StartChar: uni0214
 Encoding: 532 532 405
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -57129,7 +57129,7 @@ EndChar
 
 StartChar: uni0215
 Encoding: 533 533 406
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -57300,7 +57300,7 @@ EndChar
 
 StartChar: uni0216
 Encoding: 534 534 407
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -57496,7 +57496,7 @@ EndChar
 
 StartChar: uni0217
 Encoding: 535 535 408
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -57657,7 +57657,7 @@ EndChar
 
 StartChar: Scommaaccent
 Encoding: 536 536 409
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -57813,7 +57813,7 @@ EndChar
 
 StartChar: scommaaccent
 Encoding: 537 537 410
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -57949,7 +57949,7 @@ EndChar
 
 StartChar: Tcommaaccent
 Encoding: 354 354 411
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -58095,7 +58095,7 @@ EndChar
 
 StartChar: tcommaaccent
 Encoding: 355 355 412
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -58241,7 +58241,7 @@ EndChar
 
 StartChar: uni021E
 Encoding: 542 542 413
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -58441,7 +58441,7 @@ EndChar
 
 StartChar: uni021F
 Encoding: 543 543 414
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -58632,7 +58632,7 @@ EndChar
 
 StartChar: uni0226
 Encoding: 550 550 415
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -58798,7 +58798,7 @@ EndChar
 
 StartChar: uni0227
 Encoding: 551 551 416
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -58919,7 +58919,7 @@ EndChar
 
 StartChar: uni0228
 Encoding: 552 552 417
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -59045,7 +59045,7 @@ EndChar
 
 StartChar: uni0229
 Encoding: 553 553 418
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -59171,7 +59171,7 @@ EndChar
 
 StartChar: uni022A
 Encoding: 554 554 419
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -59367,7 +59367,7 @@ EndChar
 
 StartChar: uni022B
 Encoding: 555 555 420
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -59523,7 +59523,7 @@ EndChar
 
 StartChar: uni022C
 Encoding: 556 556 421
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -59724,7 +59724,7 @@ EndChar
 
 StartChar: uni022D
 Encoding: 557 557 422
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -59885,7 +59885,7 @@ EndChar
 
 StartChar: uni022E
 Encoding: 558 558 423
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -60061,7 +60061,7 @@ EndChar
 
 StartChar: uni022F
 Encoding: 559 559 424
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -60197,7 +60197,7 @@ EndChar
 
 StartChar: uni0230
 Encoding: 560 560 425
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -60383,7 +60383,7 @@ EndChar
 
 StartChar: uni0231
 Encoding: 561 561 426
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -60529,7 +60529,7 @@ EndChar
 
 StartChar: uni0232
 Encoding: 562 562 427
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -60675,7 +60675,7 @@ EndChar
 
 StartChar: uni0233
 Encoding: 563 563 428
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -60836,7 +60836,7 @@ EndChar
 
 StartChar: uni0250
 Encoding: 592 592 429
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -60947,7 +60947,7 @@ EndChar
 
 StartChar: uni0254
 Encoding: 596 596 430
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -61038,7 +61038,7 @@ EndChar
 
 StartChar: uni0258
 Encoding: 600 600 431
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -61139,7 +61139,7 @@ EndChar
 
 StartChar: uni0259
 Encoding: 601 601 432
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -61240,7 +61240,7 @@ EndChar
 
 StartChar: uni025F
 Encoding: 607 607 433
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -61350,7 +61350,7 @@ EndChar
 
 StartChar: uni0265
 Encoding: 613 613 434
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -61515,7 +61515,7 @@ EndChar
 
 StartChar: uni0275
 Encoding: 629 629 435
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -61631,7 +61631,7 @@ EndChar
 
 StartChar: uni0279
 Encoding: 633 633 436
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -61731,7 +61731,7 @@ EndChar
 
 StartChar: uni0287
 Encoding: 647 647 437
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -61831,7 +61831,7 @@ EndChar
 
 StartChar: uni0288
 Encoding: 648 648 438
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -61956,7 +61956,7 @@ EndChar
 
 StartChar: uni0289
 Encoding: 649 649 439
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -62086,7 +62086,7 @@ EndChar
 
 StartChar: uni028C
 Encoding: 652 652 440
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -62217,7 +62217,7 @@ EndChar
 
 StartChar: uni028D
 Encoding: 653 653 441
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -62393,7 +62393,7 @@ EndChar
 
 StartChar: uni028E
 Encoding: 654 654 442
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -62544,7 +62544,7 @@ EndChar
 
 StartChar: uni029E
 Encoding: 670 670 443
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -62710,7 +62710,7 @@ EndChar
 
 StartChar: uni02BB
 Encoding: 699 699 444
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -62760,7 +62760,7 @@ EndChar
 
 StartChar: afii57929
 Encoding: 700 700 445
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -62810,7 +62810,7 @@ EndChar
 
 StartChar: afii64937
 Encoding: 701 701 446
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -62860,7 +62860,7 @@ EndChar
 
 StartChar: circumflex
 Encoding: 710 710 447
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -62900,7 +62900,7 @@ EndChar
 
 StartChar: caron
 Encoding: 711 711 448
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -62940,7 +62940,7 @@ EndChar
 
 StartChar: uni02C8
 Encoding: 712 712 449
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -62990,7 +62990,7 @@ EndChar
 
 StartChar: macron
 Encoding: 175 175 450
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63015,7 +63015,7 @@ EndChar
 
 StartChar: uni02CA
 Encoding: 714 714 451
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63045,7 +63045,7 @@ EndChar
 
 StartChar: uni02CB
 Encoding: 715 715 452
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63075,7 +63075,7 @@ EndChar
 
 StartChar: uni02CD
 Encoding: 717 717 453
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63100,7 +63100,7 @@ EndChar
 
 StartChar: uni02CE
 Encoding: 718 718 454
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63130,7 +63130,7 @@ EndChar
 
 StartChar: uni02CF
 Encoding: 719 719 455
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63160,7 +63160,7 @@ EndChar
 
 StartChar: breve
 Encoding: 728 728 456
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63195,7 +63195,7 @@ EndChar
 
 StartChar: dotaccent
 Encoding: 729 729 457
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63220,7 +63220,7 @@ EndChar
 
 StartChar: ring
 Encoding: 730 730 458
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63255,7 +63255,7 @@ EndChar
 
 StartChar: ogonek
 Encoding: 731 731 459
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63295,7 +63295,7 @@ EndChar
 
 StartChar: tilde
 Encoding: 732 732 460
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63335,7 +63335,7 @@ EndChar
 
 StartChar: hungarumlaut
 Encoding: 733 733 461
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63380,7 +63380,7 @@ EndChar
 
 StartChar: uni02EE
 Encoding: 750 750 462
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63465,7 +63465,7 @@ EndChar
 
 StartChar: uni037E
 Encoding: 894 894 463
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63535,7 +63535,7 @@ EndChar
 
 StartChar: tonos
 Encoding: 900 900 464
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63565,7 +63565,7 @@ EndChar
 
 StartChar: dieresistonos
 Encoding: 901 901 465
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63615,7 +63615,7 @@ EndChar
 
 StartChar: anoteleia
 Encoding: 903 903 466
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63645,7 +63645,7 @@ EndChar
 
 StartChar: mu
 Encoding: 181 181 467
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63800,7 +63800,7 @@ EndChar
 
 StartChar: uni1E00
 Encoding: 7680 7680 468
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -63976,7 +63976,7 @@ EndChar
 
 StartChar: uni1E01
 Encoding: 7681 7681 469
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -64107,7 +64107,7 @@ EndChar
 
 StartChar: uni1E02
 Encoding: 7682 7682 470
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -64273,7 +64273,7 @@ EndChar
 
 StartChar: uni1E03
 Encoding: 7683 7683 471
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -64444,7 +64444,7 @@ EndChar
 
 StartChar: uni1E04
 Encoding: 7684 7684 472
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -64610,7 +64610,7 @@ EndChar
 
 StartChar: uni1E05
 Encoding: 7685 7685 473
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -64781,7 +64781,7 @@ EndChar
 
 StartChar: uni1E06
 Encoding: 7686 7686 474
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -64947,7 +64947,7 @@ EndChar
 
 StartChar: uni1E07
 Encoding: 7687 7687 475
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -65118,7 +65118,7 @@ EndChar
 
 StartChar: uni1E08
 Encoding: 7688 7688 476
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -65269,7 +65269,7 @@ EndChar
 
 StartChar: uni1E09
 Encoding: 7689 7689 477
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -65400,7 +65400,7 @@ EndChar
 
 StartChar: uni1E0A
 Encoding: 7690 7690 478
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -65576,7 +65576,7 @@ EndChar
 
 StartChar: uni1E0B
 Encoding: 7691 7691 479
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -65747,7 +65747,7 @@ EndChar
 
 StartChar: uni1E0C
 Encoding: 7692 7692 480
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -65923,7 +65923,7 @@ EndChar
 
 StartChar: uni1E0D
 Encoding: 7693 7693 481
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -66094,7 +66094,7 @@ EndChar
 
 StartChar: uni1E0E
 Encoding: 7694 7694 482
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -66270,7 +66270,7 @@ EndChar
 
 StartChar: uni1E0F
 Encoding: 7695 7695 483
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -66441,7 +66441,7 @@ EndChar
 
 StartChar: uni1E10
 Encoding: 7696 7696 484
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -66632,7 +66632,7 @@ EndChar
 
 StartChar: uni1E11
 Encoding: 7697 7697 485
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -66818,7 +66818,7 @@ EndChar
 
 StartChar: uni1E12
 Encoding: 7698 7698 486
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -67009,7 +67009,7 @@ EndChar
 
 StartChar: uni1E13
 Encoding: 7699 7699 487
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -67195,7 +67195,7 @@ EndChar
 
 StartChar: uni1E14
 Encoding: 7700 7700 488
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -67321,7 +67321,7 @@ EndChar
 
 StartChar: uni1E15
 Encoding: 7701 7701 489
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -67447,7 +67447,7 @@ EndChar
 
 StartChar: uni1E16
 Encoding: 7702 7702 490
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -67573,7 +67573,7 @@ EndChar
 
 StartChar: uni1E17
 Encoding: 7703 7703 491
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -67699,7 +67699,7 @@ EndChar
 
 StartChar: uni1E18
 Encoding: 7704 7704 492
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -67825,7 +67825,7 @@ EndChar
 
 StartChar: uni1E19
 Encoding: 7705 7705 493
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -67951,7 +67951,7 @@ EndChar
 
 StartChar: uni1E1A
 Encoding: 7706 7706 494
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -68077,7 +68077,7 @@ EndChar
 
 StartChar: uni1E1B
 Encoding: 7707 7707 495
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -68203,7 +68203,7 @@ EndChar
 
 StartChar: uni1E1C
 Encoding: 7708 7708 496
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -68349,7 +68349,7 @@ EndChar
 
 StartChar: uni1E1D
 Encoding: 7709 7709 497
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -68495,7 +68495,7 @@ EndChar
 
 StartChar: uni1E1E
 Encoding: 7710 7710 498
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -68605,7 +68605,7 @@ EndChar
 
 StartChar: uni1E1F
 Encoding: 7711 7711 499
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -68726,7 +68726,7 @@ EndChar
 
 StartChar: uni1E20
 Encoding: 7712 7712 500
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -68872,7 +68872,7 @@ EndChar
 
 StartChar: uni1E21
 Encoding: 7713 7713 501
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -69048,7 +69048,7 @@ EndChar
 
 StartChar: uni1E22
 Encoding: 7714 7714 502
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -69233,7 +69233,7 @@ EndChar
 
 StartChar: uni1E23
 Encoding: 7715 7715 503
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -69409,7 +69409,7 @@ EndChar
 
 StartChar: uni1E24
 Encoding: 7716 7716 504
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -69594,7 +69594,7 @@ EndChar
 
 StartChar: uni1E25
 Encoding: 7717 7717 505
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -69770,7 +69770,7 @@ EndChar
 
 StartChar: uni1E26
 Encoding: 7718 7718 506
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -69965,7 +69965,7 @@ EndChar
 
 StartChar: uni1E27
 Encoding: 7719 7719 507
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -70151,7 +70151,7 @@ EndChar
 
 StartChar: uni1E28
 Encoding: 7720 7720 508
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -70357,7 +70357,7 @@ EndChar
 
 StartChar: uni1E29
 Encoding: 7721 7721 509
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -70553,7 +70553,7 @@ EndChar
 
 StartChar: uni1E2A
 Encoding: 7722 7722 510
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -70749,7 +70749,7 @@ EndChar
 
 StartChar: uni1E2B
 Encoding: 7723 7723 511
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -70935,7 +70935,7 @@ EndChar
 
 StartChar: uni1E2C
 Encoding: 7724 7724 512
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -71060,7 +71060,7 @@ EndChar
 
 StartChar: uni1E2D
 Encoding: 7725 7725 513
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -71181,7 +71181,7 @@ EndChar
 
 StartChar: uni1E2E
 Encoding: 7726 7726 514
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -71317,7 +71317,7 @@ EndChar
 
 StartChar: uni1E2F
 Encoding: 7727 7727 515
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -71432,7 +71432,7 @@ EndChar
 
 StartChar: uni1E30
 Encoding: 7728 7728 516
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -71618,7 +71618,7 @@ EndChar
 
 StartChar: uni1E31
 Encoding: 7729 7729 517
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -71799,7 +71799,7 @@ EndChar
 
 StartChar: uni1E32
 Encoding: 7730 7730 518
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -71980,7 +71980,7 @@ EndChar
 
 StartChar: uni1E33
 Encoding: 7731 7731 519
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -72156,7 +72156,7 @@ EndChar
 
 StartChar: uni1E34
 Encoding: 7732 7732 520
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -72337,7 +72337,7 @@ EndChar
 
 StartChar: uni1E35
 Encoding: 7733 7733 521
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -72513,7 +72513,7 @@ EndChar
 
 StartChar: uni1E36
 Encoding: 7734 7734 522
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -72623,7 +72623,7 @@ EndChar
 
 StartChar: uni1E37
 Encoding: 7735 7735 523
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -72738,7 +72738,7 @@ EndChar
 
 StartChar: uni1E38
 Encoding: 7736 7736 524
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -72858,7 +72858,7 @@ EndChar
 
 StartChar: uni1E39
 Encoding: 7737 7737 525
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -72983,7 +72983,7 @@ EndChar
 
 StartChar: uni1E3A
 Encoding: 7738 7738 526
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -73093,7 +73093,7 @@ EndChar
 
 StartChar: uni1E3B
 Encoding: 7739 7739 527
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -73208,7 +73208,7 @@ EndChar
 
 StartChar: uni1E3C
 Encoding: 7740 7740 528
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -73333,7 +73333,7 @@ EndChar
 
 StartChar: uni1E3D
 Encoding: 7741 7741 529
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -73463,7 +73463,7 @@ EndChar
 
 StartChar: uni1E3E
 Encoding: 7742 7742 530
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -73739,7 +73739,7 @@ EndChar
 
 StartChar: uni1E3F
 Encoding: 7743 7743 531
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -73955,7 +73955,7 @@ EndChar
 
 StartChar: uni1E40
 Encoding: 7744 7744 532
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -74226,7 +74226,7 @@ EndChar
 
 StartChar: uni1E41
 Encoding: 7745 7745 533
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -74436,7 +74436,7 @@ EndChar
 
 StartChar: uni1E42
 Encoding: 7746 7746 534
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -74707,7 +74707,7 @@ EndChar
 
 StartChar: uni1E43
 Encoding: 7747 7747 535
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -74917,7 +74917,7 @@ EndChar
 
 StartChar: uni1E44
 Encoding: 7748 7748 536
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -75148,7 +75148,7 @@ EndChar
 
 StartChar: uni1E45
 Encoding: 7749 7749 537
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -75298,7 +75298,7 @@ EndChar
 
 StartChar: uni1E46
 Encoding: 7750 7750 538
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -75529,7 +75529,7 @@ EndChar
 
 StartChar: uni1E47
 Encoding: 7751 7751 539
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -75679,7 +75679,7 @@ EndChar
 
 StartChar: uni1E48
 Encoding: 7752 7752 540
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -75910,7 +75910,7 @@ EndChar
 
 StartChar: uni1E49
 Encoding: 7753 7753 541
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -76060,7 +76060,7 @@ EndChar
 
 StartChar: uni1E4A
 Encoding: 7754 7754 542
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -76306,7 +76306,7 @@ EndChar
 
 StartChar: uni1E4B
 Encoding: 7755 7755 543
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -76472,7 +76472,7 @@ EndChar
 
 StartChar: uni1E4C
 Encoding: 7756 7756 544
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -76678,7 +76678,7 @@ EndChar
 
 StartChar: uni1E4D
 Encoding: 7757 7757 545
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -76844,7 +76844,7 @@ EndChar
 
 StartChar: uni1E4E
 Encoding: 7758 7758 546
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -77055,7 +77055,7 @@ EndChar
 
 StartChar: uni1E4F
 Encoding: 7759 7759 547
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -77226,7 +77226,7 @@ EndChar
 
 StartChar: uni1E50
 Encoding: 7760 7760 548
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -77417,7 +77417,7 @@ EndChar
 
 StartChar: uni1E51
 Encoding: 7761 7761 549
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -77568,7 +77568,7 @@ EndChar
 
 StartChar: uni1E52
 Encoding: 7762 7762 550
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -77759,7 +77759,7 @@ EndChar
 
 StartChar: uni1E53
 Encoding: 7763 7763 551
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -77910,7 +77910,7 @@ EndChar
 
 StartChar: uni1E54
 Encoding: 7764 7764 552
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -78056,7 +78056,7 @@ EndChar
 
 StartChar: uni1E55
 Encoding: 7765 7765 553
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -78232,7 +78232,7 @@ EndChar
 
 StartChar: uni1E56
 Encoding: 7766 7766 554
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -78373,7 +78373,7 @@ EndChar
 
 StartChar: uni1E57
 Encoding: 7767 7767 555
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -78544,7 +78544,7 @@ EndChar
 
 StartChar: uni1E58
 Encoding: 7768 7768 556
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -78720,7 +78720,7 @@ EndChar
 
 StartChar: uni1E59
 Encoding: 7769 7769 557
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -78831,7 +78831,7 @@ EndChar
 
 StartChar: uni1E5A
 Encoding: 7770 7770 558
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -79007,7 +79007,7 @@ EndChar
 
 StartChar: uni1E5B
 Encoding: 7771 7771 559
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -79118,7 +79118,7 @@ EndChar
 
 StartChar: uni1E5C
 Encoding: 7772 7772 560
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -79304,7 +79304,7 @@ EndChar
 
 StartChar: uni1E5D
 Encoding: 7773 7773 561
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -79425,7 +79425,7 @@ EndChar
 
 StartChar: uni1E5E
 Encoding: 7774 7774 562
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -79601,7 +79601,7 @@ EndChar
 
 StartChar: uni1E5F
 Encoding: 7775 7775 563
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -79712,7 +79712,7 @@ EndChar
 
 StartChar: uni1E60
 Encoding: 7776 7776 564
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -79833,7 +79833,7 @@ EndChar
 
 StartChar: uni1E61
 Encoding: 7777 7777 565
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -79934,7 +79934,7 @@ EndChar
 
 StartChar: uni1E62
 Encoding: 7778 7778 566
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -80055,7 +80055,7 @@ EndChar
 
 StartChar: uni1E63
 Encoding: 7779 7779 567
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -80156,7 +80156,7 @@ EndChar
 
 StartChar: uni1E64
 Encoding: 7780 7780 568
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -80292,7 +80292,7 @@ EndChar
 
 StartChar: uni1E65
 Encoding: 7781 7781 569
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -80408,7 +80408,7 @@ EndChar
 
 StartChar: uni1E66
 Encoding: 7782 7782 570
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -80554,7 +80554,7 @@ EndChar
 
 StartChar: uni1E67
 Encoding: 7783 7783 571
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -80680,7 +80680,7 @@ EndChar
 
 StartChar: uni1E68
 Encoding: 7784 7784 572
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -80811,7 +80811,7 @@ EndChar
 
 StartChar: uni1E69
 Encoding: 7785 7785 573
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -80922,7 +80922,7 @@ EndChar
 
 StartChar: uni1E6A
 Encoding: 7786 7786 574
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -81032,7 +81032,7 @@ EndChar
 
 StartChar: uni1E6B
 Encoding: 7787 7787 575
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -81143,7 +81143,7 @@ EndChar
 
 StartChar: uni1E6C
 Encoding: 7788 7788 576
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -81253,7 +81253,7 @@ EndChar
 
 StartChar: uni1E6D
 Encoding: 7789 7789 577
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -81364,7 +81364,7 @@ EndChar
 
 StartChar: uni1E6E
 Encoding: 7790 7790 578
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -81474,7 +81474,7 @@ EndChar
 
 StartChar: uni1E6F
 Encoding: 7791 7791 579
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -81585,7 +81585,7 @@ EndChar
 
 StartChar: uni1E70
 Encoding: 7792 7792 580
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -81710,7 +81710,7 @@ EndChar
 
 StartChar: uni1E71
 Encoding: 7793 7793 581
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -81836,7 +81836,7 @@ EndChar
 
 StartChar: uni1E72
 Encoding: 7794 7794 582
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -82031,7 +82031,7 @@ EndChar
 
 StartChar: uni1E73
 Encoding: 7795 7795 583
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -82191,7 +82191,7 @@ EndChar
 
 StartChar: uni1E74
 Encoding: 7796 7796 584
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -82392,7 +82392,7 @@ EndChar
 
 StartChar: uni1E75
 Encoding: 7797 7797 585
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -82558,7 +82558,7 @@ EndChar
 
 StartChar: uni1E76
 Encoding: 7798 7798 586
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -82759,7 +82759,7 @@ EndChar
 
 StartChar: uni1E77
 Encoding: 7799 7799 587
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -82925,7 +82925,7 @@ EndChar
 
 StartChar: uni1E78
 Encoding: 7800 7800 588
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -83141,7 +83141,7 @@ EndChar
 
 StartChar: uni1E79
 Encoding: 7801 7801 589
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -83322,7 +83322,7 @@ EndChar
 
 StartChar: uni1E7A
 Encoding: 7802 7802 590
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -83528,7 +83528,7 @@ EndChar
 
 StartChar: uni1E7B
 Encoding: 7803 7803 591
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -83699,7 +83699,7 @@ EndChar
 
 StartChar: uni1E7C
 Encoding: 7804 7804 592
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -83890,7 +83890,7 @@ EndChar
 
 StartChar: uni1E7D
 Encoding: 7805 7805 593
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -84046,7 +84046,7 @@ EndChar
 
 StartChar: uni1E7E
 Encoding: 7806 7806 594
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -84222,7 +84222,7 @@ EndChar
 
 StartChar: uni1E7F
 Encoding: 7807 7807 595
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -84363,7 +84363,7 @@ EndChar
 
 StartChar: Wgrave
 Encoding: 7808 7808 596
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -84614,7 +84614,7 @@ EndChar
 
 StartChar: wgrave
 Encoding: 7809 7809 597
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -84805,7 +84805,7 @@ EndChar
 
 StartChar: Wacute
 Encoding: 7810 7810 598
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -85056,7 +85056,7 @@ EndChar
 
 StartChar: wacute
 Encoding: 7811 7811 599
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -85247,7 +85247,7 @@ EndChar
 
 StartChar: Wdieresis
 Encoding: 7812 7812 600
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -85503,7 +85503,7 @@ EndChar
 
 StartChar: wdieresis
 Encoding: 7813 7813 601
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -85699,7 +85699,7 @@ EndChar
 
 StartChar: uni1E86
 Encoding: 7814 7814 602
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -85945,7 +85945,7 @@ EndChar
 
 StartChar: uni1E87
 Encoding: 7815 7815 603
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -86131,7 +86131,7 @@ EndChar
 
 StartChar: uni1E88
 Encoding: 7816 7816 604
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -86377,7 +86377,7 @@ EndChar
 
 StartChar: uni1E89
 Encoding: 7817 7817 605
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -86563,7 +86563,7 @@ EndChar
 
 StartChar: uni1E8A
 Encoding: 7818 7818 606
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -86734,7 +86734,7 @@ EndChar
 
 StartChar: uni1E8B
 Encoding: 7819 7819 607
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -86865,7 +86865,7 @@ EndChar
 
 StartChar: uni1E8C
 Encoding: 7820 7820 608
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -87046,7 +87046,7 @@ EndChar
 
 StartChar: uni1E8D
 Encoding: 7821 7821 609
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -87187,7 +87187,7 @@ EndChar
 
 StartChar: uni1E8E
 Encoding: 7822 7822 610
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -87333,7 +87333,7 @@ EndChar
 
 StartChar: uni1E8F
 Encoding: 7823 7823 611
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -87494,7 +87494,7 @@ EndChar
 
 StartChar: uni1E90
 Encoding: 7824 7824 612
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -87620,7 +87620,7 @@ EndChar
 
 StartChar: uni1E91
 Encoding: 7825 7825 613
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -87726,7 +87726,7 @@ EndChar
 
 StartChar: uni1E92
 Encoding: 7826 7826 614
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -87837,7 +87837,7 @@ EndChar
 
 StartChar: uni1E93
 Encoding: 7827 7827 615
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -87928,7 +87928,7 @@ EndChar
 
 StartChar: uni1E94
 Encoding: 7828 7828 616
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -88039,7 +88039,7 @@ EndChar
 
 StartChar: uni1E95
 Encoding: 7829 7829 617
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -88130,7 +88130,7 @@ EndChar
 
 StartChar: uni1E96
 Encoding: 7830 7830 618
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -88306,7 +88306,7 @@ EndChar
 
 StartChar: uni1E97
 Encoding: 7831 7831 619
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -88427,7 +88427,7 @@ EndChar
 
 StartChar: uni1E98
 Encoding: 7832 7832 620
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -88623,7 +88623,7 @@ EndChar
 
 StartChar: uni1E99
 Encoding: 7833 7833 621
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -88794,7 +88794,7 @@ EndChar
 
 StartChar: uni1EA0
 Encoding: 7840 7840 622
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -88960,7 +88960,7 @@ EndChar
 
 StartChar: uni1EA1
 Encoding: 7841 7841 623
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -89081,7 +89081,7 @@ EndChar
 
 StartChar: uni1EA4
 Encoding: 7844 7844 624
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -89277,7 +89277,7 @@ EndChar
 
 StartChar: uni1EA5
 Encoding: 7845 7845 625
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -89428,7 +89428,7 @@ EndChar
 
 StartChar: uni1EA6
 Encoding: 7846 7846 626
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -89624,7 +89624,7 @@ EndChar
 
 StartChar: uni1EA7
 Encoding: 7847 7847 627
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -89775,7 +89775,7 @@ EndChar
 
 StartChar: uni1EAA
 Encoding: 7850 7850 628
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -89981,7 +89981,7 @@ EndChar
 
 StartChar: uni1EAB
 Encoding: 7851 7851 629
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -90142,7 +90142,7 @@ EndChar
 
 StartChar: uni1EAC
 Encoding: 7852 7852 630
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -90333,7 +90333,7 @@ EndChar
 
 StartChar: uni1EAD
 Encoding: 7853 7853 631
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -90479,7 +90479,7 @@ EndChar
 
 StartChar: uni1EAE
 Encoding: 7854 7854 632
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -90670,7 +90670,7 @@ EndChar
 
 StartChar: uni1EAF
 Encoding: 7855 7855 633
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -90816,7 +90816,7 @@ EndChar
 
 StartChar: uni1EB0
 Encoding: 7856 7856 634
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -91007,7 +91007,7 @@ EndChar
 
 StartChar: uni1EB1
 Encoding: 7857 7857 635
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -91153,7 +91153,7 @@ EndChar
 
 StartChar: uni1EB4
 Encoding: 7860 7860 636
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -91354,7 +91354,7 @@ EndChar
 
 StartChar: uni1EB5
 Encoding: 7861 7861 637
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -91510,7 +91510,7 @@ EndChar
 
 StartChar: uni1EB6
 Encoding: 7862 7862 638
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -91696,7 +91696,7 @@ EndChar
 
 StartChar: uni1EB7
 Encoding: 7863 7863 639
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -91837,7 +91837,7 @@ EndChar
 
 StartChar: uni1EB8
 Encoding: 7864 7864 640
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -91948,7 +91948,7 @@ EndChar
 
 StartChar: uni1EB9
 Encoding: 7865 7865 641
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -92059,7 +92059,7 @@ EndChar
 
 StartChar: uni1EBC
 Encoding: 7868 7868 642
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -92185,7 +92185,7 @@ EndChar
 
 StartChar: uni1EBD
 Encoding: 7869 7869 643
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -92311,7 +92311,7 @@ EndChar
 
 StartChar: uni1EBE
 Encoding: 7870 7870 644
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -92452,7 +92452,7 @@ EndChar
 
 StartChar: uni1EBF
 Encoding: 7871 7871 645
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -92593,7 +92593,7 @@ EndChar
 
 StartChar: uni1EC0
 Encoding: 7872 7872 646
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -92734,7 +92734,7 @@ EndChar
 
 StartChar: uni1EC1
 Encoding: 7873 7873 647
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -92875,7 +92875,7 @@ EndChar
 
 StartChar: uni1EC4
 Encoding: 7876 7876 648
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -93026,7 +93026,7 @@ EndChar
 
 StartChar: uni1EC5
 Encoding: 7877 7877 649
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -93177,7 +93177,7 @@ EndChar
 
 StartChar: uni1EC6
 Encoding: 7878 7878 650
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -93313,7 +93313,7 @@ EndChar
 
 StartChar: uni1EC7
 Encoding: 7879 7879 651
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -93449,7 +93449,7 @@ EndChar
 
 StartChar: uni1ECA
 Encoding: 7882 7882 652
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -93559,7 +93559,7 @@ EndChar
 
 StartChar: uni1ECB
 Encoding: 7883 7883 653
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -93664,7 +93664,7 @@ EndChar
 
 StartChar: uni1ECC
 Encoding: 7884 7884 654
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -93840,7 +93840,7 @@ EndChar
 
 StartChar: uni1ECD
 Encoding: 7885 7885 655
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -93976,7 +93976,7 @@ EndChar
 
 StartChar: uni1ED0
 Encoding: 7888 7888 656
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -94182,7 +94182,7 @@ EndChar
 
 StartChar: uni1ED1
 Encoding: 7889 7889 657
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -94348,7 +94348,7 @@ EndChar
 
 StartChar: uni1ED2
 Encoding: 7890 7890 658
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -94554,7 +94554,7 @@ EndChar
 
 StartChar: uni1ED3
 Encoding: 7891 7891 659
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -94720,7 +94720,7 @@ EndChar
 
 StartChar: uni1ED6
 Encoding: 7894 7894 660
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -94936,7 +94936,7 @@ EndChar
 
 StartChar: uni1ED7
 Encoding: 7895 7895 661
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -95112,7 +95112,7 @@ EndChar
 
 StartChar: uni1ED8
 Encoding: 7896 7896 662
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -95313,7 +95313,7 @@ EndChar
 
 StartChar: uni1ED9
 Encoding: 7897 7897 663
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -95474,7 +95474,7 @@ EndChar
 
 StartChar: uni1EDA
 Encoding: 7898 7898 664
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -95675,7 +95675,7 @@ EndChar
 
 StartChar: uni1EDB
 Encoding: 7899 7899 665
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -95831,7 +95831,7 @@ EndChar
 
 StartChar: uni1EDC
 Encoding: 7900 7900 666
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -96032,7 +96032,7 @@ EndChar
 
 StartChar: uni1EDD
 Encoding: 7901 7901 667
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -96188,7 +96188,7 @@ EndChar
 
 StartChar: uni1EE0
 Encoding: 7904 7904 668
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -96399,7 +96399,7 @@ EndChar
 
 StartChar: uni1EE1
 Encoding: 7905 7905 669
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -96565,7 +96565,7 @@ EndChar
 
 StartChar: uni1EE2
 Encoding: 7906 7906 670
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -96761,7 +96761,7 @@ EndChar
 
 StartChar: uni1EE3
 Encoding: 7907 7907 671
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -96912,7 +96912,7 @@ EndChar
 
 StartChar: uni1EE4
 Encoding: 7908 7908 672
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -97097,7 +97097,7 @@ EndChar
 
 StartChar: uni1EE5
 Encoding: 7909 7909 673
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -97247,7 +97247,7 @@ EndChar
 
 StartChar: uni1EE8
 Encoding: 7912 7912 674
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -97443,7 +97443,7 @@ EndChar
 
 StartChar: uni1EE9
 Encoding: 7913 7913 675
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -97604,7 +97604,7 @@ EndChar
 
 StartChar: uni1EEA
 Encoding: 7914 7914 676
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -97800,7 +97800,7 @@ EndChar
 
 StartChar: uni1EEB
 Encoding: 7915 7915 677
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -97961,7 +97961,7 @@ EndChar
 
 StartChar: uni1EEE
 Encoding: 7918 7918 678
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -98167,7 +98167,7 @@ EndChar
 
 StartChar: uni1EEF
 Encoding: 7919 7919 679
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -98338,7 +98338,7 @@ EndChar
 
 StartChar: uni1EF0
 Encoding: 7920 7920 680
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -98529,7 +98529,7 @@ EndChar
 
 StartChar: uni1EF1
 Encoding: 7921 7921 681
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -98685,7 +98685,7 @@ EndChar
 
 StartChar: Ygrave
 Encoding: 7922 7922 682
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -98836,7 +98836,7 @@ EndChar
 
 StartChar: ygrave
 Encoding: 7923 7923 683
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99002,7 +99002,7 @@ EndChar
 
 StartChar: uni1EF4
 Encoding: 7924 7924 684
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99148,7 +99148,7 @@ EndChar
 
 StartChar: uni1EF5
 Encoding: 7925 7925 685
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99309,7 +99309,7 @@ EndChar
 
 StartChar: uni1EF8
 Encoding: 7928 7928 686
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99470,7 +99470,7 @@ EndChar
 
 StartChar: uni1EF9
 Encoding: 7929 7929 687
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99646,7 +99646,7 @@ EndChar
 
 StartChar: uni2000
 Encoding: 8192 8192 688
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99658,7 +99658,7 @@ EndChar
 
 StartChar: uni2001
 Encoding: 8193 8193 689
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99670,7 +99670,7 @@ EndChar
 
 StartChar: uni2002
 Encoding: 8194 8194 690
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99682,7 +99682,7 @@ EndChar
 
 StartChar: uni2003
 Encoding: 8195 8195 691
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99694,7 +99694,7 @@ EndChar
 
 StartChar: uni2004
 Encoding: 8196 8196 692
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99706,7 +99706,7 @@ EndChar
 
 StartChar: uni2005
 Encoding: 8197 8197 693
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99718,7 +99718,7 @@ EndChar
 
 StartChar: uni2006
 Encoding: 8198 8198 694
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99730,7 +99730,7 @@ EndChar
 
 StartChar: uni2007
 Encoding: 8199 8199 695
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99742,7 +99742,7 @@ EndChar
 
 StartChar: uni2008
 Encoding: 8200 8200 696
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99754,7 +99754,7 @@ EndChar
 
 StartChar: uni2009
 Encoding: 8201 8201 697
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99766,7 +99766,7 @@ EndChar
 
 StartChar: uni200A
 Encoding: 8202 8202 698
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99778,7 +99778,7 @@ EndChar
 
 StartChar: uni2010
 Encoding: 8208 8208 699
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99803,7 +99803,7 @@ EndChar
 
 StartChar: uni2011
 Encoding: 8209 8209 700
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99828,7 +99828,7 @@ EndChar
 
 StartChar: figuredash
 Encoding: 8210 8210 701
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99853,7 +99853,7 @@ EndChar
 
 StartChar: endash
 Encoding: 8211 8211 702
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99878,7 +99878,7 @@ EndChar
 
 StartChar: emdash
 Encoding: 8212 8212 703
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99903,7 +99903,7 @@ EndChar
 
 StartChar: afii00208
 Encoding: 8213 8213 704
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99928,7 +99928,7 @@ EndChar
 
 StartChar: quoteleft
 Encoding: 8216 8216 705
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -99978,7 +99978,7 @@ EndChar
 
 StartChar: quoteright
 Encoding: 8217 8217 706
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -100028,7 +100028,7 @@ EndChar
 
 StartChar: quotesinglbase
 Encoding: 8218 8218 707
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -100088,7 +100088,7 @@ EndChar
 
 StartChar: quotereversed
 Encoding: 8219 8219 708
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -100138,7 +100138,7 @@ EndChar
 
 StartChar: quotedblleft
 Encoding: 8220 8220 709
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -100223,7 +100223,7 @@ EndChar
 
 StartChar: quotedblright
 Encoding: 8221 8221 710
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -100308,7 +100308,7 @@ EndChar
 
 StartChar: quotedblbase
 Encoding: 8222 8222 711
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -100403,7 +100403,7 @@ EndChar
 
 StartChar: uni201F
 Encoding: 8223 8223 712
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -100488,7 +100488,7 @@ EndChar
 
 StartChar: dagger
 Encoding: 8224 8224 713
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -100608,7 +100608,7 @@ EndChar
 
 StartChar: daggerdbl
 Encoding: 8225 8225 714
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -100728,7 +100728,7 @@ EndChar
 
 StartChar: bullet
 Encoding: 8226 8226 715
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -100788,7 +100788,7 @@ EndChar
 
 StartChar: ellipsis
 Encoding: 8230 8230 716
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -100833,7 +100833,7 @@ EndChar
 
 StartChar: perthousand
 Encoding: 8240 8240 717
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -101059,7 +101059,7 @@ EndChar
 
 StartChar: guilsinglleft
 Encoding: 8249 8249 718
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -101129,7 +101129,7 @@ EndChar
 
 StartChar: guilsinglright
 Encoding: 8250 8250 719
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -101199,7 +101199,7 @@ EndChar
 
 StartChar: uni203D
 Encoding: 8253 8253 720
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -101411,7 +101411,7 @@ EndChar
 
 StartChar: oneinferior
 Encoding: 8321 8321 722
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -101471,7 +101471,7 @@ EndChar
 
 StartChar: twoinferior
 Encoding: 8322 8322 723
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -101531,7 +101531,7 @@ EndChar
 
 StartChar: threeinferior
 Encoding: 8323 8323 724
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -101591,7 +101591,7 @@ EndChar
 
 StartChar: uni20A5
 Encoding: 8357 8357 725
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -101822,7 +101822,7 @@ EndChar
 
 StartChar: uni20A6
 Encoding: 8358 8358 726
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -102013,7 +102013,7 @@ EndChar
 
 StartChar: uni20A9
 Encoding: 8361 8361 727
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -102219,7 +102219,7 @@ EndChar
 
 StartChar: Euro
 Encoding: 8364 8364 728
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -102330,7 +102330,7 @@ EndChar
 
 StartChar: uni20AD
 Encoding: 8365 8365 729
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -102501,7 +102501,7 @@ EndChar
 
 StartChar: trademark
 Encoding: 8482 8482 730
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -102646,7 +102646,7 @@ EndChar
 
 StartChar: uni212A
 Encoding: 8490 8490 731
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -102817,7 +102817,7 @@ EndChar
 
 StartChar: uni212B
 Encoding: 8491 8491 732
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -102993,7 +102993,7 @@ EndChar
 
 StartChar: uni2132
 Encoding: 8498 8498 733
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103093,7 +103093,7 @@ EndChar
 
 StartChar: universal
 Encoding: 8704 8704 734
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103249,7 +103249,7 @@ EndChar
 
 StartChar: existential
 Encoding: 8707 8707 735
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103349,7 +103349,7 @@ EndChar
 
 StartChar: uni2204
 Encoding: 8708 8708 736
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103505,7 +103505,7 @@ EndChar
 
 StartChar: minus
 Encoding: 8722 8722 737
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103530,7 +103530,7 @@ EndChar
 
 StartChar: fraction
 Encoding: 8260 8260 738
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103631,7 +103631,7 @@ EndChar
 
 StartChar: periodcentered
 Encoding: 183 183 739
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103661,7 +103661,7 @@ EndChar
 
 StartChar: uni2236
 Encoding: 8758 8758 740
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103706,7 +103706,7 @@ EndChar
 
 StartChar: uni2259
 Encoding: 8793 8793 741
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103766,7 +103766,7 @@ EndChar
 
 StartChar: uni225A
 Encoding: 8794 8794 742
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103826,7 +103826,7 @@ EndChar
 
 StartChar: notequal
 Encoding: 8800 8800 743
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103952,7 +103952,7 @@ EndChar
 
 StartChar: equivalence
 Encoding: 8801 8801 744
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -103997,7 +103997,7 @@ EndChar
 
 StartChar: uni2262
 Encoding: 8802 8802 745
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -104123,7 +104123,7 @@ EndChar
 
 StartChar: lessequal
 Encoding: 8804 8804 746
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -104214,7 +104214,7 @@ EndChar
 
 StartChar: greaterequal
 Encoding: 8805 8805 747
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -104305,7 +104305,7 @@ EndChar
 
 StartChar: uni226E
 Encoding: 8814 8814 748
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -104451,7 +104451,7 @@ EndChar
 
 StartChar: uni226F
 Encoding: 8815 8815 749
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -104597,7 +104597,7 @@ EndChar
 
 StartChar: uni2270
 Encoding: 8816 8816 750
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -104743,7 +104743,7 @@ EndChar
 
 StartChar: uni2271
 Encoding: 8817 8817 751
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -104899,7 +104899,7 @@ EndChar
 
 StartChar: SF100000
 Encoding: 9472 9472 752
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -104924,7 +104924,7 @@ EndChar
 
 StartChar: uni2501
 Encoding: 9473 9473 753
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -104969,7 +104969,7 @@ EndChar
 
 StartChar: SF110000
 Encoding: 9474 9474 754
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -105114,7 +105114,7 @@ EndChar
 
 StartChar: uni2503
 Encoding: 9475 9475 755
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -105259,7 +105259,7 @@ EndChar
 
 StartChar: SF010000
 Encoding: 9484 9484 756
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -105344,7 +105344,7 @@ EndChar
 
 StartChar: uni250D
 Encoding: 9485 9485 757
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -105439,7 +105439,7 @@ EndChar
 
 StartChar: uni250E
 Encoding: 9486 9486 758
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -105534,7 +105534,7 @@ EndChar
 
 StartChar: uni250F
 Encoding: 9487 9487 759
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -105629,7 +105629,7 @@ EndChar
 
 StartChar: SF030000
 Encoding: 9488 9488 760
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -105714,7 +105714,7 @@ EndChar
 
 StartChar: uni2511
 Encoding: 9489 9489 761
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -105809,7 +105809,7 @@ EndChar
 
 StartChar: uni2512
 Encoding: 9490 9490 762
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -105904,7 +105904,7 @@ EndChar
 
 StartChar: uni2513
 Encoding: 9491 9491 763
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -105999,7 +105999,7 @@ EndChar
 
 StartChar: SF020000
 Encoding: 9492 9492 764
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -106084,7 +106084,7 @@ EndChar
 
 StartChar: uni2515
 Encoding: 9493 9493 765
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -106179,7 +106179,7 @@ EndChar
 
 StartChar: uni2516
 Encoding: 9494 9494 766
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -106274,7 +106274,7 @@ EndChar
 
 StartChar: uni2517
 Encoding: 9495 9495 767
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -106369,7 +106369,7 @@ EndChar
 
 StartChar: SF040000
 Encoding: 9496 9496 768
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -106454,7 +106454,7 @@ EndChar
 
 StartChar: uni2519
 Encoding: 9497 9497 769
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -106549,7 +106549,7 @@ EndChar
 
 StartChar: uni251A
 Encoding: 9498 9498 770
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -106644,7 +106644,7 @@ EndChar
 
 StartChar: uni251B
 Encoding: 9499 9499 771
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -106739,7 +106739,7 @@ EndChar
 
 StartChar: SF080000
 Encoding: 9500 9500 772
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -106884,7 +106884,7 @@ EndChar
 
 StartChar: uni251D
 Encoding: 9501 9501 773
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -107029,7 +107029,7 @@ EndChar
 
 StartChar: uni251E
 Encoding: 9502 9502 774
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -107174,7 +107174,7 @@ EndChar
 
 StartChar: uni251F
 Encoding: 9503 9503 775
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -107319,7 +107319,7 @@ EndChar
 
 StartChar: uni2520
 Encoding: 9504 9504 776
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -107464,7 +107464,7 @@ EndChar
 
 StartChar: uni2521
 Encoding: 9505 9505 777
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -107609,7 +107609,7 @@ EndChar
 
 StartChar: uni2522
 Encoding: 9506 9506 778
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -107754,7 +107754,7 @@ EndChar
 
 StartChar: uni2523
 Encoding: 9507 9507 779
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -107899,7 +107899,7 @@ EndChar
 
 StartChar: SF090000
 Encoding: 9508 9508 780
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -108044,7 +108044,7 @@ EndChar
 
 StartChar: uni2525
 Encoding: 9509 9509 781
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -108189,7 +108189,7 @@ EndChar
 
 StartChar: uni2526
 Encoding: 9510 9510 782
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -108334,7 +108334,7 @@ EndChar
 
 StartChar: uni2527
 Encoding: 9511 9511 783
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -108479,7 +108479,7 @@ EndChar
 
 StartChar: uni2528
 Encoding: 9512 9512 784
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -108624,7 +108624,7 @@ EndChar
 
 StartChar: uni2529
 Encoding: 9513 9513 785
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -108769,7 +108769,7 @@ EndChar
 
 StartChar: uni252A
 Encoding: 9514 9514 786
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -108914,7 +108914,7 @@ EndChar
 
 StartChar: uni252B
 Encoding: 9515 9515 787
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -109059,7 +109059,7 @@ EndChar
 
 StartChar: SF060000
 Encoding: 9516 9516 788
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -109144,7 +109144,7 @@ EndChar
 
 StartChar: uni252D
 Encoding: 9517 9517 789
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -109239,7 +109239,7 @@ EndChar
 
 StartChar: uni252E
 Encoding: 9518 9518 790
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -109334,7 +109334,7 @@ EndChar
 
 StartChar: uni252F
 Encoding: 9519 9519 791
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -109429,7 +109429,7 @@ EndChar
 
 StartChar: uni2530
 Encoding: 9520 9520 792
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -109524,7 +109524,7 @@ EndChar
 
 StartChar: uni2531
 Encoding: 9521 9521 793
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -109619,7 +109619,7 @@ EndChar
 
 StartChar: uni2532
 Encoding: 9522 9522 794
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -109714,7 +109714,7 @@ EndChar
 
 StartChar: uni2533
 Encoding: 9523 9523 795
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -109809,7 +109809,7 @@ EndChar
 
 StartChar: SF070000
 Encoding: 9524 9524 796
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -109894,7 +109894,7 @@ EndChar
 
 StartChar: uni2535
 Encoding: 9525 9525 797
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -109989,7 +109989,7 @@ EndChar
 
 StartChar: uni2536
 Encoding: 9526 9526 798
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -110084,7 +110084,7 @@ EndChar
 
 StartChar: uni2537
 Encoding: 9527 9527 799
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -110179,7 +110179,7 @@ EndChar
 
 StartChar: uni2538
 Encoding: 9528 9528 800
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -110274,7 +110274,7 @@ EndChar
 
 StartChar: uni2539
 Encoding: 9529 9529 801
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -110369,7 +110369,7 @@ EndChar
 
 StartChar: uni253A
 Encoding: 9530 9530 802
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -110464,7 +110464,7 @@ EndChar
 
 StartChar: uni253B
 Encoding: 9531 9531 803
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -110559,7 +110559,7 @@ EndChar
 
 StartChar: SF050000
 Encoding: 9532 9532 804
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -110704,7 +110704,7 @@ EndChar
 
 StartChar: uni253D
 Encoding: 9533 9533 805
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -110849,7 +110849,7 @@ EndChar
 
 StartChar: uni253E
 Encoding: 9534 9534 806
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -110994,7 +110994,7 @@ EndChar
 
 StartChar: uni253F
 Encoding: 9535 9535 807
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -111139,7 +111139,7 @@ EndChar
 
 StartChar: uni2540
 Encoding: 9536 9536 808
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -111284,7 +111284,7 @@ EndChar
 
 StartChar: uni2541
 Encoding: 9537 9537 809
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -111429,7 +111429,7 @@ EndChar
 
 StartChar: uni2542
 Encoding: 9538 9538 810
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -111574,7 +111574,7 @@ EndChar
 
 StartChar: uni2543
 Encoding: 9539 9539 811
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -111719,7 +111719,7 @@ EndChar
 
 StartChar: uni2544
 Encoding: 9540 9540 812
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -111864,7 +111864,7 @@ EndChar
 
 StartChar: uni2545
 Encoding: 9541 9541 813
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -112009,7 +112009,7 @@ EndChar
 
 StartChar: uni2546
 Encoding: 9542 9542 814
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -112154,7 +112154,7 @@ EndChar
 
 StartChar: uni2547
 Encoding: 9543 9543 815
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -112299,7 +112299,7 @@ EndChar
 
 StartChar: uni2548
 Encoding: 9544 9544 816
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -112444,7 +112444,7 @@ EndChar
 
 StartChar: uni2549
 Encoding: 9545 9545 817
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -112589,7 +112589,7 @@ EndChar
 
 StartChar: uni254A
 Encoding: 9546 9546 818
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -112734,7 +112734,7 @@ EndChar
 
 StartChar: uni254B
 Encoding: 9547 9547 819
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -112879,7 +112879,7 @@ EndChar
 
 StartChar: uni254C
 Encoding: 9548 9548 820
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -112914,7 +112914,7 @@ EndChar
 
 StartChar: uni254D
 Encoding: 9549 9549 821
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -112989,7 +112989,7 @@ EndChar
 
 StartChar: uni254E
 Encoding: 9550 9550 822
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -113124,7 +113124,7 @@ EndChar
 
 StartChar: uni254F
 Encoding: 9551 9551 823
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -113259,7 +113259,7 @@ EndChar
 
 StartChar: SF430000
 Encoding: 9552 9552 824
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -113294,7 +113294,7 @@ EndChar
 
 StartChar: SF240000
 Encoding: 9553 9553 825
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -113569,7 +113569,7 @@ EndChar
 
 StartChar: SF390000
 Encoding: 9556 9556 826
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -113724,7 +113724,7 @@ EndChar
 
 StartChar: SF250000
 Encoding: 9559 9559 827
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -113879,7 +113879,7 @@ EndChar
 
 StartChar: SF380000
 Encoding: 9562 9562 828
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -114034,7 +114034,7 @@ EndChar
 
 StartChar: SF260000
 Encoding: 9565 9565 829
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -114189,7 +114189,7 @@ EndChar
 
 StartChar: SF420000
 Encoding: 9568 9568 830
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -114454,7 +114454,7 @@ EndChar
 
 StartChar: SF230000
 Encoding: 9571 9571 831
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -114719,7 +114719,7 @@ EndChar
 
 StartChar: SF410000
 Encoding: 9574 9574 832
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -114864,7 +114864,7 @@ EndChar
 
 StartChar: SF400000
 Encoding: 9577 9577 833
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -115009,7 +115009,7 @@ EndChar
 
 StartChar: SF540000
 Encoding: 9578 9578 834
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -115154,7 +115154,7 @@ EndChar
 
 StartChar: SF530000
 Encoding: 9579 9579 835
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -115419,7 +115419,7 @@ EndChar
 
 StartChar: SF440000
 Encoding: 9580 9580 836
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -115674,7 +115674,7 @@ EndChar
 
 StartChar: uni2574
 Encoding: 9588 9588 837
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -115699,7 +115699,7 @@ EndChar
 
 StartChar: uni2575
 Encoding: 9589 9589 838
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -115784,7 +115784,7 @@ EndChar
 
 StartChar: uni2576
 Encoding: 9590 9590 839
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -115809,7 +115809,7 @@ EndChar
 
 StartChar: uni2577
 Encoding: 9591 9591 840
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -115894,7 +115894,7 @@ EndChar
 
 StartChar: uni2578
 Encoding: 9592 9592 841
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -115939,7 +115939,7 @@ EndChar
 
 StartChar: uni2579
 Encoding: 9593 9593 842
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116034,7 +116034,7 @@ EndChar
 
 StartChar: uni257A
 Encoding: 9594 9594 843
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116079,7 +116079,7 @@ EndChar
 
 StartChar: uni257B
 Encoding: 9595 9595 844
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116174,7 +116174,7 @@ EndChar
 
 StartChar: uni257C
 Encoding: 9596 9596 845
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116219,7 +116219,7 @@ EndChar
 
 StartChar: uni257D
 Encoding: 9597 9597 846
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116364,7 +116364,7 @@ EndChar
 
 StartChar: uni257E
 Encoding: 9598 9598 847
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116409,7 +116409,7 @@ EndChar
 
 StartChar: uni257F
 Encoding: 9599 9599 848
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116554,7 +116554,7 @@ EndChar
 
 StartChar: upblock
 Encoding: 9600 9600 849
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116634,7 +116634,7 @@ EndChar
 
 StartChar: uni2581
 Encoding: 9601 9601 850
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116664,7 +116664,7 @@ EndChar
 
 StartChar: uni2582
 Encoding: 9602 9602 851
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116714,7 +116714,7 @@ EndChar
 
 StartChar: uni2583
 Encoding: 9603 9603 852
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116779,7 +116779,7 @@ EndChar
 
 StartChar: dnblock
 Encoding: 9604 9604 853
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116864,7 +116864,7 @@ EndChar
 
 StartChar: uni2585
 Encoding: 9605 9605 854
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -116964,7 +116964,7 @@ EndChar
 
 StartChar: uni2586
 Encoding: 9606 9606 855
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -117079,7 +117079,7 @@ EndChar
 
 StartChar: uni2587
 Encoding: 9607 9607 856
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -117214,7 +117214,7 @@ EndChar
 
 StartChar: block
 Encoding: 9608 9608 857
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -117364,7 +117364,7 @@ EndChar
 
 StartChar: uni2589
 Encoding: 9609 9609 858
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -117514,7 +117514,7 @@ EndChar
 
 StartChar: uni258A
 Encoding: 9610 9610 859
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -117664,7 +117664,7 @@ EndChar
 
 StartChar: uni258B
 Encoding: 9611 9611 860
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -117814,7 +117814,7 @@ EndChar
 
 StartChar: lfblock
 Encoding: 9612 9612 861
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -117964,7 +117964,7 @@ EndChar
 
 StartChar: uni258D
 Encoding: 9613 9613 862
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -118114,7 +118114,7 @@ EndChar
 
 StartChar: uni258E
 Encoding: 9614 9614 863
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -118264,7 +118264,7 @@ EndChar
 
 StartChar: uni258F
 Encoding: 9615 9615 864
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -118414,7 +118414,7 @@ EndChar
 
 StartChar: rtblock
 Encoding: 9616 9616 865
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -118564,7 +118564,7 @@ EndChar
 
 StartChar: ltshade
 Encoding: 9617 9617 866
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -119034,7 +119034,7 @@ EndChar
 
 StartChar: shade
 Encoding: 9618 9618 867
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -119994,7 +119994,7 @@ EndChar
 
 StartChar: dkshade
 Encoding: 9619 9619 868
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -120534,7 +120534,7 @@ EndChar
 
 StartChar: uni2594
 Encoding: 9620 9620 869
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back
@@ -120564,7 +120564,7 @@ EndChar
 
 StartChar: uni2595
 Encoding: 9621 9621 870
-Width: 958
+Width: 583
 Flags: HW
 LayerCount: 2
 Back

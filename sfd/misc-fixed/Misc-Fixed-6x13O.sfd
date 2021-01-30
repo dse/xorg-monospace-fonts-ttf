@@ -4,7 +4,7 @@ FullName: Misc Fixed 6x13 Oblique
 FamilyName: Misc Fixed 6x13
 Weight: Book
 Copyright: Public domain font.  Share and enjoy.
-UComments: "2020-11-5: Created with FontForge (http://fontforge.org)"
+UComments: "2021-1-30: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 15
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 3 489986297 6323422]
+XUID: [1021 129 -757212332 8949391]
 StyleMap: 0x0201
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1604633165
-ModificationTime: 1604633169
+CreationTime: 1612040259
+ModificationTime: 1612040262
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5
