@@ -85,6 +85,10 @@ while getopts 'hv-:' OPTION ; do
 done
 shift $((OPTIND - 1))
 
+if [[ -v GENFONTS_ASCII_ONLY ]] ; then
+    script_args+=("--ascii-only")
+fi
+
 genfont () {
     source="$1"; shift
     root="$1"; shift
