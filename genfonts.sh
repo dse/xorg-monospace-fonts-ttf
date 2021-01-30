@@ -9,6 +9,7 @@ fixed7x13only=0
 decterminalonly=0
 lucidatypewriteronly=0
 scale_option=--nearest-multiple-of-four
+opt_use_own_bitmap_tracing=''
 
 usage () { cat <<"EOF"; }
 usage:
@@ -22,6 +23,7 @@ options:
         --dec-terminal-only
         --lucida-typewriter-only
         --no-scale
+        --use-own-bitmap-tracing
 EOF
 
 while getopts 'hv-:' OPTION ; do
@@ -64,6 +66,9 @@ while getopts 'hv-:' OPTION ; do
             ;;
         'lucida-typewriter-only')
             lucidatypewriteronly=1
+            ;;
+        'use-own-bitmap-tracing')
+            opt_use_own_bitmap_tracing=--use-own-bitmap-tracing
             ;;
         '?')
             # short option invalid or missing argument
@@ -128,6 +133,7 @@ genfont () {
     bitmapfont2ttf \
         --save-sfd \
         --sfd-dir=sfd \
+        ${opt_use_own_bitmap_tracing} \
         $scale_option \
         "${script_args[@]}" \
         "${ttffontname:+--font-name=${ttffontname}}" \
