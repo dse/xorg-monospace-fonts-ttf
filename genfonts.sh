@@ -8,6 +8,7 @@ fixed6x13only=0
 fixed7x13only=0
 decterminalonly=0
 lucidatypewriteronly=0
+asciionly=0
 scale_option=--nearest-multiple-of-four
 opt_use_own_bitmap_tracing=''
 
@@ -53,6 +54,7 @@ while getopts 'hv-:' OPTION ; do
             scale_option=''
             ;;
         'ascii-only')
+            asciionly=1
             script_args+=("--ascii-only")
             ;;
         'fixed-6x13-only')
@@ -87,6 +89,7 @@ shift $((OPTIND - 1))
 
 if [[ -v GENFONTS_ASCII_ONLY ]] ; then
     script_args+=("--ascii-only")
+    asciionly=1
 fi
 
 genfont () {
@@ -132,8 +135,13 @@ genfont () {
         root="${root%.*}"
     fi
 
-    ttfdir="ttf/${subdirname}"
-    sfddir="sfd/${subdirname}"
+    if (( asciionly )) ; then
+        ttfdir="ascii-only-ttf/${subdirname}"
+        sfddir="ascii-only-sfd/${subdirname}"
+    else
+        ttfdir="ttf/${subdirname}"
+        sfddir="sfd/${subdirname}"
+    fi
 
     mkdir -p "${ttfdir}"
     mkdir -p "${sfddir}"
