@@ -15,32 +15,32 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 873 -505547280 11528748]
+XUID: [1021 122 786908629 12425222]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1612246706
-ModificationTime: 1612246707
+CreationTime: 1612276511
+ModificationTime: 1612276511
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5
-LineGap: 90
+LineGap: 0
 VLineGap: 90
 Panose: 2 0 8 9 0 0 0 0 0 0
-OS2TypoAscent: 0
+OS2TypoAscent: 875
 OS2TypoAOffset: 1
-OS2TypoDescent: 0
+OS2TypoDescent: -125
 OS2TypoDOffset: 1
-OS2TypoLinegap: 90
-OS2WinAscent: 0
+OS2TypoLinegap: 0
+OS2WinAscent: 875
 OS2WinAOffset: 1
-OS2WinDescent: 0
+OS2WinDescent: 125
 OS2WinDOffset: 1
-HheadAscent: 0
+HheadAscent: 875
 HheadAOffset: 1
-HheadDescent: 0
+HheadDescent: -125
 HheadDOffset: 1
 OS2SubXSize: 650
 OS2SubYSize: 700
