@@ -2,16 +2,42 @@
 set -o errexit
 set -o pipefail
 
-declare -a script_args
+main () {
+    init
+    options
+    shift $((OPTIND - 1))
 
-fixed6x13only=0
-fixed7x13only=0
-decterminalonly=0
-lucidatypewriteronly=0
-scale_option=--nearest-multiple-of-four
-opt_use_own_bitmap_tracing=''
+    install_bitmapfont2ttf
+    install_exact_autotrace_c
 
-usage () { cat <<"EOF"; }
+    if (( fixed6x13only )) ; then
+        generate_misc_fixed_6x13
+    elif (( fixed7x13only )) ; then
+        generate_misc_fixed_7x13
+    elif (( decterminalonly )) ; then
+        generate_dec_terminal
+    elif (( lucidatypewriteronly )) ; then
+        generate_lucida_typewriter
+    else
+        generate_misc_fixed_6x13
+        generate_misc_fixed
+        generate_sony_misc
+        generate_dec_terminal
+        generate_lucida_typewriter
+    fi
+}
+
+init () {
+    declare -a script_args
+
+    fixed6x13only=0
+    fixed7x13only=0
+    decterminalonly=0
+    lucidatypewriteronly=0
+    scale_option=--nearest-multiple-of-four
+    opt_use_own_bitmap_tracing=''
+
+    usage () { cat <<"EOF"; }
 usage:
     genfonts.sh [<option> ...]
 options:
@@ -24,62 +50,64 @@ options:
         --no-scale
         --use-own-bitmap-tracing
 EOF
+}
 
-while getopts 'hv-:' OPTION ; do
-    if [[ "${OPTION}" = "-" ]] ; then
-        if [[ "${OPTARG}" == "" ]] ; then
-            # argument is '--' by itself; terminate option parsing
-            break
+options () {
+    while getopts 'hv-:' OPTION ; do
+        if [[ "${OPTION}" = "-" ]] ; then
+            if [[ "${OPTARG}" == "" ]] ; then
+                # argument is '--' by itself; terminate option parsing
+                break
+            fi
+            OPTION="${OPTARG}"
+            unset OPTARG
+            case "${OPTION}" in
+                *"="*)
+                    OPTARG="${OPTION#*=}"
+                    OPTION="${OPTION%%=*}"
+                    ;;
+            esac
         fi
-        OPTION="${OPTARG}"
-        unset OPTARG
         case "${OPTION}" in
-            *"="*)
-                OPTARG="${OPTION#*=}"
-                OPTION="${OPTION%%=*}"
+            'h'|'help')
+                usage
+                exit 0
+                ;;
+            'v'|'verbose')
+                script_args+=("--verbose")
+                ;;
+            'no-scale')
+                scale_option=''
+                ;;
+            'fixed-6x13-only')
+                fixed6x13only=1
+                ;;
+            'fixed-7x13-only')
+                fixed7x13only=1
+                ;;
+            'dec-terminal-only')
+                decterminalonly=1
+                ;;
+            'lucida-typewriter-only')
+                lucidatypewriteronly=1
+                ;;
+            'use-own-bitmap-tracing')
+                opt_use_own_bitmap_tracing=--use-own-bitmap-tracing
+                ;;
+            '?')
+                # short option invalid or missing argument
+                >&2 echo "Type '<progname> --help' for more information."
+                exit 1
+                ;;
+            *)
+                # invalid long option
+                >&2 echo "<progname>: unknown option -- ${OPTION}"
+                >&2 echo "Type '<progname> --help' for more information."
+                exit 1
                 ;;
         esac
-    fi
-    case "${OPTION}" in
-        'h'|'help')
-            usage
-            exit 0
-            ;;
-        'v'|'verbose')
-            script_args+=("--verbose")
-            ;;
-        'no-scale')
-            scale_option=''
-            ;;
-        'fixed-6x13-only')
-            fixed6x13only=1
-            ;;
-        'fixed-7x13-only')
-            fixed7x13only=1
-            ;;
-        'dec-terminal-only')
-            decterminalonly=1
-            ;;
-        'lucida-typewriter-only')
-            lucidatypewriteronly=1
-            ;;
-        'use-own-bitmap-tracing')
-            opt_use_own_bitmap_tracing=--use-own-bitmap-tracing
-            ;;
-        '?')
-            # short option invalid or missing argument
-            >&2 echo "Type '<progname> --help' for more information."
-            exit 1
-            ;;
-        *)
-            # invalid long option
-            >&2 echo "<progname>: unknown option -- ${OPTION}"
-            >&2 echo "Type '<progname> --help' for more information."
-            exit 1
-            ;;
-    esac
-done
-shift $((OPTIND - 1))
+    done
+}
 
 genfont () {
     subdirname="$1"; shift
@@ -176,6 +204,18 @@ isuptodate () {
         done
     done
     return 0
+}
+
+isincludedin () {
+    local needle="$1"
+    shift
+    local hay
+    for hay ; do
+        if [[ "$hay" = "$needle" ]] ; then
+            return 0
+        fi
+    done
+    return 1
 }
 
 mkdir -p ttf
@@ -298,21 +338,5 @@ install_exact_autotrace_c () {
     export PATH="${dir}/bin:${PATH}"
 }
 
-install_bitmapfont2ttf
-install_exact_autotrace_c
-
-if (( fixed6x13only )) ; then
-    generate_misc_fixed_6x13
-elif (( fixed7x13only )) ; then
-    generate_misc_fixed_7x13
-elif (( decterminalonly )) ; then
-    generate_dec_terminal
-elif (( lucidatypewriteronly )) ; then
-    generate_lucida_typewriter
-else
-    generate_misc_fixed_6x13
-    generate_misc_fixed
-    generate_sony_misc
-    generate_dec_terminal
-    generate_lucida_typewriter
-fi
+###############################################################################
+main "$@"
