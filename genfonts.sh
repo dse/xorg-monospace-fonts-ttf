@@ -147,19 +147,61 @@ genfont () {
     mkdir -p "${sfddir}"
 
     dest="${ttfdir}/${root}.ttf"
+    sfddest="${sfddir}/${root}.sfd"
+    desttmp="${dest}.tmp.ttf"
+    sfddesttmp="${sfddest}.tmp.sfd"
 
-    set -x
-    bitmapfont2ttf \
-        --save-sfd \
-        --sfd-dir="${sfddir}" \
-        ${opt_use_own_bitmap_tracing} \
-        $scale_option \
-        "${script_args[@]}" \
-        "${ttffontname:+--font-name=${ttffontname}}" \
-        "${ttffullname:+--full-name=${ttffullname}}" \
-        "${ttffamilyname:+--family-name=${ttffamilyname}}" \
-        "${source}" "${dest}" >/dev/null
-    set +x
+    bitmapfont2ttf="$(which bitmapfont2ttf)"
+
+    if isuptodate "${dest}" "${sfddest}" -- "${source}" "${bitmapfont2ttf}" "$0" ; then
+        >&2 echo "${dest} is uptodate"
+        >&2 echo "${sfddest} is uptodate"
+    else
+        set -x
+        "${bitmapfont2ttf}" \
+            ${opt_use_own_bitmap_tracing} \
+            $scale_option \
+            "${script_args[@]}" \
+            "${ttffontname:+--font-name=${ttffontname}}" \
+            "${ttffullname:+--full-name=${ttffullname}}" \
+            "${ttffamilyname:+--family-name=${ttffamilyname}}" \
+            "${source}" "${desttmp}" "${sfddesttmp}"
+        set +x
+        mv "${desttmp}" "${dest}"
+        mv "${sfddesttmp}" "${sfddest}"
+    fi
+}
+
+isuptodate () {
+    local -a targets=()
+    local target
+    local dependency
+    local return=0
+    while (( $# )) ; do
+        if [[ "$1" = "--" ]] ; then
+            shift
+            break
+        fi
+        targets+=("$1")
+        shift
+    done
+    if (( ! ${#targets[@]} )) ; then
+        return 0
+    fi
+    for target in "${targets[@]}" ; do
+        if ! [[ -e "${target}" ]] ; then
+            >&2 echo "target ${target} does not exist"
+            return=1
+        else
+            for dependency ; do
+                if [[ "${dependency}" -nt "${target}" ]] ; then
+                    >&2 echo "target ${target} is older than dependency ${dependency}"
+                    return=1
+                fi
+            done
+        fi
+    done
+    return "${return}"
 }
 
 mkdir -p ttf
