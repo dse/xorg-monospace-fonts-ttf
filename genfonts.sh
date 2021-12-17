@@ -176,7 +176,6 @@ isuptodate () {
     local -a targets=()
     local target
     local dependency
-    local return=0
     while (( $# )) ; do
         if [[ "$1" = "--" ]] ; then
             shift
@@ -190,18 +189,16 @@ isuptodate () {
     fi
     for target in "${targets[@]}" ; do
         if ! [[ -e "${target}" ]] ; then
-            >&2 echo "target ${target} does not exist"
-            return=1
+            return 1
         else
             for dependency ; do
                 if [[ "${dependency}" -nt "${target}" ]] ; then
-                    >&2 echo "target ${target} is older than dependency ${dependency}"
-                    return=1
+                    return 1
                 fi
             done
         fi
     done
-    return "${return}"
+    return 0
 }
 
 mkdir -p ttf
