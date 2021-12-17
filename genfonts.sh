@@ -8,7 +8,6 @@ fixed6x13only=0
 fixed7x13only=0
 decterminalonly=0
 lucidatypewriteronly=0
-asciionly=0
 scale_option=--nearest-multiple-of-four
 opt_use_own_bitmap_tracing=''
 
@@ -18,7 +17,6 @@ usage:
 options:
     -v, --verbose
     -h, --help
-        --ascii-only
         --fixed-6x13-only
         --fixed-7x13-only
         --dec-terminal-only
@@ -53,10 +51,6 @@ while getopts 'hv-:' OPTION ; do
         'no-scale')
             scale_option=''
             ;;
-        'ascii-only')
-            asciionly=1
-            script_args+=("--ascii-only")
-            ;;
         'fixed-6x13-only')
             fixed6x13only=1
             ;;
@@ -86,11 +80,6 @@ while getopts 'hv-:' OPTION ; do
     esac
 done
 shift $((OPTIND - 1))
-
-if [[ -v GENFONTS_ASCII_ONLY ]] ; then
-    script_args+=("--ascii-only")
-    asciionly=1
-fi
 
 genfont () {
     subdirname="$1"; shift
@@ -135,13 +124,8 @@ genfont () {
         basename="${basename%.*}"
     fi
 
-    if (( asciionly )) ; then
-        ttfdir="ascii-only-ttf/${subdirname}"
-        sfddir="ascii-only-sfd/${subdirname}"
-    else
-        ttfdir="ttf/${subdirname}"
-        sfddir="sfd/${subdirname}"
-    fi
+    ttfdir="ttf/${subdirname}"
+    sfddir="sfd/${subdirname}"
 
     mkdir -p "${ttfdir}"
     mkdir -p "${sfddir}"
