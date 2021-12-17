@@ -1,9 +1,12 @@
-default:
-	script default.typescript    ./genfonts.sh --use-own-bitmap-tracing
-ascii-only:
-	script ascii-only.typescript ./genfonts.sh --use-own-bitmap-tracing --ascii-only
-clean:
-	rm default.typescript || true
-	rm ascii-only.typescript || true
+BITMAPFONT2TTF := $(shell which bitmapfont2ttf)
 
 .PHONY: default
+default: fonts
+
+.PHONY: fonts
+fonts:
+	bin/genfonts
+
+.PHONY: fixed
+fixed:
+	bin/genfonts misc-fixed
