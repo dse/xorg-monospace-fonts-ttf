@@ -9,6 +9,16 @@ main () {
 
     install_bitmapfont2ttf
 
+    genfont_registers_fonts
+
+    generate_misc_fixed_6x13
+    generate_misc_fixed
+    generate_sony_misc
+    generate_dec_terminal
+    generate_lucida_typewriter
+
+    genfont_generates_fonts
+
     if (( fixed6x13only )) ; then
         generate_misc_fixed_6x13
     elif (( fixed7x13only )) ; then
@@ -17,6 +27,27 @@ main () {
         generate_dec_terminal
     elif (( lucidatypewriteronly )) ; then
         generate_lucida_typewriter
+    elif (( $# )) ; then
+        for fontname ; do
+            basename="$(basename "${fontname}")"
+            key="${basename%.*}"
+            if isincludedin "${key}" "${fontlist[@]}" ; then
+                >&2 echo "Generating ${key} ..."
+                echo "A ${font_subdirname["${key}"]}"
+                echo "B ${font_source["${key}"]}"
+                echo "C ${font_basename["${key}"]}"
+                echo "D ${font_ttffamilyname["${key}"]}"
+                echo "E ${font_ttffullname["${key}"]}"
+                genfont \
+                    "${font_subdirname["${key}"]}" \
+                    "${font_source["${key}"]}" \
+                    "${font_basename["${key}"]}" \
+                    "${font_ttffamilyname["${key}"]}" \
+                    "${font_ttffullname["${key}"]}"
+            else
+                >&2 echo "${basename}: not registered"
+            fi
+        done
     else
         generate_misc_fixed_6x13
         generate_misc_fixed
@@ -108,79 +139,116 @@ options () {
     done
 }
 
-genfont () {
-    subdirname="$1"; shift
-    source="$1"; shift
-    basename="$1"; shift
+declare -a fontlist
+declare -A font_subdirname
+declare -A font_source
+declare -A font_basename
+declare -A font_ttffamilyname
+declare -A font_ttffullname
 
-    pointsize=0
-    xres=0
-    yres=0
+genfont_registers_fonts () {
+    genfont () {
+        subdirname="$1"; shift
+        source="$1"; shift
+        basename="$1"; shift
+        if (( $# )) ; then
+            ttffamilyname="$1"
+            ttffullname="$1"
+        else
+            ttffamilyname=""
+            ttffullname=""
+        fi
+        key="${basename%.*}"
 
-    if [[ "$source" = *.bdf ]] ; then
-        read pointsize xres yes < <(awk '$1 == "SIZE" { print $2, $3, $4 }' "$source")
-    fi
+        fontlist+=("${key}")
+        font_subdirname["${key}"]="$subdirname"
+        font_source["${key}"]="$source"
+        font_basename["${key}"]="$basename"
+        font_ttffamilyname["${key}"]="$ttffamilyname"
+        font_ttffullname["${key}"]="$ttffullname"
 
-    ttffontname=""
-    ttffullname=""
-    ttffamilyname=""
-    variant=0
+        >&2 echo "$key: registered"
+    }
+}
 
-    if (( $# )) ; then
-        ttffamilyname="$1"
-        ttffullname="$1"
-        ttffontname="${1// /}"
-        shift
-    fi
+genfont_generates_fonts () {
+    genfont () {
+        subdirname="$1"; shift
+        source="$1"; shift
+        basename="$1"; shift
 
-    if (( $# )) ; then
-        for i ; do
-            if (( $variant )) ; then
-                ttffontname="${ttffontname}${i}" # yes, no space there
-                ttffullname="${ttffullname} ${i}"
-            else
-                variant=1
-                ttffontname="${ttffontname}-${i}"
-                ttffullname="${ttffullname} ${i}"
-            fi
-        done
-    fi
+        pointsize=0
+        xres=0
+        yres=0
 
-    if [[ "$basename" = "" ]] ; then
-        basename="$(basename "$source")"
-        basename="${basename%.*}"
-    fi
+        if [[ "$source" = *.bdf ]] ; then
+            read pointsize xres yes < <(awk '$1 == "SIZE" { print $2, $3, $4 }' "$source")
+        fi
 
-    ttfdir="ttf/${subdirname}"
-    sfddir="sfd/${subdirname}"
+        ttffontname=""
+        ttffullname=""
+        ttffamilyname=""
+        variant=0
 
-    mkdir -p "${ttfdir}"
-    mkdir -p "${sfddir}"
+        if (( $# )) ; then
+            ttffamilyname="$1"
+            ttffullname="$1"
+            ttffontname="${1// /}"
+            shift
+        fi
 
-    dest="${ttfdir}/${basename}.ttf"
-    sfddest="${sfddir}/${basename}.sfd"
-    desttmp="${dest}.tmp.ttf"
-    sfddesttmp="${sfddest}.tmp.sfd"
+        if (( $# )) ; then
+            for i ; do
+                if (( $variant )) ; then
+                    ttffontname="${ttffontname}${i}" # yes, no space there
+                    ttffullname="${ttffullname} ${i}"
+                else
+                    variant=1
+                    ttffontname="${ttffontname}-${i}"
+                    ttffullname="${ttffullname} ${i}"
+                fi
+            done
+        fi
 
-    bitmapfont2ttf="$(which bitmapfont2ttf)"
+        if [[ "$basename" = "" ]] ; then
+            basename="$(basename "$source")"
+            basename="${basename%.*}"
+        fi
 
-    if isuptodate "${dest}" "${sfddest}" -- "${source}" "${bitmapfont2ttf}" "$0" ; then
-        >&2 echo "${dest} is uptodate"
-        >&2 echo "${sfddest} is uptodate"
-    else
-        set -x
-        "${bitmapfont2ttf}" \
-            ${opt_use_own_bitmap_tracing} \
-            $scale_option \
-            "${script_args[@]}" \
-            "${ttffontname:+--font-name=${ttffontname}}" \
-            "${ttffullname:+--full-name=${ttffullname}}" \
-            "${ttffamilyname:+--family-name=${ttffamilyname}}" \
-            "${source}" "${desttmp}" "${sfddesttmp}"
-        set +x
-        mv "${desttmp}" "${dest}"
-        mv "${sfddesttmp}" "${sfddest}"
-    fi
+        ttfdir="ttf/${subdirname}"
+        sfddir="sfd/${subdirname}"
+
+        mkdir -p "${ttfdir}"
+        mkdir -p "${sfddir}"
+
+        dest="${ttfdir}/${basename}.ttf"
+        sfddest="${sfddir}/${basename}.sfd"
+        desttmp="${dest}.tmp.ttf"
+        sfddesttmp="${sfddest}.tmp.sfd"
+
+        bitmapfont2ttf="$(which bitmapfont2ttf)"
+
+        local -a cmd
+
+        if isuptodate "${dest}" "${sfddest}" -- "${source}" "${bitmapfont2ttf}" "$0" ; then
+            >&2 echo "${dest} is uptodate"
+            >&2 echo "${sfddest} is uptodate"
+        else
+            cmd=(
+                "${bitmapfont2ttf}" \
+                    ${opt_use_own_bitmap_tracing} \
+                    $scale_option \
+                    "${script_args[@]}" \
+                    "${ttffontname:+--font-name=${ttffontname}}" \
+                    "${ttffullname:+--full-name=${ttffullname}}" \
+                    "${ttffamilyname:+--family-name=${ttffamilyname}}" \
+                    "${source}" "${desttmp}" "${sfddesttmp}"
+            )
+            >&2 echo "${cmd[@]@Q}"
+            # mv "${desttmp}" "${dest}"
+            # mv "${sfddesttmp}" "${sfddest}"
+        fi
+    }
 }
 
 isuptodate () {
