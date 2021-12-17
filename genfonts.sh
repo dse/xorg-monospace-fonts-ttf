@@ -184,19 +184,12 @@ isuptodate () {
         targets+=("$1")
         shift
     done
-    if (( ! ${#targets[@]} )) ; then
-        return 0
-    fi
     for target in "${targets[@]}" ; do
-        if ! [[ -e "${target}" ]] ; then
-            return 1
-        else
-            for dependency ; do
-                if [[ "${dependency}" -nt "${target}" ]] ; then
-                    return 1
-                fi
-            done
-        fi
+        for dependency ; do
+            if [[ "${dependency}" -nt "${target}" ]] ; then
+                return 1
+            fi
+        done
     done
     return 0
 }
