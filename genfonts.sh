@@ -109,7 +109,7 @@ genfont () {
     if (( $# )) ; then
         for i ; do
             if (( $variant )) ; then
-                ttffontname="${ttffontname}${i}"
+                ttffontname="${ttffontname}${i}" # yes, no space there
                 ttffullname="${ttffullname} ${i}"
             else
                 variant=1
