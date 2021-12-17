@@ -8,7 +8,6 @@ main () {
     shift $((OPTIND - 1))
 
     install_bitmapfont2ttf
-    install_exact_autotrace_c
 
     if (( fixed6x13only )) ; then
         generate_misc_fixed_6x13
@@ -316,25 +315,6 @@ install_bitmapfont2ttf () {
         exit 1
     fi
     git clone git@github.com:dse/bitmapfont2ttf.git "${dir}"
-    export PATH="${dir}/bin:${PATH}"
-}
-
-install_exact_autotrace_c () {
-    if which exact-autotrace-c >/dev/null 2>/dev/null ; then
-        return
-    fi
-    local dir="${HOME}/git/dse.d/exact-autotrace"
-    if [[ -d "${dir}" ]] ; then
-        export PATH="${dir}/bin:${PATH}"
-        (cd "${dir}" && make)
-        return
-    fi
-    if [[ -e "${dir}" ]] ; then
-        >&2 echo "genfonts.sh: ${dir} exists but is not a directory"
-        exit 1
-    fi
-    git clone --recurse-submodules git@github.com:dse/exact-autotrace.git "${dir}"
-    (cd "${dir}" && make)
     export PATH="${dir}/bin:${PATH}"
 }
 
