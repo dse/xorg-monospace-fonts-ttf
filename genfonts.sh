@@ -95,7 +95,7 @@ fi
 genfont () {
     subdirname="$1"; shift
     source="$1"; shift
-    root="$1"; shift
+    basename="$1"; shift
 
     pointsize=0
     xres=0
@@ -130,9 +130,9 @@ genfont () {
         done
     fi
 
-    if [[ "$root" = "" ]] ; then
-        root="$(basename "$source")"
-        root="${root%.*}"
+    if [[ "$basename" = "" ]] ; then
+        basename="$(basename "$source")"
+        basename="${basename%.*}"
     fi
 
     if (( asciionly )) ; then
@@ -146,8 +146,8 @@ genfont () {
     mkdir -p "${ttfdir}"
     mkdir -p "${sfddir}"
 
-    dest="${ttfdir}/${root}.ttf"
-    sfddest="${sfddir}/${root}.sfd"
+    dest="${ttfdir}/${basename}.ttf"
+    sfddest="${sfddir}/${basename}.sfd"
     desttmp="${dest}.tmp.ttf"
     sfddesttmp="${sfddest}.tmp.sfd"
 
@@ -201,6 +201,7 @@ mkdir -p sfd
 # find sfd -type f -exec rm {} +
 
 generate_lucida_typewriter () {
+    #       subdir            source                                      basename
     genfont lucida-typewriter xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf 'BM-Lucida-Typewriter-11-Bold' 'BM Lucida Typewriter 11' 'Bold'
     genfont lucida-typewriter xorg-bh-lucidatypewriter-100dpi/lutBS10.bdf 'BM-Lucida-Typewriter-14c-Bold' 'BM Lucida Typewriter 14c' 'Bold'
     genfont lucida-typewriter xorg-bh-lucidatypewriter-100dpi/lutBS12.bdf 'BM-Lucida-Typewriter-17-Bold' 'BM Lucida Typewriter 17' 'Bold'
