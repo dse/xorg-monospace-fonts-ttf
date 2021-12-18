@@ -2,150 +2,205 @@
 use warnings;
 use strict;
 
-use File::Basename qw(basename dirname);
-use File::Path qw(make_path);
-use File::Which qw(which);
+our $windows = 0;
+our $dryRun = 0;
 
-my $bitmapfont2ttf = which('bitmapfont2ttf');
-if (!defined $bitmapfont2ttf) {
-    die("bitmapfont2ttf: no executable found\n");
-}
+use Getopt::Long;
+Getopt::Long::Configure('bundling', 'getopt_compat', 'no_ignore_case');
+Getopt::Long::GetOptions(
+    'w|windows' => \$windows,
+    'n|dry-run' => \$dryRun,
+) or die(":-(");
 
-my @specified = @ARGV;
+my $gen = My::FontGenerator->new();
+$gen->{specified} = \@ARGV;
+$gen->{windows} = $windows;
+$gen->{dryRun} = $dryRun;
+$gen->generateFonts();
 
-sub genfont {
-    my @tags;
-    if (scalar @_ && ref $_[0] eq 'ARRAY') {
-        @tags = @{$_[0]};
-        shift(@_);
-    }
+###############################################################################
 
-    my ($subdir, $source, $basename, $familyname, @variant) = @_;
+package My::FontGenerator {
+    use warnings;
+    use strict;
 
-    my $fullname = $familyname;
-    if (scalar @variant) {
-        $fullname .= ' ' . join(' ', @variant);
-    }
+    use File::Basename qw(basename dirname);
+    use File::Path qw(make_path);
+    use File::Which qw(which);
+    use String::ShellQuote qw(shell_quote);
 
-    my $fontname = $fullname;
-    $fontname =~ s{\s+}{}g;
-    if (scalar @variant) {
-        $fontname .= join('-', @variant);
-    }
-
-    my $ttf = "ttf/${subdir}/${basename}.ttf";
-    my $sfd = "sfd/${subdir}/${basename}.sfd";
-
-    if (scalar @specified) {
-        return 0 if !tagmatch([@specified], ($subdir, $source, $basename, $familyname, $fullname, $fontname, $ttf, $sfd, @tags));
-    }
-
-    if (isuptodate([$ttf, $sfd], $0, $bitmapfont2ttf)) {
-        printf STDERR ("%s%s and %s are up to date%s\n",
-                       "\e[0;32m",
-                       $sfd,
-                       $ttf,
-                       "\e[0m");
-        return;
-    }
-
-    printf STDERR ("%sGenerating %s and %s...%s\n", "\e[0;32m", $sfd, $ttf, "\e[0m");
-    make_path(dirname($ttf));
-    make_path(dirname($sfd));
-    my @cmd = (
-        'bitmapfont2ttf',
-        "--font-name=${fontname}",
-        "--full-name=${fullname}",
-        "--family-name=${familyname}",
-        $source,
-        $ttf,
-        $sfd
-    );
-    system(@cmd) and exit(1);
-}
-
-sub isuptodate {
-    my ($target, @dependencies) = @_;
-    if (ref $target eq 'ARRAY') {
-        foreach my $subtarget (@$target) {
-            return 0 if !isuptodate($subtarget, @dependencies);
+    our $bitmapfont2ttf;
+    BEGIN {
+        $bitmapfont2ttf = which('bitmapfont2ttf');
+        if (!defined $bitmapfont2ttf) {
+            die("bitmapfont2ttf: no executable found\n");
         }
+    }
+
+    sub new {
+        my ($class) = @_;
+        my $self = bless({}, $class);
+        return $self;
+    }
+
+    sub generateFont {
+        my $self = shift;
+
+        my @tags;
+        if (scalar @_ && ref $_[0] eq 'ARRAY') {
+            @tags = @{$_[0]};
+            shift(@_);
+        }
+
+        my ($subdir, $source, $basename, $familyname, @variant) = @_;
+
+        my $fullname = $familyname;
+        if (scalar @variant) {
+            $fullname .= ' ' . join(' ', @variant);
+        }
+
+        my $fontname = $fullname;
+        $fontname =~ s{\s+}{}g;
+        if (scalar @variant) {
+            $fontname .= join('-', @variant);
+        }
+
+        my $ttfDir = $self->{windows} ? 'windows/ttf' : 'ttf';
+        my $sfdDir = $self->{windows} ? 'windows/sfd' : 'sfd';
+
+        our @bitmapfont2ttfOptions = ();
+        if ($self->{windows}) {
+            push(@bitmapfont2ttfOptions, '--nearest-multiple-of-four');
+        }
+
+        my $ttf = "${ttfDir}/${subdir}/${basename}.ttf";
+        my $sfd = "${sfdDir}/${subdir}/${basename}.sfd";
+
+        my @specified = @{$self->{specified} // []};
+
+        if (scalar @specified) {
+            return 0 if !tagmatch([@specified], ($subdir, $source, $basename, $familyname, $fullname, $fontname, $ttf, $sfd, @tags));
+        }
+
+        if (isuptodate([$ttf, $sfd], $0, $bitmapfont2ttf)) {
+            printf STDERR ("%s%s and %s are up to date%s\n",
+                           "\e[0;32m",
+                           $sfd,
+                           $ttf,
+                           "\e[0m");
+            return;
+        }
+
+        printf STDERR ("%sGenerating %s and %s...%s\n", "\e[0;32m", $sfd, $ttf, "\e[0m");
+        make_path(dirname($ttf));
+        make_path(dirname($sfd));
+        my @cmd = (
+            'bitmapfont2ttf',
+            "--font-name=${fontname}",
+            "--full-name=${fullname}",
+            "--family-name=${familyname}",
+            @bitmapfont2ttfOptions,
+            $source,
+            $ttf,
+            $sfd
+        );
+        if ($self->{dryRun}) {
+            print(shell_quote(@cmd), "\n");
+        } else {
+            system(@cmd) and exit(1);
+        }
+    }
+
+    sub generateFonts {
+        my ($self) = @_;
+
+        # subdir, source, basename, familyname, variants
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf', 'Lucida-Typewriter-11-Bold',  'BM Lucida Typewriter 11',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS10.bdf', 'Lucida-Typewriter-14c-Bold', 'BM Lucida Typewriter 14c', 'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS12.bdf', 'Lucida-Typewriter-17-Bold',  'BM Lucida Typewriter 17',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS14.bdf', 'Lucida-Typewriter-20-Bold',  'BM Lucida Typewriter 20',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS18.bdf', 'Lucida-Typewriter-25-Bold',  'BM Lucida Typewriter 25',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS19.bdf', 'Lucida-Typewriter-26-Bold',  'BM Lucida Typewriter 26',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS24.bdf', 'Lucida-Typewriter-34-Bold',  'BM Lucida Typewriter 34',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS08.bdf', 'Lucida-Typewriter-11',       'BM Lucida Typewriter 11');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS10.bdf', 'Lucida-Typewriter-14c',      'BM Lucida Typewriter 14c');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS12.bdf', 'Lucida-Typewriter-17',       'BM Lucida Typewriter 17');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS14.bdf', 'Lucida-Typewriter-20',       'BM Lucida Typewriter 20');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS18.bdf', 'Lucida-Typewriter-25',       'BM Lucida Typewriter 25');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS19.bdf', 'Lucida-Typewriter-26',       'BM Lucida Typewriter 26');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS24.bdf', 'Lucida-Typewriter-34',       'BM Lucida Typewriter 34');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS08.bdf',  'Lucida-Typewriter-8-Bold',   'BM Lucida Typewriter 8',   'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS10.bdf',  'Lucida-Typewriter-10-Bold',  'BM Lucida Typewriter 10',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS12.bdf',  'Lucida-Typewriter-12-Bold',  'BM Lucida Typewriter 12',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS14.bdf',  'Lucida-Typewriter-14-Bold',  'BM Lucida Typewriter 14',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS18.bdf',  'Lucida-Typewriter-18-Bold',  'BM Lucida Typewriter 18',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf',  'Lucida-Typewriter-19-Bold',  'BM Lucida Typewriter 19',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf',  'Lucida-Typewriter-24-Bold',  'BM Lucida Typewriter 24',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS08.bdf',  'Lucida-Typewriter-8',        'BM Lucida Typewriter 8');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS10.bdf',  'Lucida-Typewriter-10',       'BM Lucida Typewriter 10');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS12.bdf',  'Lucida-Typewriter-12',       'BM Lucida Typewriter 12');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS14.bdf',  'Lucida-Typewriter-14',       'BM Lucida Typewriter 14');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS18.bdf',  'Lucida-Typewriter-18',       'BM Lucida Typewriter 18');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS19.bdf',  'Lucida-Typewriter-19',       'BM Lucida Typewriter 19');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS24.bdf',  'Lucida-Typewriter-24',       'BM Lucida Typewriter 24');
+
+        $self->generateFont('dec-terminal', 'xorg-bitstream-100dpi/term14.bdf',  'DEC-Terminal-18',      'BM DEC Terminal 18');
+        $self->generateFont('dec-terminal', 'xorg-bitstream-100dpi/termB14.bdf', 'DEC-Terminal-18-Bold', 'BM DEC Terminal 18', 'Bold');
+        $self->generateFont('dec-terminal', 'xorg-bitstream-75dpi/term14.bdf',   'DEC-Terminal-14',      'BM DEC Terminal 14');
+        $self->generateFont('dec-terminal', 'xorg-bitstream-75dpi/termB14.bdf',  'DEC-Terminal-14-Bold', 'BM DEC Terminal 14', 'Bold');
+
+        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13.bdf',  'Misc-Fixed-6x13',  'BM Misc Fixed 6x13');
+        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13B.bdf', 'Misc-Fixed-6x13B', 'BM Misc Fixed 6x13', 'Bold');
+        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13O.bdf', 'Misc-Fixed-6x13O', 'BM Misc Fixed 6x13', 'Oblique');
+        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13.bdf',  'Misc-Fixed-7x13',  'BM Misc Fixed 7x13');
+        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13B.bdf', 'Misc-Fixed-7x13B', 'BM Misc Fixed 7x13', 'Bold');
+        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13O.bdf', 'Misc-Fixed-7x13O', 'BM Misc Fixed 7x13', 'Oblique');
+        $self->generateFont(['misc-fixed-10x20'], 'misc-fixed', 'xorg-misc-misc/10x20.bdf', 'Misc-Fixed-10x20', 'BM Misc Fixed 10x20');
+        $self->generateFont(['misc-fixed-4x6'],   'misc-fixed', 'xorg-misc-misc/4x6.bdf',   'Misc-Fixed-4x6',   'BM Misc Fixed 4x6');
+        $self->generateFont(['misc-fixed-5x7'],   'misc-fixed', 'xorg-misc-misc/5x7.bdf',   'Misc-Fixed-5x7',   'BM Misc Fixed 5x7');
+        $self->generateFont(['misc-fixed-5x8'],   'misc-fixed', 'xorg-misc-misc/5x8.bdf',   'Misc-Fixed-5x8',   'BM Misc Fixed 5x8');
+        $self->generateFont(['misc-fixed-6x10'],  'misc-fixed', 'xorg-misc-misc/6x10.bdf',  'Misc-Fixed-6x10',  'BM Misc Fixed 6x10');
+        $self->generateFont(['misc-fixed-6x12'],  'misc-fixed', 'xorg-misc-misc/6x12.bdf',  'Misc-Fixed-6x12',  'BM Misc Fixed 6x12');
+        $self->generateFont(['misc-fixed-6x9'],   'misc-fixed', 'xorg-misc-misc/6x9.bdf',   'Misc-Fixed-6x9',   'BM Misc Fixed 6x9');
+        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13.bdf',  'Misc-Fixed-7x13',  'BM Misc Fixed 7x13');
+        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13B.bdf', 'Misc-Fixed-7x13B', 'BM Misc Fixed 7x13', 'Bold');
+        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13O.bdf', 'Misc-Fixed-7x13O', 'BM Misc Fixed 7x13', 'Oblique');
+        $self->generateFont(['misc-fixed-7x14'],  'misc-fixed', 'xorg-misc-misc/7x14.bdf',  'Misc-Fixed-7x14',  'BM Misc Fixed 7x14');
+        $self->generateFont(['misc-fixed-7x14'],  'misc-fixed', 'xorg-misc-misc/7x14B.bdf', 'Misc-Fixed-7x14B', 'BM Misc Fixed 7x14', 'Bold');
+        $self->generateFont(['misc-fixed-8x13'],  'misc-fixed', 'xorg-misc-misc/8x13.bdf',  'Misc-Fixed-8x13',  'BM Misc Fixed 8x13');
+        $self->generateFont(['misc-fixed-8x13'],  'misc-fixed', 'xorg-misc-misc/8x13B.bdf', 'Misc-Fixed-8x13B', 'BM Misc Fixed 8x13', 'Bold');
+        $self->generateFont(['misc-fixed-8x13'],  'misc-fixed', 'xorg-misc-misc/8x13O.bdf', 'Misc-Fixed-8x13O', 'BM Misc Fixed 8x13', 'Oblique');
+        $self->generateFont(['misc-fixed-9x15'],  'misc-fixed', 'xorg-misc-misc/9x15.bdf',  'Misc-Fixed-9x15',  'BM Misc Fixed 9x15');
+        $self->generateFont(['misc-fixed-9x15'],  'misc-fixed', 'xorg-misc-misc/9x15B.bdf', 'Misc-Fixed-9x15B', 'BM Misc Fixed 9x15', 'Bold');
+        $self->generateFont(['misc-fixed-9x18'],  'misc-fixed', 'xorg-misc-misc/9x18.bdf',  'Misc-Fixed-9x18',  'BM Misc Fixed 9x18');
+        $self->generateFont(['misc-fixed-9x18'],  'misc-fixed', 'xorg-misc-misc/9x18B.bdf', 'Misc-Fixed-9x18B', 'BM Misc Fixed 9x18', 'Bold');
+
+        $self->generateFont('sony-fixed', 'xorg-sony-misc/12x24.bdf', 'Sony-Fixed-12x24', 'BM Sony Fixed 12x24');
+        $self->generateFont('sony-fixed', 'xorg-sony-misc/8x16.bdf',  'Sony-Fixed-8x16',  'BM Sony Fixed 8x16');
+    }
+
+    sub isuptodate {
+        my ($target, @dependencies) = @_;
+        if (ref $target eq 'ARRAY') {
+            foreach my $subtarget (@$target) {
+                return 0 if !isuptodate($subtarget, @dependencies);
+            }
+            return 1;
+        }
+        return 0 if !-e $target;
+        my $targetage = -M $target;
+        return 0 if grep { $targetage > -M $_ } @dependencies;
         return 1;
     }
-    return 0 if !-e $target;
-    my $targetage = -M $target;
-    return 0 if grep { $targetage > -M $_ } @dependencies;
-    return 1;
-}
 
-sub tagmatch {
-    my ($specified, @tags) = @_;
-    if (ref $specified eq 'ARRAY') {
-        return (grep { tagmatch($_, @tags) } @$specified) ? 1 : 0;
+    sub tagmatch {
+        my ($specified, @tags) = @_;
+        if (ref $specified eq 'ARRAY') {
+            return (grep { tagmatch($_, @tags) } @$specified) ? 1 : 0;
+        }
+        return (grep { $specified eq $_ } @tags) ? 1 : 0;
     }
-    return (grep { $specified eq $_ } @tags) ? 1 : 0;
+};
+
+sub genfonts {
 }
-
-# subdir, source, basename, familyname, variants
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf', 'Lucida-Typewriter-11-Bold',  'BM Lucida Typewriter 11',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS10.bdf', 'Lucida-Typewriter-14c-Bold', 'BM Lucida Typewriter 14c', 'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS12.bdf', 'Lucida-Typewriter-17-Bold',  'BM Lucida Typewriter 17',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS14.bdf', 'Lucida-Typewriter-20-Bold',  'BM Lucida Typewriter 20',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS18.bdf', 'Lucida-Typewriter-25-Bold',  'BM Lucida Typewriter 25',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS19.bdf', 'Lucida-Typewriter-26-Bold',  'BM Lucida Typewriter 26',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS24.bdf', 'Lucida-Typewriter-34-Bold',  'BM Lucida Typewriter 34',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS08.bdf', 'Lucida-Typewriter-11',       'BM Lucida Typewriter 11');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS10.bdf', 'Lucida-Typewriter-14c',      'BM Lucida Typewriter 14c');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS12.bdf', 'Lucida-Typewriter-17',       'BM Lucida Typewriter 17');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS14.bdf', 'Lucida-Typewriter-20',       'BM Lucida Typewriter 20');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS18.bdf', 'Lucida-Typewriter-25',       'BM Lucida Typewriter 25');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS19.bdf', 'Lucida-Typewriter-26',       'BM Lucida Typewriter 26');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS24.bdf', 'Lucida-Typewriter-34',       'BM Lucida Typewriter 34');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS08.bdf',  'Lucida-Typewriter-8-Bold',   'BM Lucida Typewriter 8',   'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS10.bdf',  'Lucida-Typewriter-10-Bold',  'BM Lucida Typewriter 10',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS12.bdf',  'Lucida-Typewriter-12-Bold',  'BM Lucida Typewriter 12',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS14.bdf',  'Lucida-Typewriter-14-Bold',  'BM Lucida Typewriter 14',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS18.bdf',  'Lucida-Typewriter-18-Bold',  'BM Lucida Typewriter 18',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf',  'Lucida-Typewriter-19-Bold',  'BM Lucida Typewriter 19',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf',  'Lucida-Typewriter-24-Bold',  'BM Lucida Typewriter 24',  'Bold');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS08.bdf',  'Lucida-Typewriter-8',        'BM Lucida Typewriter 8');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS10.bdf',  'Lucida-Typewriter-10',       'BM Lucida Typewriter 10');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS12.bdf',  'Lucida-Typewriter-12',       'BM Lucida Typewriter 12');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS14.bdf',  'Lucida-Typewriter-14',       'BM Lucida Typewriter 14');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS18.bdf',  'Lucida-Typewriter-18',       'BM Lucida Typewriter 18');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS19.bdf',  'Lucida-Typewriter-19',       'BM Lucida Typewriter 19');
-genfont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS24.bdf',  'Lucida-Typewriter-24',       'BM Lucida Typewriter 24');
-
-genfont('dec-terminal', 'xorg-bitstream-100dpi/term14.bdf',  'DEC-Terminal-18',      'BM DEC Terminal 18');
-genfont('dec-terminal', 'xorg-bitstream-100dpi/termB14.bdf', 'DEC-Terminal-18-Bold', 'BM DEC Terminal 18', 'Bold');
-genfont('dec-terminal', 'xorg-bitstream-75dpi/term14.bdf',   'DEC-Terminal-14',      'BM DEC Terminal 14');
-genfont('dec-terminal', 'xorg-bitstream-75dpi/termB14.bdf',  'DEC-Terminal-14-Bold', 'BM DEC Terminal 14', 'Bold');
-
-genfont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13.bdf',  'Misc-Fixed-6x13',  'BM Misc Fixed 6x13');
-genfont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13B.bdf', 'Misc-Fixed-6x13B', 'BM Misc Fixed 6x13', 'Bold');
-genfont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13O.bdf', 'Misc-Fixed-6x13O', 'BM Misc Fixed 6x13', 'Oblique');
-genfont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13.bdf',  'Misc-Fixed-7x13',  'BM Misc Fixed 7x13');
-genfont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13B.bdf', 'Misc-Fixed-7x13B', 'BM Misc Fixed 7x13', 'Bold');
-genfont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13O.bdf', 'Misc-Fixed-7x13O', 'BM Misc Fixed 7x13', 'Oblique');
-genfont(['misc-fixed-10x20'], 'misc-fixed', 'xorg-misc-misc/10x20.bdf', 'Misc-Fixed-10x20', 'BM Misc Fixed 10x20');
-genfont(['misc-fixed-4x6'],   'misc-fixed', 'xorg-misc-misc/4x6.bdf',   'Misc-Fixed-4x6',   'BM Misc Fixed 4x6');
-genfont(['misc-fixed-5x7'],   'misc-fixed', 'xorg-misc-misc/5x7.bdf',   'Misc-Fixed-5x7',   'BM Misc Fixed 5x7');
-genfont(['misc-fixed-5x8'],   'misc-fixed', 'xorg-misc-misc/5x8.bdf',   'Misc-Fixed-5x8',   'BM Misc Fixed 5x8');
-genfont(['misc-fixed-6x10'],  'misc-fixed', 'xorg-misc-misc/6x10.bdf',  'Misc-Fixed-6x10',  'BM Misc Fixed 6x10');
-genfont(['misc-fixed-6x12'],  'misc-fixed', 'xorg-misc-misc/6x12.bdf',  'Misc-Fixed-6x12',  'BM Misc Fixed 6x12');
-genfont(['misc-fixed-6x9'],   'misc-fixed', 'xorg-misc-misc/6x9.bdf',   'Misc-Fixed-6x9',   'BM Misc Fixed 6x9');
-genfont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13.bdf',  'Misc-Fixed-7x13',  'BM Misc Fixed 7x13');
-genfont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13B.bdf', 'Misc-Fixed-7x13B', 'BM Misc Fixed 7x13', 'Bold');
-genfont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13O.bdf', 'Misc-Fixed-7x13O', 'BM Misc Fixed 7x13', 'Oblique');
-genfont(['misc-fixed-7x14'],  'misc-fixed', 'xorg-misc-misc/7x14.bdf',  'Misc-Fixed-7x14',  'BM Misc Fixed 7x14');
-genfont(['misc-fixed-7x14'],  'misc-fixed', 'xorg-misc-misc/7x14B.bdf', 'Misc-Fixed-7x14B', 'BM Misc Fixed 7x14', 'Bold');
-genfont(['misc-fixed-8x13'],  'misc-fixed', 'xorg-misc-misc/8x13.bdf',  'Misc-Fixed-8x13',  'BM Misc Fixed 8x13');
-genfont(['misc-fixed-8x13'],  'misc-fixed', 'xorg-misc-misc/8x13B.bdf', 'Misc-Fixed-8x13B', 'BM Misc Fixed 8x13', 'Bold');
-genfont(['misc-fixed-8x13'],  'misc-fixed', 'xorg-misc-misc/8x13O.bdf', 'Misc-Fixed-8x13O', 'BM Misc Fixed 8x13', 'Oblique');
-genfont(['misc-fixed-9x15'],  'misc-fixed', 'xorg-misc-misc/9x15.bdf',  'Misc-Fixed-9x15',  'BM Misc Fixed 9x15');
-genfont(['misc-fixed-9x15'],  'misc-fixed', 'xorg-misc-misc/9x15B.bdf', 'Misc-Fixed-9x15B', 'BM Misc Fixed 9x15', 'Bold');
-genfont(['misc-fixed-9x18'],  'misc-fixed', 'xorg-misc-misc/9x18.bdf',  'Misc-Fixed-9x18',  'BM Misc Fixed 9x18');
-genfont(['misc-fixed-9x18'],  'misc-fixed', 'xorg-misc-misc/9x18B.bdf', 'Misc-Fixed-9x18B', 'BM Misc Fixed 9x18', 'Bold');
-
-genfont('sony-fixed', 'xorg-sony-misc/12x24.bdf', 'Sony-Fixed-12x24', 'BM Sony Fixed 12x24');
-genfont('sony-fixed', 'xorg-sony-misc/8x16.bdf',  'Sony-Fixed-8x16',  'BM Sony Fixed 8x16');
