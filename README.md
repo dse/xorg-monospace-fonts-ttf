@@ -16,13 +16,22 @@ This includes:
 -   Misc Fixed (6x13, 10x20, and all the others)
 -   Sony bitmap fonts
 
-## Installation Instructions
+## Windows?
 
-Install the `.ttf` files like you would install any other TrueType
-fonts in the operating system and/or font manager of your choice.
+You want the files in the `windows/ttf` directory.
 
-## Choosing A Font Size
+The reason is, when specifying a font size for a pixel font, you have
+to divide the nominal font size by 4 and multiply by 3, then round to
+the nearest integer.  These files are optimized for Windows.
 
-**In Windows**, multiples of 3 will work best.  For `6x13`, for example, use a font size of 9.
+Examples:
 
-**In macOS**, multiples of 4 will work best.  For `6x13`, for example, use a font size of 12.
+-   for Misc Fixed 6x13: 13 ÷ 4 × 3 = 9.75 => 10
+
+-   for Misc Fixed 7x14: 14 ÷ 4 × 3 = 10.5 => 11
+
+## macOS?
+
+You want the files in the `ttf` directory.
+
+You specify the nominal point size.
