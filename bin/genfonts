@@ -67,9 +67,6 @@ package My::FontGenerator {
 
         my $fontname = $fullname;
         $fontname =~ s{\s+}{}g;
-        if (scalar @variant) {
-            $fontname .= join('-', @variant);
-        }
 
         my $ttfDir = $self->{windows} ? 'windows/ttf' : 'ttf';
         my $sfdDir = $self->{windows} ? 'windows/sfd' : 'sfd';
