@@ -8,6 +8,10 @@ fonts:
 	bin/genfonts
 	bin/genfonts --windows
 
+.PHONY: windows
+windows:
+	bin/genfonts --windows
+
 .PHONY: fixed
 fixed:
 	bin/genfonts misc-fixed
