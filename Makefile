@@ -1,4 +1,4 @@
-BITMAPFONT2TTF := $(shell which bitmapfont2ttf)
+BITMAPFONT2TTF  := $(shell which bitmapfont2ttf)
 
 .PHONY: default
 default: fonts
