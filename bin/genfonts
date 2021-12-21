@@ -74,7 +74,7 @@ package My::FontGenerator {
         my $ttfDir = $self->{windows} ? 'windows/ttf' : 'ttf';
         my $sfdDir = $self->{windows} ? 'windows/sfd' : 'sfd';
 
-        our @bitmapfont2ttfOptions = ('--monospace');
+        our @bitmapfont2ttfOptions = ('--monospace', '--check-pixel-counts', '--verbosity');
         if ($self->{windows}) {
             push(@bitmapfont2ttfOptions, '--nearest-multiple-of-four');
         }
@@ -97,7 +97,10 @@ package My::FontGenerator {
             return;
         }
 
-        printf STDERR ("%sGenerating %s and %s...%s\n", "\e[0;32m", $sfd, $ttf, "\e[0m");
+        print STDERR ("\e[0;32m") if -t 2;
+        printf STDERR ("Generating %s\n", $sfd);
+        printf STDERR ("       and %s...\n", $ttf);
+        print STDERR ("\e[0m") if -t 2;
         make_path(dirname($ttf));
         make_path(dirname($sfd));
         my @cmd = (
