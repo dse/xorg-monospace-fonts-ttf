@@ -74,7 +74,7 @@ package My::FontGenerator {
         my $ttfDir = $self->{windows} ? 'windows/ttf' : 'ttf';
         my $sfdDir = $self->{windows} ? 'windows/sfd' : 'sfd';
 
-        our @bitmapfont2ttfOptions = ('--monospace', '--check-pixel-counts', '--verbosity');
+        our @bitmapfont2ttfOptions = ('--monospace', '--verbosity');
         if ($self->{windows}) {
             push(@bitmapfont2ttfOptions, '--nearest-multiple-of-four');
         }
