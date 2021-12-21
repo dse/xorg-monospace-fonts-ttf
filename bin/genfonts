@@ -44,15 +44,9 @@ package My::FontGenerator {
     }
 
     sub generateFont {
-        my $self = shift;
-
-        my @tags;
-        if (scalar @_ && ref $_[0] eq 'ARRAY') {
-            @tags = @{$_[0]};
-            shift(@_);
-        }
-
-        my ($subdir, $source, $basename, $familyname, @variant) = @_;
+        my ($self, $subdir, $source, $basename, $familyname, %args) = @_;
+        my @variant = @{$args{variant} // []};
+        my @tags    = @{$args{tags} // []};
 
         my $familynamePrefix = $self->{windows} ? 'XBF WIN ' : 'XBF ';
         $familyname = $familynamePrefix . $familyname;
@@ -129,13 +123,13 @@ package My::FontGenerator {
         my ($self) = @_;
 
         # subdir, source, basename, familyname, variants
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf', 'Lucida-Typewriter-11-Bold',  'Lucida Typewriter 11',  'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS10.bdf', 'Lucida-Typewriter-14c-Bold', 'Lucida Typewriter 14c', 'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS12.bdf', 'Lucida-Typewriter-17-Bold',  'Lucida Typewriter 17',  'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS14.bdf', 'Lucida-Typewriter-20-Bold',  'Lucida Typewriter 20',  'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS18.bdf', 'Lucida-Typewriter-25-Bold',  'Lucida Typewriter 25',  'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS19.bdf', 'Lucida-Typewriter-26-Bold',  'Lucida Typewriter 26',  'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS24.bdf', 'Lucida-Typewriter-34-Bold',  'Lucida Typewriter 34',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf', 'Lucida-Typewriter-11-Bold',  'Lucida Typewriter 11',  variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS10.bdf', 'Lucida-Typewriter-14c-Bold', 'Lucida Typewriter 14c', variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS12.bdf', 'Lucida-Typewriter-17-Bold',  'Lucida Typewriter 17',  variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS14.bdf', 'Lucida-Typewriter-20-Bold',  'Lucida Typewriter 20',  variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS18.bdf', 'Lucida-Typewriter-25-Bold',  'Lucida Typewriter 25',  variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS19.bdf', 'Lucida-Typewriter-26-Bold',  'Lucida Typewriter 26',  variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS24.bdf', 'Lucida-Typewriter-34-Bold',  'Lucida Typewriter 34',  variants => ['Bold']);
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS08.bdf', 'Lucida-Typewriter-11',       'Lucida Typewriter 11');
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS10.bdf', 'Lucida-Typewriter-14c',      'Lucida Typewriter 14c');
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS12.bdf', 'Lucida-Typewriter-17',       'Lucida Typewriter 17');
@@ -143,13 +137,13 @@ package My::FontGenerator {
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS18.bdf', 'Lucida-Typewriter-25',       'Lucida Typewriter 25');
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS19.bdf', 'Lucida-Typewriter-26',       'Lucida Typewriter 26');
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS24.bdf', 'Lucida-Typewriter-34',       'Lucida Typewriter 34');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS08.bdf',  'Lucida-Typewriter-8-Bold',   'Lucida Typewriter 8',   'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS10.bdf',  'Lucida-Typewriter-10-Bold',  'Lucida Typewriter 10',  'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS12.bdf',  'Lucida-Typewriter-12-Bold',  'Lucida Typewriter 12',  'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS14.bdf',  'Lucida-Typewriter-14-Bold',  'Lucida Typewriter 14',  'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS18.bdf',  'Lucida-Typewriter-18-Bold',  'Lucida Typewriter 18',  'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf',  'Lucida-Typewriter-19-Bold',  'Lucida Typewriter 19',  'Bold');
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf',  'Lucida-Typewriter-24-Bold',  'Lucida Typewriter 24',  'Bold');
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS08.bdf',  'Lucida-Typewriter-8-Bold',   'Lucida Typewriter 8',   variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS10.bdf',  'Lucida-Typewriter-10-Bold',  'Lucida Typewriter 10',  variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS12.bdf',  'Lucida-Typewriter-12-Bold',  'Lucida Typewriter 12',  variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS14.bdf',  'Lucida-Typewriter-14-Bold',  'Lucida Typewriter 14',  variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS18.bdf',  'Lucida-Typewriter-18-Bold',  'Lucida Typewriter 18',  variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf',  'Lucida-Typewriter-19-Bold',  'Lucida Typewriter 19',  variants => ['Bold']);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf',  'Lucida-Typewriter-24-Bold',  'Lucida Typewriter 24',  variants => ['Bold']);
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS08.bdf',  'Lucida-Typewriter-8',        'Lucida Typewriter 8');
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS10.bdf',  'Lucida-Typewriter-10',       'Lucida Typewriter 10');
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS12.bdf',  'Lucida-Typewriter-12',       'Lucida Typewriter 12');
@@ -159,32 +153,32 @@ package My::FontGenerator {
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS24.bdf',  'Lucida-Typewriter-24',       'Lucida Typewriter 24');
 
         $self->generateFont('dec-terminal', 'xorg-bitstream-100dpi/term14.bdf',  'DEC-Terminal-18',      'DEC Terminal 18');
-        $self->generateFont('dec-terminal', 'xorg-bitstream-100dpi/termB14.bdf', 'DEC-Terminal-18-Bold', 'DEC Terminal 18', 'Bold');
+        $self->generateFont('dec-terminal', 'xorg-bitstream-100dpi/termB14.bdf', 'DEC-Terminal-18-Bold', 'DEC Terminal 18', variants => ['Bold']);
         $self->generateFont('dec-terminal', 'xorg-bitstream-75dpi/term14.bdf',   'DEC-Terminal-14',      'DEC Terminal 14');
-        $self->generateFont('dec-terminal', 'xorg-bitstream-75dpi/termB14.bdf',  'DEC-Terminal-14-Bold', 'DEC Terminal 14', 'Bold');
+        $self->generateFont('dec-terminal', 'xorg-bitstream-75dpi/termB14.bdf',  'DEC-Terminal-14-Bold', 'DEC Terminal 14', variants => ['Bold']);
 
-        $self->generateFont(['misc-fixed-10x20'], 'misc-fixed', 'xorg-misc-misc/10x20.bdf', 'Misc-Fixed-10x20', 'Misc Fixed 10x20');
-        $self->generateFont(['misc-fixed-4x6'],   'misc-fixed', 'xorg-misc-misc/4x6.bdf',   'Misc-Fixed-4x6',   'Misc Fixed 4x6');
-        $self->generateFont(['misc-fixed-5x7'],   'misc-fixed', 'xorg-misc-misc/5x7.bdf',   'Misc-Fixed-5x7',   'Misc Fixed 5x7');
-        $self->generateFont(['misc-fixed-5x8'],   'misc-fixed', 'xorg-misc-misc/5x8.bdf',   'Misc-Fixed-5x8',   'Misc Fixed 5x8');
-        $self->generateFont(['misc-fixed-6x10'],  'misc-fixed', 'xorg-misc-misc/6x10.bdf',  'Misc-Fixed-6x10',  'Misc Fixed 6x10');
-        $self->generateFont(['misc-fixed-6x12'],  'misc-fixed', 'xorg-misc-misc/6x12.bdf',  'Misc-Fixed-6x12',  'Misc Fixed 6x12');
-        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13.bdf',  'Misc-Fixed-6x13',  'Misc Fixed 6x13');
-        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13B.bdf', 'Misc-Fixed-6x13B', 'Misc Fixed 6x13', 'Bold');
-        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13O.bdf', 'Misc-Fixed-6x13O', 'Misc Fixed 6x13', 'Oblique');
-        $self->generateFont(['misc-fixed-6x9'],   'misc-fixed', 'xorg-misc-misc/6x9.bdf',   'Misc-Fixed-6x9',   'Misc Fixed 6x9');
-        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13.bdf',  'Misc-Fixed-7x13',  'Misc Fixed 7x13');
-        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13B.bdf', 'Misc-Fixed-7x13B', 'Misc Fixed 7x13', 'Bold');
-        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13O.bdf', 'Misc-Fixed-7x13O', 'Misc Fixed 7x13', 'Oblique');
-        $self->generateFont(['misc-fixed-7x14'],  'misc-fixed', 'xorg-misc-misc/7x14.bdf',  'Misc-Fixed-7x14',  'Misc Fixed 7x14');
-        $self->generateFont(['misc-fixed-7x14'],  'misc-fixed', 'xorg-misc-misc/7x14B.bdf', 'Misc-Fixed-7x14B', 'Misc Fixed 7x14', 'Bold');
-        $self->generateFont(['misc-fixed-8x13'],  'misc-fixed', 'xorg-misc-misc/8x13.bdf',  'Misc-Fixed-8x13',  'Misc Fixed 8x13');
-        $self->generateFont(['misc-fixed-8x13'],  'misc-fixed', 'xorg-misc-misc/8x13B.bdf', 'Misc-Fixed-8x13B', 'Misc Fixed 8x13', 'Bold');
-        $self->generateFont(['misc-fixed-8x13'],  'misc-fixed', 'xorg-misc-misc/8x13O.bdf', 'Misc-Fixed-8x13O', 'Misc Fixed 8x13', 'Oblique');
-        $self->generateFont(['misc-fixed-9x15'],  'misc-fixed', 'xorg-misc-misc/9x15.bdf',  'Misc-Fixed-9x15',  'Misc Fixed 9x15');
-        $self->generateFont(['misc-fixed-9x15'],  'misc-fixed', 'xorg-misc-misc/9x15B.bdf', 'Misc-Fixed-9x15B', 'Misc Fixed 9x15', 'Bold');
-        $self->generateFont(['misc-fixed-9x18'],  'misc-fixed', 'xorg-misc-misc/9x18.bdf',  'Misc-Fixed-9x18',  'Misc Fixed 9x18');
-        $self->generateFont(['misc-fixed-9x18'],  'misc-fixed', 'xorg-misc-misc/9x18B.bdf', 'Misc-Fixed-9x18B', 'Misc Fixed 9x18', 'Bold');
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/10x20.bdf', 'Misc-Fixed-10x20', 'Misc Fixed 10x20',                         tags => ['misc-fixed-10x20']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/4x6.bdf',   'Misc-Fixed-4x6',   'Misc Fixed 4x6',                           tags => ['misc-fixed-4x6']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/5x7.bdf',   'Misc-Fixed-5x7',   'Misc Fixed 5x7',                           tags => ['misc-fixed-5x7']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/5x8.bdf',   'Misc-Fixed-5x8',   'Misc Fixed 5x8',                           tags => ['misc-fixed-5x8']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/6x10.bdf',  'Misc-Fixed-6x10',  'Misc Fixed 6x10',                          tags => ['misc-fixed-6x10']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/6x12.bdf',  'Misc-Fixed-6x12',  'Misc Fixed 6x12',                          tags => ['misc-fixed-6x12']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/6x13.bdf',  'Misc-Fixed-6x13',  'Misc Fixed 6x13',                          tags => ['misc-fixed-6x13']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/6x13B.bdf', 'Misc-Fixed-6x13B', 'Misc Fixed 6x13', variants => ['Bold'],    tags => ['misc-fixed-6x13']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/6x13O.bdf', 'Misc-Fixed-6x13O', 'Misc Fixed 6x13', variants => ['Oblique'], tags => ['misc-fixed-6x13']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/6x9.bdf',   'Misc-Fixed-6x9',   'Misc Fixed 6x9',                           tags => ['misc-fixed-6x9']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/7x13.bdf',  'Misc-Fixed-7x13',  'Misc Fixed 7x13',                          tags => ['misc-fixed-7x13']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/7x13B.bdf', 'Misc-Fixed-7x13B', 'Misc Fixed 7x13', variants => ['Bold'],    tags => ['misc-fixed-7x13']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/7x13O.bdf', 'Misc-Fixed-7x13O', 'Misc Fixed 7x13', variants => ['Oblique'], tags => ['misc-fixed-7x13']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/7x14.bdf',  'Misc-Fixed-7x14',  'Misc Fixed 7x14',                          tags => ['misc-fixed-7x14']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/7x14B.bdf', 'Misc-Fixed-7x14B', 'Misc Fixed 7x14', variants => ['Bold'],    tags => ['misc-fixed-7x14']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/8x13.bdf',  'Misc-Fixed-8x13',  'Misc Fixed 8x13',                          tags => ['misc-fixed-8x13']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/8x13B.bdf', 'Misc-Fixed-8x13B', 'Misc Fixed 8x13', variants => ['Bold'],    tags => ['misc-fixed-8x13']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/8x13O.bdf', 'Misc-Fixed-8x13O', 'Misc Fixed 8x13', variants => ['Oblique'], tags => ['misc-fixed-8x13']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/9x15.bdf',  'Misc-Fixed-9x15',  'Misc Fixed 9x15',                          tags => ['misc-fixed-9x15']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/9x15B.bdf', 'Misc-Fixed-9x15B', 'Misc Fixed 9x15', variants => ['Bold'],    tags => ['misc-fixed-9x15']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/9x18.bdf',  'Misc-Fixed-9x18',  'Misc Fixed 9x18',                          tags => ['misc-fixed-9x18']);
+        $self->generateFont('misc-fixed', 'xorg-misc-misc/9x18B.bdf', 'Misc-Fixed-9x18B', 'Misc Fixed 9x18', variants => ['Bold'],    tags => ['misc-fixed-9x18']);
 
         $self->generateFont('sony-fixed', 'xorg-sony-misc/12x24.bdf', 'Sony-Fixed-12x24', 'Sony Fixed 12x24');
         $self->generateFont('sony-fixed', 'xorg-sony-misc/8x16.bdf',  'Sony-Fixed-8x16',  'Sony Fixed 8x16');
