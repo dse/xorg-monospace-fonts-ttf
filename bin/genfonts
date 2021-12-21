@@ -76,7 +76,7 @@ package My::FontGenerator {
 
         our @bitmapfont2ttfOptions = ('--monospace', '--verbosity');
         if ($self->{windows}) {
-            push(@bitmapfont2ttfOptions, '--nearest-multiple-of-four');
+            push(@bitmapfont2ttfOptions, '--windows');
         }
 
         my $ttf = "${ttfDir}/${subdir}/${basename}.ttf";
@@ -88,7 +88,15 @@ package My::FontGenerator {
             return 0 if !tagmatch([@specified], ($subdir, $source, $basename, $familyname, $fullname, $fontname, $ttf, $sfd, @tags));
         }
 
-        if (isuptodate([$ttf, $sfd], $0, $bitmapfont2ttf)) {
+        my @dependencies = (
+            $0,
+            $bitmapfont2ttf,
+            dirname($bitmapfont2ttf) . '/../lib/mybdf.py',
+            dirname($bitmapfont2ttf) . '/../lib/mybdfchar.py',
+            dirname($bitmapfont2ttf) . '/../lib/bitmapfont2ttf.py',
+        );
+
+        if (isuptodate([$ttf, $sfd], @dependencies)) {
             printf STDERR ("%s%s and %s are up to date%s\n",
                            "\e[0;32m",
                            $sfd,
