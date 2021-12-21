@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: XBFWINLucidaTypewriter19BoldBold
+FontName: XBFWINLucidaTypewriter19Bold
 FullName: XBF WIN Lucida Typewriter 19 Bold
 FamilyName: XBF WIN Lucida Typewriter 19
 Weight: Bold
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 898 2103705267 14193513]
+XUID: [1021 512 1204951627 8367866]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640111850
-ModificationTime: 1640111851
+CreationTime: 1640116419
+ModificationTime: 1640116420
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5

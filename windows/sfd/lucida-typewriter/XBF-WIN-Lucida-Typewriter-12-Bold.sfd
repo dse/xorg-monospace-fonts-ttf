@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: XBFWINLucidaTypewriter12BoldBold
+FontName: XBFWINLucidaTypewriter12Bold
 FullName: XBF WIN Lucida Typewriter 12 Bold
 FamilyName: XBF WIN Lucida Typewriter 12
 Weight: Bold
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 3 1010040712 12087276]
+XUID: [1021 330 -1013326079 10585291]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640111848
-ModificationTime: 1640111848
+CreationTime: 1640116417
+ModificationTime: 1640116417
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5

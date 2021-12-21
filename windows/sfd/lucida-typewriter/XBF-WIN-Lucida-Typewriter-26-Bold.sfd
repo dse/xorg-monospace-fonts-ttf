@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: XBFWINLucidaTypewriter26BoldBold
+FontName: XBFWINLucidaTypewriter26Bold
 FullName: XBF WIN Lucida Typewriter 26 Bold
 FamilyName: XBF WIN Lucida Typewriter 26
 Weight: Bold
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 612 407500658 15478604]
+XUID: [1021 541 -223884362 16769182]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640111833
-ModificationTime: 1640111834
+CreationTime: 1640116402
+ModificationTime: 1640116403
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5

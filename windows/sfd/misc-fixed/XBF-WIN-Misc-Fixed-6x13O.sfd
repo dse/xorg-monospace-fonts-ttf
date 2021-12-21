@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: XBFWINMiscFixed6x13ObliqueOblique
+FontName: XBFWINMiscFixed6x13Oblique
 FullName: XBF WIN Misc Fixed 6x13 Oblique
 FamilyName: XBF WIN Misc Fixed 6x13
 Weight: Book
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 990 -574844964 11781075]
+XUID: [1021 973 853790961 1753722]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640111873
-ModificationTime: 1640111873
+CreationTime: 1640116445
+ModificationTime: 1640116445
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5

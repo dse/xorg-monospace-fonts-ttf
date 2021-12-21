@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: XBFWINMiscFixed7x13BoldBold
+FontName: XBFWINMiscFixed7x13Bold
 FullName: XBF WIN Misc Fixed 7x13 Bold
 FamilyName: XBF WIN Misc Fixed 7x13
 Weight: Bold
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 22 -1778940712 7712475]
+XUID: [1021 834 1807432542 474006]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640111876
-ModificationTime: 1640111876
+CreationTime: 1640116448
+ModificationTime: 1640116448
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5

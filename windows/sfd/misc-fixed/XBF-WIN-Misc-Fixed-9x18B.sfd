@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: XBFWINMiscFixed9x18BoldBold
+FontName: XBFWINMiscFixed9x18Bold
 FullName: XBF WIN Misc Fixed 9x18 Bold
 FamilyName: XBF WIN Misc Fixed 9x18
 Weight: Bold
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 92 398412990 16077968]
+XUID: [1021 11 2147324108 9986204]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640111893
-ModificationTime: 1640111894
+CreationTime: 1640116467
+ModificationTime: 1640116467
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5

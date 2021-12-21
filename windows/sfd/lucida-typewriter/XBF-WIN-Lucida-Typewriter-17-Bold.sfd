@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: XBFWINLucidaTypewriter17BoldBold
+FontName: XBFWINLucidaTypewriter17Bold
 FullName: XBF WIN Lucida Typewriter 17 Bold
 FamilyName: XBF WIN Lucida Typewriter 17
 Weight: Bold
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 706 -1101209745 715937]
+XUID: [1021 874 1861561180 5771440]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640111829
-ModificationTime: 1640111830
+CreationTime: 1640116398
+ModificationTime: 1640116398
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5

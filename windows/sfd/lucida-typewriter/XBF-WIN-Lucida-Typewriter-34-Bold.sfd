@@ -1,5 +1,5 @@
 SplineFontDB: 3.2
-FontName: XBFWINLucidaTypewriter34BoldBold
+FontName: XBFWINLucidaTypewriter34Bold
 FullName: XBF WIN Lucida Typewriter 34 Bold
 FamilyName: XBF WIN Lucida Typewriter 34
 Weight: Bold
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 234 -845868479 9864257]
+XUID: [1021 839 1684243575 6181081]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640111834
-ModificationTime: 1640111836
+CreationTime: 1640116404
+ModificationTime: 1640116406
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5
