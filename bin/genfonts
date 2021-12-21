@@ -149,18 +149,15 @@ package My::FontGenerator {
         $self->generateFont('dec-terminal', 'xorg-bitstream-75dpi/term14.bdf',   'DEC-Terminal-14',      'XBF DEC Terminal 14');
         $self->generateFont('dec-terminal', 'xorg-bitstream-75dpi/termB14.bdf',  'DEC-Terminal-14-Bold', 'XBF DEC Terminal 14', 'Bold');
 
-        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13.bdf',  'Misc-Fixed-6x13',  'XBF Misc Fixed 6x13');
-        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13B.bdf', 'Misc-Fixed-6x13B', 'XBF Misc Fixed 6x13', 'Bold');
-        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13O.bdf', 'Misc-Fixed-6x13O', 'XBF Misc Fixed 6x13', 'Oblique');
-        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13.bdf',  'Misc-Fixed-7x13',  'XBF Misc Fixed 7x13');
-        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13B.bdf', 'Misc-Fixed-7x13B', 'XBF Misc Fixed 7x13', 'Bold');
-        $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13O.bdf', 'Misc-Fixed-7x13O', 'XBF Misc Fixed 7x13', 'Oblique');
         $self->generateFont(['misc-fixed-10x20'], 'misc-fixed', 'xorg-misc-misc/10x20.bdf', 'Misc-Fixed-10x20', 'XBF Misc Fixed 10x20');
         $self->generateFont(['misc-fixed-4x6'],   'misc-fixed', 'xorg-misc-misc/4x6.bdf',   'Misc-Fixed-4x6',   'XBF Misc Fixed 4x6');
         $self->generateFont(['misc-fixed-5x7'],   'misc-fixed', 'xorg-misc-misc/5x7.bdf',   'Misc-Fixed-5x7',   'XBF Misc Fixed 5x7');
         $self->generateFont(['misc-fixed-5x8'],   'misc-fixed', 'xorg-misc-misc/5x8.bdf',   'Misc-Fixed-5x8',   'XBF Misc Fixed 5x8');
         $self->generateFont(['misc-fixed-6x10'],  'misc-fixed', 'xorg-misc-misc/6x10.bdf',  'Misc-Fixed-6x10',  'XBF Misc Fixed 6x10');
         $self->generateFont(['misc-fixed-6x12'],  'misc-fixed', 'xorg-misc-misc/6x12.bdf',  'Misc-Fixed-6x12',  'XBF Misc Fixed 6x12');
+        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13.bdf',  'Misc-Fixed-6x13',  'XBF Misc Fixed 6x13');
+        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13B.bdf', 'Misc-Fixed-6x13B', 'XBF Misc Fixed 6x13', 'Bold');
+        $self->generateFont(['misc-fixed-6x13'],  'misc-fixed', 'xorg-misc-misc/6x13O.bdf', 'Misc-Fixed-6x13O', 'XBF Misc Fixed 6x13', 'Oblique');
         $self->generateFont(['misc-fixed-6x9'],   'misc-fixed', 'xorg-misc-misc/6x9.bdf',   'Misc-Fixed-6x9',   'XBF Misc Fixed 6x9');
         $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13.bdf',  'Misc-Fixed-7x13',  'XBF Misc Fixed 7x13');
         $self->generateFont(['misc-fixed-7x13'],  'misc-fixed', 'xorg-misc-misc/7x13B.bdf', 'Misc-Fixed-7x13B', 'XBF Misc Fixed 7x13', 'Bold');
