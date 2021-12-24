@@ -13,6 +13,10 @@ fonts:
 windows:
 	bin/genfonts --windows
 
+.PHONY: windows-dry-run
+windows-dry-run:
+	bin/genfonts --windows --no-save --no-trace
+
 .PHONY: fixed
 fixed:
 	@(tput bold; echo; echo "Have you ran 'git pull --recurse-submodules' lately?"; echo; tput sgr0)>&2
@@ -32,3 +36,7 @@ pull:
 .PHONY: clean
 clean:
 	/bin/rm sfd/*/*.sfd ttf/*/*.ttf windows/sfd/*/*.sfd windows/ttf/*/*.ttf || true
+
+.PHONY: clean-windows
+clean-windows:
+	/bin/rm windows/sfd/*/*.sfd windows/ttf/*/*.ttf || true
