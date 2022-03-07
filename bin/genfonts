@@ -132,12 +132,12 @@ package My::FontGenerator {
             "--family-name=${familyname}",
             @bitmapfont2ttfOptions,
             $source,
-            ($sfdOnly ? () : ($ttf)),
-            $sfd
+            ($sfdOnly ? ($sfd) : ($sfd, $ttf)),
         );
         if ($self->{dryRun}) {
             print(shell_quote(@cmd), "\n");
         } else {
+            warn("+ ", shell_quote(@cmd), "\n");
             system(@cmd) and exit(1);
         }
     }
@@ -147,6 +147,7 @@ package My::FontGenerator {
 
         #                   subdir,              source,                                        basename,                     familyname,              variants                                                                                                                             add to [descent, ascent] usually [0,0] or [0,1] or [1,1]
 
+        # bold has one less ascent pixel than regular
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS08.bdf', 'Lucida-Typewriter-8H',        'Lucida Typewriter 8H',                         winPixelHeight =>  8, winFixPixelHeight => [0, 0], marked => 1);
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf', 'Lucida-Typewriter-8H-Bold',   'Lucida Typewriter 8H',   variants => ['Bold'], winPixelHeight => 00, winFixPixelHeight => [0, 0], marked => 1);
 
@@ -186,6 +187,7 @@ package My::FontGenerator {
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS19.bdf',  'Lucida-Typewriter-19',       'Lucida Typewriter 19',                        winPixelHeight => 16, winFixPixelHeight => [0, 0]);
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf',  'Lucida-Typewriter-19-Bold',  'Lucida Typewriter 19',  variants => ['Bold'], winPixelHeight => 16, winFixPixelHeight => [0, 0]);
 
+        # bold has one less ascent pixel than regular
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS24.bdf',  'Lucida-Typewriter-24',       'Lucida Typewriter 24',                        winPixelHeight => 19, winFixPixelHeight => [0, 0], marked => 1);
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf',  'Lucida-Typewriter-24-Bold',  'Lucida Typewriter 24',  variants => ['Bold'], winPixelHeight => 00, winFixPixelHeight => [0, 0], marked => 1);
 
