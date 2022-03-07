@@ -9,6 +9,10 @@ fonts:
 	bin/genfonts
 	bin/genfonts --windows
 
+.PHONY: marked
+marked:
+	bin/genfonts --marked --windows
+
 .PHONY: windows
 windows:
 	bin/genfonts --windows
