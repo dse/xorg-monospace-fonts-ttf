@@ -67,9 +67,6 @@ package My::FontGenerator {
         my $fontname = $fullname;
         $fontname =~ s{\s+}{}g;
 
-        my $ttfDir = $self->{windows} ? 'windows/ttf' : 'ttf';
-        my $sfdDir = $self->{windows} ? 'windows/sfd' : 'sfd';
-
         our @bitmapfont2ttfOptions = ('--monospace', '--verbosity');
         if ($self->{windows}) {
             if (defined $winFixPixelHeight) {
@@ -82,8 +79,15 @@ package My::FontGenerator {
         push(@bitmapfont2ttfOptions, '--no-save') if $noSave;
         push(@bitmapfont2ttfOptions, '--no-trace') if $noTrace;
 
-        my $ttf = "${ttfDir}/${subdir}/${basename}.ttf";
-        my $sfd = "${sfdDir}/${subdir}/${basename}.sfd";
+        my $ttf;
+        my $sfd;
+        if ($self->{windows}) {
+            $ttf = "fonts/windows/${basename}.ttf";
+            $sfd = "sfd/windows/${basename}.sfd";
+        } else {
+            $ttf = "fonts/macos/${basename}.ttf";
+            $sfd = "sfd/macos/${basename}.sfd";
+        }
 
         my @specified = @{$self->{specified} // []};
 
@@ -151,21 +155,21 @@ package My::FontGenerator {
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS19.bdf', 'Lucida-Typewriter-19H',       'Lucida Typewriter 19H',                        winFixPixelHeight => [0, 1]); # FIXME
         $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-100dpi/lutRS24.bdf', 'Lucida-Typewriter-24H',       'Lucida Typewriter 24H',                        winFixPixelHeight => [1, 1]);
 
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutBS08.bdf',  'Lucida-Typewriter-8-Bold',   'Lucida Typewriter 8',   variants => ['Bold'], winFixPixelHeight => [0, 1]); # FIXME
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutBS10.bdf',  'Lucida-Typewriter-10-Bold',  'Lucida Typewriter 10',  variants => ['Bold'], winFixPixelHeight => [0, 1]);
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutBS12.bdf',  'Lucida-Typewriter-12-Bold',  'Lucida Typewriter 12',  variants => ['Bold'], winFixPixelHeight => [0, 0]);
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutBS14.bdf',  'Lucida-Typewriter-14-Bold',  'Lucida Typewriter 14',  variants => ['Bold'], winFixPixelHeight => [0, 1]);
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutBS18.bdf',  'Lucida-Typewriter-18-Bold',  'Lucida Typewriter 18',  variants => ['Bold'], winFixPixelHeight => [0, 1]);
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutBS19.bdf',  'Lucida-Typewriter-19-Bold',  'Lucida Typewriter 19',  variants => ['Bold'], winFixPixelHeight => [1, 1]);
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutBS24.bdf',  'Lucida-Typewriter-24-Bold',  'Lucida Typewriter 24',  variants => ['Bold'], winFixPixelHeight => [1, 1]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS08.bdf',  'Lucida-Typewriter-8-Bold',   'Lucida Typewriter 8',   variants => ['Bold'], winFixPixelHeight => [0, 1]); # FIXME
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS10.bdf',  'Lucida-Typewriter-10-Bold',  'Lucida Typewriter 10',  variants => ['Bold'], winFixPixelHeight => [0, 1]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS12.bdf',  'Lucida-Typewriter-12-Bold',  'Lucida Typewriter 12',  variants => ['Bold'], winFixPixelHeight => [0, 0]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS14.bdf',  'Lucida-Typewriter-14-Bold',  'Lucida Typewriter 14',  variants => ['Bold'], winFixPixelHeight => [0, 1]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS18.bdf',  'Lucida-Typewriter-18-Bold',  'Lucida Typewriter 18',  variants => ['Bold'], winFixPixelHeight => [0, 1]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf',  'Lucida-Typewriter-19-Bold',  'Lucida Typewriter 19',  variants => ['Bold'], winFixPixelHeight => [1, 1]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf',  'Lucida-Typewriter-24-Bold',  'Lucida Typewriter 24',  variants => ['Bold'], winFixPixelHeight => [1, 1]);
 
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutRS08.bdf',  'Lucida-Typewriter-8',        'Lucida Typewriter 8',                         winFixPixelHeight => [0, 1]); # FIXME
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutRS10.bdf',  'Lucida-Typewriter-10',       'Lucida Typewriter 10',                        winFixPixelHeight => [0, 1]);
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutRS12.bdf',  'Lucida-Typewriter-12',       'Lucida Typewriter 12',                        winFixPixelHeight => [0, 0]);
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutRS14.bdf',  'Lucida-Typewriter-14',       'Lucida Typewriter 14',                        winFixPixelHeight => [0, 1]);
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutRS18.bdf',  'Lucida-Typewriter-18',       'Lucida Typewriter 18',                        winFixPixelHeight => [0, 1]);
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutRS19.bdf',  'Lucida-Typewriter-19',       'Lucida Typewriter 19',                        winFixPixelHeight => [1, 1]);
-        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriterdpi/lutRS24.bdf',  'Lucida-Typewriter-24',       'Lucida Typewriter 24',                        winFixPixelHeight => [0, 1]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS08.bdf',  'Lucida-Typewriter-8',        'Lucida Typewriter 8',                         winFixPixelHeight => [0, 1]); # FIXME
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS10.bdf',  'Lucida-Typewriter-10',       'Lucida Typewriter 10',                        winFixPixelHeight => [0, 1]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS12.bdf',  'Lucida-Typewriter-12',       'Lucida Typewriter 12',                        winFixPixelHeight => [0, 0]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS14.bdf',  'Lucida-Typewriter-14',       'Lucida Typewriter 14',                        winFixPixelHeight => [0, 1]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS18.bdf',  'Lucida-Typewriter-18',       'Lucida Typewriter 18',                        winFixPixelHeight => [0, 1]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS19.bdf',  'Lucida-Typewriter-19',       'Lucida Typewriter 19',                        winFixPixelHeight => [1, 1]);
+        $self->generateFont('lucida-typewriter', 'xorg-bh-lucidatypewriter-75dpi/lutRS24.bdf',  'Lucida-Typewriter-24',       'Lucida Typewriter 24',                        winFixPixelHeight => [0, 1]);
 
         $self->generateFont('dec-terminal', 'xorg-bitstream-100dpi/term14.bdf',  'DEC-Terminal-18',      'DEC Terminal 18',                       winFixPixelHeight => [0, 1]); # FIXME
         $self->generateFont('dec-terminal', 'xorg-bitstream-100dpi/termB14.bdf', 'DEC-Terminal-18-Bold', 'DEC Terminal 18', variants => ['Bold'], winFixPixelHeight => [0, 0]); # FIXME
