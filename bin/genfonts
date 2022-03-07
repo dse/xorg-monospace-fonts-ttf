@@ -52,7 +52,7 @@ package My::FontGenerator {
     sub generateFont {
         my ($self, $subdir, $source, $basename, $familyname, %args) = @_;
 
-        next if $marked && !$args{marked};
+        return if $marked && !$args{marked};
 
         my @variant = @{$args{variants} // []};
         my @tags    = @{$args{tags} // []};
