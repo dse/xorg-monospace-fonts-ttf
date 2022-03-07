@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: XBFMiscFixed7x13BoldBold
+FontName: XBFMiscFixed7x13Bold
 FullName: XBF Misc Fixed 7x13 Bold
 FamilyName: XBF Misc Fixed 7x13
 Weight: Bold
 Copyright: Public domain font.  Share and enjoy.
-UComments: "2021-12-21: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-6: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 210 -337969538 11741572]
+XUID: [1021 230 -369342143 8220636]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640108139
-ModificationTime: 1640108139
+CreationTime: 1646613490
+ModificationTime: 1646613490
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5

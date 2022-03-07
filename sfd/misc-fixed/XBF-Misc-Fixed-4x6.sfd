@@ -4,7 +4,7 @@ FullName: XBF Misc Fixed 4x6
 FamilyName: XBF Misc Fixed 4x6
 Weight: Book
 Copyright: Public domain font.  Share and enjoy.
-UComments: "2021-12-21: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-6: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 290 1180006537 141435]
+XUID: [1021 235 237742507 1698037]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640108126
-ModificationTime: 1640108126
+CreationTime: 1646613478
+ModificationTime: 1646613478
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5

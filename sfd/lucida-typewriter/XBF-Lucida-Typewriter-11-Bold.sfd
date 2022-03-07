@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: XBFLucidaTypewriter11BoldBold
+FontName: XBFLucidaTypewriter11Bold
 FullName: XBF Lucida Typewriter 11 Bold
 FamilyName: XBF Lucida Typewriter 11
 Weight: Bold
 Copyright: Copyright Bigelow & Holmes 1986, 1985.
-UComments: "2021-12-21: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-6: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 450 203732700 15737469]
+XUID: [1021 827 1982516245 16016690]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640108090
-ModificationTime: 1640108090
+CreationTime: 1646613443
+ModificationTime: 1646613443
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5

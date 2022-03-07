@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: XBFMiscFixed8x13ObliqueOblique
+FontName: XBFMiscFixed8x13Oblique
 FullName: XBF Misc Fixed 8x13 Oblique
 FamilyName: XBF Misc Fixed 8x13
 Weight: Book
 Copyright: Public domain font.  Share and enjoy.
-UComments: "2021-12-21: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-6: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 98 295015491 122938]
+XUID: [1021 378 -1315266852 7751891]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640108146
-ModificationTime: 1640108147
+CreationTime: 1646613497
+ModificationTime: 1646613498
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5

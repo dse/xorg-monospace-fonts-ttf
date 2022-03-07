@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: XBFMiscFixed9x18BoldBold
+FontName: XBFMiscFixed9x18Bold
 FullName: XBF Misc Fixed 9x18 Bold
 FamilyName: XBF Misc Fixed 9x18
 Weight: Bold
 Copyright: Public domain font.  Share and enjoy.
-UComments: "2021-12-21: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-6: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 899 -743165207 10458656]
+XUID: [1021 948 1193061909 2569914]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1640108156
-ModificationTime: 1640108157
+CreationTime: 1646613508
+ModificationTime: 1646613508
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5
