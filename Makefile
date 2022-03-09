@@ -17,6 +17,10 @@ marked:
 windows:
 	bin/genfonts --windows
 
+.PHONY: windows-sfd
+windows-sfd:
+	bin/genfonts --windows --sfd-only
+
 .PHONY: windows-dry-run
 windows-dry-run:
 	bin/genfonts --windows --no-save --no-trace
