@@ -4,7 +4,7 @@ FullName: XBF WIN Lucida Typewriter 12 Bold
 FamilyName: XBF WIN Lucida Typewriter 12
 Weight: Bold
 Copyright: Copyright Bigelow & Holmes 1986, 1985.
-UComments: "2022-3-6: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 133 1192779644 8776772]
+XUID: [1021 309 -1425048381 6095798]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1646622826
-ModificationTime: 1646622826
+CreationTime: 1646718389
+ModificationTime: 1646718389
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5

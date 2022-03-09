@@ -4,7 +4,7 @@ FullName: XBF WIN Lucida Typewriter 18H
 FamilyName: XBF WIN Lucida Typewriter 18H
 Weight: Book
 Copyright: Copyright Bigelow & Holmes 1986, 1985.
-UComments: "2022-3-6: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 796 495995436 4630755]
+XUID: [1021 35 -1176186574 3652352]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1646622802
-ModificationTime: 1646622803
+CreationTime: 1646718366
+ModificationTime: 1646718367
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5

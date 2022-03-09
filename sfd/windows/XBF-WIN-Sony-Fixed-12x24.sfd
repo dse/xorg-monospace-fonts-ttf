@@ -4,7 +4,7 @@ FullName: XBF WIN Sony Fixed 12x24
 FamilyName: XBF WIN Sony Fixed 12x24
 Weight: Book
 Copyright: Copyright (c) 1987, 1988 Sony Corp.
-UComments: "2022-3-6: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 146 -1617949039 3518897]
+XUID: [1021 748 -1556019084 3874258]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1646622900
-ModificationTime: 1646622900
+CreationTime: 1646718465
+ModificationTime: 1646718465
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5

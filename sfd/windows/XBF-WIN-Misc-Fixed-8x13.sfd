@@ -4,7 +4,7 @@ FullName: XBF WIN Misc Fixed 8x13
 FamilyName: XBF WIN Misc Fixed 8x13
 Weight: Book
 Copyright: Public domain font.  Share and enjoy.
-UComments: "2022-3-6: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 454 -2005613957 13023372]
+XUID: [1021 396 692944776 9320358]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1646622869
-ModificationTime: 1646622870
+CreationTime: 1646718433
+ModificationTime: 1646718434
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5
