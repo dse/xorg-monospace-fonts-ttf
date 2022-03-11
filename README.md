@@ -1,5 +1,9 @@
 # xorg-monospace-fonts-ttf
 
+**NOTE: WORK IN PROGRESS.  I've found numerous issues and I'm working
+on resolving them.  You probably don't want to download these fonts
+right now.**
+
 The X Window System comes with a pretty good assortment of bitmap
 fonts.  The monospace fonts in it happen to be excellent for coding.
 
