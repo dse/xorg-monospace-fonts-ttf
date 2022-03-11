@@ -4,7 +4,7 @@ FullName: XBF WIN Sony Fixed 8x16
 FamilyName: XBF WIN Sony Fixed 8x16
 Weight: Book
 Copyright: Copyright (c) 1987, 1988 Sony Corp.
-UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-11: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 393 1175245693 12341214]
+XUID: [1021 359 1038338631 16210253]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1646718464
-ModificationTime: 1646718465
+CreationTime: 1646981413
+ModificationTime: 1646981413
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5
@@ -53,6 +53,7 @@ OS2SupYOff: 480
 OS2StrikeYSize: 49
 OS2StrikeYPos: 258
 OS2Vendor: 'PfEd'
+MacStyle: 0
 DEI: 91125
 Encoding: UnicodeBmp
 UnicodeInterp: none

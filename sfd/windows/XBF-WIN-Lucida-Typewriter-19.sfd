@@ -4,7 +4,7 @@ FullName: XBF WIN Lucida Typewriter 19
 FamilyName: XBF WIN Lucida Typewriter 19
 Weight: Book
 Copyright: Copyright Bigelow & Holmes 1986, 1985.
-UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-11: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 865 -2114301201 3263436]
+XUID: [1021 932 521738958 3919334]
 StyleMap: 0x0040
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1646718397
-ModificationTime: 1646718397
+CreationTime: 1646981339
+ModificationTime: 1646981339
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5
@@ -53,6 +53,7 @@ OS2SupYOff: 480
 OS2StrikeYSize: 49
 OS2StrikeYPos: 258
 OS2Vendor: 'PfEd'
+MacStyle: 0
 DEI: 91125
 Encoding: UnicodeBmp
 UnicodeInterp: none

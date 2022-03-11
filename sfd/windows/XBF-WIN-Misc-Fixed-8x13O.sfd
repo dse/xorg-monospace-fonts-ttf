@@ -1,12 +1,12 @@
 SplineFontDB: 3.2
-FontName: XBFWINMiscFixed8x13Oblique
+FontName: XBFWINMiscFixed8x13-Oblique
 FullName: XBF WIN Misc Fixed 8x13 Oblique
 FamilyName: XBF WIN Misc Fixed 8x13
 Weight: Book
 Copyright: Public domain font.  Share and enjoy.
-UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-11: Created with FontForge (http://fontforge.org)"
 Version: 001.000
-ItalicAngle: 0
+ItalicAngle: -12
 UnderlinePosition: -100
 UnderlineWidth: 50
 Ascent: 846
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 755 2005474386 4429866]
-StyleMap: 0x0040
+XUID: [1021 829 1999312845 16722175]
+StyleMap: 0x0001
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1646718438
-ModificationTime: 1646718439
+CreationTime: 1646981384
+ModificationTime: 1646981385
 PfmFamily: 48
 TTFWeight: 400
 TTFWidth: 5
@@ -53,6 +53,7 @@ OS2SupYOff: 480
 OS2StrikeYSize: 49
 OS2StrikeYPos: 258
 OS2Vendor: 'PfEd'
+MacStyle: 2
 DEI: 91125
 Encoding: UnicodeBmp
 UnicodeInterp: none

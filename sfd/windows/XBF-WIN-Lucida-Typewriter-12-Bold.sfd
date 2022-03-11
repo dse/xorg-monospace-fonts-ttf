@@ -1,10 +1,10 @@
 SplineFontDB: 3.2
-FontName: XBFWINLucidaTypewriter12Bold
+FontName: XBFWINLucidaTypewriter12-Bold
 FullName: XBF WIN Lucida Typewriter 12 Bold
 FamilyName: XBF WIN Lucida Typewriter 12
 Weight: Bold
 Copyright: Copyright Bigelow & Holmes 1986, 1985.
-UComments: "2022-3-8: Created with FontForge (http://fontforge.org)"
+UComments: "2022-3-11: Created with FontForge (http://fontforge.org)"
 Version: 001.000
 ItalicAngle: 0
 UnderlinePosition: -100
@@ -15,14 +15,14 @@ InvalidEm: 0
 LayerCount: 2
 Layer: 0 0 "Back" 1
 Layer: 1 0 "Fore" 0
-XUID: [1021 309 -1425048381 6095798]
+XUID: [1021 825 586603424 9102790]
 StyleMap: 0x0020
 FSType: 0
 OS2Version: 0
 OS2_WeightWidthSlopeOnly: 0
 OS2_UseTypoMetrics: 1
-CreationTime: 1646718389
-ModificationTime: 1646718389
+CreationTime: 1646981330
+ModificationTime: 1646981330
 PfmFamily: 48
 TTFWeight: 700
 TTFWidth: 5
@@ -53,6 +53,7 @@ OS2SupYOff: 480
 OS2StrikeYSize: 49
 OS2StrikeYPos: 258
 OS2Vendor: 'PfEd'
+MacStyle: 1
 DEI: 91125
 Encoding: UnicodeBmp
 UnicodeInterp: none
