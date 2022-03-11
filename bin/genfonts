@@ -203,8 +203,6 @@ package My::FontGenerator {
             for (my $i = 0; $i < scalar @header && $i < scalar @data; $i += 1) {
                 $row{$header[$i]} = $data[$i];
             }
-            printf("A %s  B %s\n", $row{origPixelSize} // '-',
-                   $row{pixelSize} // '-');
             $self->generateFont(%row);
         }
     }
@@ -236,7 +234,6 @@ package My::FontGenerator {
         my @fs = (6, 7, 8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48, 72);
         @fs = map { round($_ * 4 / 3) } @fs;
         @fs = grep { $_ >= $px } @fs;
-        print("$px => $fs[0]\n");
         return $fs[0] if scalar @fs;
         return $px;
     }
