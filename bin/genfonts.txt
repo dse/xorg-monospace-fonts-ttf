@@ -32,40 +32,35 @@
 | xorg-bitstream-75dpi/termB14.bdf            | DEC-Terminal-14-Bold       | DEC Terminal 14       | Bold     | 14            | 12         | 3           | 0      |           |        |         |       |        | Bold   |         |       |
 | xorg-bitstream-100dpi/term14.bdf            | DEC-Terminal-18            | DEC Terminal 18       |          | 18            | 15         | 5           | 0      |           |        |         |       |        |        |         |       |
 | xorg-bitstream-100dpi/termB14.bdf           | DEC-Terminal-18-Bold       | DEC Terminal 18       | Bold     | 18            | 15         | 5           | 0      |           |        |         |       |        | Bold   |         |       |
-| xorg-misc-misc/4x6.bdf                      | Misc-Fixed-4x6             | Misc Fixed 406        |          | 6             | 5          | 1           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/5x7.bdf                      | Misc-Fixed-5x7             | Misc Fixed 507        |          | 7             | 6          | 1           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/5x8.bdf                      | Misc-Fixed-5x8             | Misc Fixed 508        |          | 8             | 7          | 1           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/6x9.bdf                      | Misc-Fixed-6x9             | Misc Fixed 609        |          | 9             | 7          | 2           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/6x10.bdf                     | Misc-Fixed-6x10            | Misc Fixed 610        |          | 10            | 8          | 2           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/6x12.bdf                     | Misc-Fixed-6x12            | Misc Fixed 612        |          | 12            | 10         | 2           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/6x13.bdf                     | Misc-Fixed-6x13            | Misc Fixed 613        |          | 13            | 11         | 2           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/6x13B.bdf                    | Misc-Fixed-6x13B           | Misc Fixed 613        | Bold     | 13            | 11         | 2           | 0      |           |        |         |       |        | Bold   |         | fixed |
-| xorg-misc-misc/6x13O.bdf                    | Misc-Fixed-6x13O           | Misc Fixed 613        | Italic   | 13            | 11         | 2           | 0      |           |        |         |       | *      |        | Italic  | fixed |
-| xorg-misc-misc/7x13.bdf                     | Misc-Fixed-7x13            | Misc Fixed 713        |          | 13            | 11         | 2           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/7x13B.bdf                    | Misc-Fixed-7x13B           | Misc Fixed 713        | Bold     | 13            | 11         | 2           | 0      |           |        |         |       |        | Bold   |         | fixed |
-| xorg-misc-misc/7x13O.bdf                    | Misc-Fixed-7x13O           | Misc Fixed 713        | Italic   | 13            | 11         | 2           | 0      |           |        |         |       | *      |        | Italic  | fixed |
-| xorg-misc-misc/7x14.bdf                     | Misc-Fixed-7x14            | Misc Fixed 714        |          | 14            | 12         | 2           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/7x14B.bdf                    | Misc-Fixed-7x14B           | Misc Fixed 714        | Bold     | 14            | 12         | 2           | 0      |           |        |         |       |        | Bold   |         | fixed |
-| xorg-misc-misc/8x13.bdf                     | Misc-Fixed-8x13            | Misc Fixed 813        |          | 13            | 11         | 2           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/8x13B.bdf                    | Misc-Fixed-8x13B           | Misc Fixed 813        | Bold     | 13            | 11         | 2           | 0      |           |        |         |       |        | Bold   |         | fixed |
-| xorg-misc-misc/8x13O.bdf                    | Misc-Fixed-8x13O           | Misc Fixed 813        | Italic   | 13            | 11         | 2           | 0      |           |        |         |       | *      |        | Italic  | fixed |
-| xorg-misc-misc/9x15.bdf                     | Misc-Fixed-9x15            | Misc Fixed 915        |          | 15            | 12         | 3           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/9x15B.bdf                    | Misc-Fixed-9x15B           | Misc Fixed 915        | Bold     | 15            | 12         | 3           | 0      |           |        |         |       |        | Bold   |         | fixed |
-| xorg-misc-misc/9x18.bdf                     | Misc-Fixed-9x18            | Misc Fixed 918        |          | 18            | 14         | 4           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-misc-misc/9x18B.bdf                    | Misc-Fixed-9x18B           | Misc Fixed 918        | Bold     | 18            | 14         | 4           | 0      |           |        |         |       |        | Bold   |         | fixed |
-| xorg-misc-misc/10x20.bdf                    | Misc-Fixed-10x20           | Misc Fixed 1020       |          | 20            | 16         | 4           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-sony-misc/8x16.bdf                     | Sony-Fixed-8x16            | Sony Fixed 816        |          | 16            | 14         | 2           | 0      |           |        |         |       |        |        |         | fixed |
-| xorg-sony-misc/12x24.bdf                    | Sony-Fixed-12x24           | Sony Fixed 1224       |          | 24            | 22         | 2           | 0      |           |        |         |       |        |        |         | fixed |
-
+| xorg-misc-misc/4x6.bdf                      | Misc-Fixed-4x6             | Misc Fixed 4x6        |          | 6             | 5          | 1           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/5x7.bdf                      | Misc-Fixed-5x7             | Misc Fixed 5x7        |          | 7             | 6          | 1           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/5x8.bdf                      | Misc-Fixed-5x8             | Misc Fixed 5x8        |          | 8             | 7          | 1           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/6x9.bdf                      | Misc-Fixed-6x9             | Misc Fixed 6x9        |          | 9             | 7          | 2           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/6x10.bdf                     | Misc-Fixed-6x10            | Misc Fixed 6x10       |          | 10            | 8          | 2           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/6x12.bdf                     | Misc-Fixed-6x12            | Misc Fixed 6x12       |          | 12            | 10         | 2           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/6x13.bdf                     | Misc-Fixed-6x13            | Misc Fixed 6x13       |          | 13            | 11         | 2           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/6x13B.bdf                    | Misc-Fixed-6x13B           | Misc Fixed 6x13       | Bold     | 13            | 11         | 2           | 0      |           |        |         |       |        | Bold   |         | fixed |
+| xorg-misc-misc/6x13O.bdf                    | Misc-Fixed-6x13O           | Misc Fixed 6x13       | Oblique  | 13            | 11         | 2           | 0      |           |        |         |       |        |        | Oblique | fixed |
+| xorg-misc-misc/7x13.bdf                     | Misc-Fixed-7x13            | Misc Fixed 7x13       |          | 13            | 11         | 2           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/7x13B.bdf                    | Misc-Fixed-7x13B           | Misc Fixed 7x13       | Bold     | 13            | 11         | 2           | 0      |           |        |         |       |        | Bold   |         | fixed |
+| xorg-misc-misc/7x13O.bdf                    | Misc-Fixed-7x13O           | Misc Fixed 7x13       | Oblique  | 13            | 11         | 2           | 0      |           |        |         |       |        |        | Oblique | fixed |
+| xorg-misc-misc/7x14.bdf                     | Misc-Fixed-7x14            | Misc Fixed 7x14       |          | 14            | 12         | 2           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/7x14B.bdf                    | Misc-Fixed-7x14B           | Misc Fixed 7x14       | Bold     | 14            | 12         | 2           | 0      |           |        |         |       |        | Bold   |         | fixed |
+| xorg-misc-misc/8x13.bdf                     | Misc-Fixed-8x13            | Misc Fixed 8x13       |          | 13            | 11         | 2           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/8x13B.bdf                    | Misc-Fixed-8x13B           | Misc Fixed 8x13       | Bold     | 13            | 11         | 2           | 0      |           |        |         |       |        | Bold   |         | fixed |
+| xorg-misc-misc/8x13O.bdf                    | Misc-Fixed-8x13O           | Misc Fixed 8x13       | Oblique  | 13            | 11         | 2           | 0      |           |        |         |       |        |        | Oblique | fixed |
+| xorg-misc-misc/9x15.bdf                     | Misc-Fixed-9x15            | Misc Fixed 9x15       |          | 15            | 12         | 3           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/9x15B.bdf                    | Misc-Fixed-9x15B           | Misc Fixed 9x15       | Bold     | 15            | 12         | 3           | 0      |           |        |         |       |        | Bold   |         | fixed |
+| xorg-misc-misc/9x18.bdf                     | Misc-Fixed-9x18            | Misc Fixed 9x18       |          | 18            | 14         | 4           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-misc-misc/9x18B.bdf                    | Misc-Fixed-9x18B           | Misc Fixed 9x18       | Bold     | 18            | 14         | 4           | 0      |           |        |         |       |        | Bold   |         | fixed |
+| xorg-misc-misc/10x20.bdf                    | Misc-Fixed-10x20           | Misc Fixed 10x20      |          | 20            | 16         | 4           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-sony-misc/8x16.bdf                     | Sony-Fixed-8x16            | Sony Fixed 8x16       |          | 16            | 14         | 2           | 0      |           |        |         |       |        |        |         | fixed |
+| xorg-sony-misc/12x24.bdf                    | Sony-Fixed-12x24           | Sony Fixed 12x24      |          | 24            | 22         | 2           | 0      |           |        |         |       |        |        |         | fixed |
 
         # sizes selectable in notepad
         #        8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48, 72
         #
-        # [6, 7, 8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48, 72].map(x => Math.round(x * 4 / 3))
+        # [6, 7, 8, 9, 10, 11, 12, 14, 16, 18, 20, 22, 24, 26, 28, 36, 48, 72].map(x => Math.round(x   4 / 3))
         #==============================================================================
         # [ 8, 9, 11, 12, 13, 15, 16, 19, 21, 24, 27, 29, 32, 35, 37, 48, 64, 96 ]
         #==============================================================================
-
-
-
-e
