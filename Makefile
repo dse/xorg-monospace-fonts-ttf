@@ -25,6 +25,10 @@ windows-sfd:
 windows-dry-run:
 	bin/genfonts --windows --no-save --no-trace
 
+.PHONY: windows-fixed
+windows-fixed:
+	bin/genfonts --windows fixed
+
 .PHONY: fixed
 fixed:
 	@(tput bold; echo; echo "Have you ran 'git pull --recurse-submodules' lately?"; echo; tput sgr0)>&2
