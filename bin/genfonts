@@ -135,6 +135,8 @@ package My::FontGenerator {
         }
 
         my @dependencies = (
+            dirname($0) . '/../Makefile',
+            dirname($0) . '/genfonts.txt',
             $0,
             $bitmapfont2ttf,
             dirname($bitmapfont2ttf) . '/../lib/mybdf.py',
