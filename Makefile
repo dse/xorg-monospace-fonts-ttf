@@ -9,13 +9,25 @@ fonts:
 	bin/genfonts
 	bin/genfonts --windows
 
+.PHONY: marked
+marked:
+	bin/genfonts --marked --windows
+
 .PHONY: windows
 windows:
 	bin/genfonts --windows
 
+.PHONY: windows-sfd
+windows-sfd:
+	bin/genfonts --windows --sfd-only
+
 .PHONY: windows-dry-run
 windows-dry-run:
 	bin/genfonts --windows --no-save --no-trace
+
+.PHONY: windows-fixed
+windows-fixed:
+	bin/genfonts --windows fixed
 
 .PHONY: fixed
 fixed:

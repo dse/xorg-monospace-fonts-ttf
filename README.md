@@ -19,21 +19,15 @@ This includes:
 
 ## Windows?
 
-You want the files in the `windows/ttf` directory.
+You want the files in the `fonts/windows` directory.
 
 The reason is, many of them require adjustments so that you can
-specify a pixel size with which they will properly render, i.e.,
-as a pixel font.
-
-Examples:
-
--   for Misc Fixed 6x13: 13 ÷ 4 × 3 = 9.75 => 10
-
--   for Misc Fixed 7x14: 14 ÷ 4 × 3 = 10.5 => 11
+specify a pixel size with which they will render as a pixel font like
+you want, and not be all blurry lookin'.
 
 ## macOS?
 
-You want the files in the `ttf` directory.
+You want the files in the `fonts/macos` directory.
 
 You specify the nominal point size.
 
