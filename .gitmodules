@@ -1,24 +1,24 @@
 [submodule "xorg-adobe-75dpi"]
 	path = xorg-adobe-75dpi
-	url = git@github.com:freedesktop/xorg-adobe-75dpi.git
+	url = https://gitlab.freedesktop.org/xorg/font/adobe-75dpi.git
 [submodule "xorg-bitstream-75dpi"]
 	path = xorg-bitstream-75dpi
-	url = git@github.com:freedesktop/xorg-bitstream-75dpi.git
+	url = https://gitlab.freedesktop.org/xorg/font/bitstream-75dpi.git
 [submodule "xorg-bh-lucidatypewriter-75dpi"]
 	path = xorg-bh-lucidatypewriter-75dpi
-	url = git@github.com:freedesktop/xorg-bh-lucidatypewriter-75dpi.git
+	url = https://gitlab.freedesktop.org/xorg/font/bh-lucidatypewriter-75dpi.git
 [submodule "xorg-adobe-100dpi"]
 	path = xorg-adobe-100dpi
-	url = git@github.com:freedesktop/xorg-adobe-100dpi.git
+	url = https://gitlab.freedesktop.org/xorg/font/adobe-100dpi.git
 [submodule "xorg-bitstream-100dpi"]
 	path = xorg-bitstream-100dpi
-	url = git@github.com:freedesktop/xorg-bitstream-100dpi.git
+	url = https://gitlab.freedesktop.org/xorg/font/bitstream-100dpi.git
 [submodule "xorg-bh-lucidatypewriter-100dpi"]
 	path = xorg-bh-lucidatypewriter-100dpi
-	url = git@github.com:freedesktop/xorg-bh-lucidatypewriter-100dpi.git
+	url = https://gitlab.freedesktop.org/xorg/font/bh-lucidatypewriter-100dpi.git
 [submodule "xorg-misc-misc"]
 	path = xorg-misc-misc
-	url = git@github.com:freedesktop/xorg-misc-misc.git
+	url = https://gitlab.freedesktop.org/xorg/font/misc-misc.git
 [submodule "xorg-sony-misc"]
 	path = xorg-sony-misc
-	url = git@github.com:freedesktop/xorg-sony-misc.git
+	url = https://gitlab.freedesktop.org/xorg/font/sony-misc.git
