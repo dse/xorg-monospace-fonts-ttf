@@ -116,7 +116,6 @@ _run_font () {
     if [[ "${weight}" != "" ]]; then fullname="${fullname} ${weight}"; fi
     if [[ "${slant}" != "" ]]; then fullname="${fullname} ${slant}"; fi
     local fontname="${basename}"
-    echo run_font "$@"
     run_font "$@"
 }
 
