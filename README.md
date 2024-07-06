@@ -16,73 +16,108 @@ This includes:
 -   Misc Fixed (6x13, 10x20, and all the others)
 -   Sony bitmap fonts
 
+## Font Family Names
+
+Since they are different bitmap patterns, all the font family names
+are different.  Bold and oblique fonts do share the same font family
+name as the regular font.
+
+For Lucida Typewriter and DEC Terminal:
+
+-   "8A", etc. - the "8" is the nominal font size in points; the "A" means it's the 75dpi variant.
+
+-   "8B", etc. - the "B" means it's the 100dpi variant.
+
 ## macOS
 
-You probably want to use the pixel size column below.
+In macOS, you probably want to use the **pixel size** column below.
+Don't use the font size specified in the font family name.
+
+Note that because of Windows weirdness, we add one pixel row to some
+of the fonts.  It's complicated and stupid.
 
 ## Windows
 
-In Windows, most times you specify the font's point size, not pixel
-size.
+In Windows, you probably want to use the **point size** column below.
 
-To compute the point size, if the pixel size is 2 modulo 4, add one
-more pixel.  Then multiply by 0.75 and round to the nearest integer.
+## Fonts
 
 | Filename                              | Source BDF                                  | PostScript Font Name     | Family Name           | Weight | Slant   | Pixel Size | Point Size |
 |---------------------------------------|---------------------------------------------|--------------------------|-----------------------|--------|---------|------------|------------|
-| dist/ttf/LucidaTypewriter11-Bold.ttf  | xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf | LucidaTypewriter11-Bold  | Lucida Typewriter 11  | Bold   |         | 11px       | 8pt        |
-| dist/ttf/LucidaTypewriter14c-Bold.ttf | xorg-bh-lucidatypewriter-100dpi/lutBS10.bdf | LucidaTypewriter14c-Bold | Lucida Typewriter 14c | Bold   |         | 15px       | 11pt       |
-| dist/ttf/LucidaTypewriter17-Bold.ttf  | xorg-bh-lucidatypewriter-100dpi/lutBS12.bdf | LucidaTypewriter17-Bold  | Lucida Typewriter 17  | Bold   |         | 17px       | 13pt       |
-| dist/ttf/LucidaTypewriter20-Bold.ttf  | xorg-bh-lucidatypewriter-100dpi/lutBS14.bdf | LucidaTypewriter20-Bold  | Lucida Typewriter 20  | Bold   |         | 20px       | 15pt       |
-| dist/ttf/LucidaTypewriter25-Bold.ttf  | xorg-bh-lucidatypewriter-100dpi/lutBS18.bdf | LucidaTypewriter25-Bold  | Lucida Typewriter 25  | Bold   |         | 25px       | 19pt       |
-| dist/ttf/LucidaTypewriter26-Bold.ttf  | xorg-bh-lucidatypewriter-100dpi/lutBS19.bdf | LucidaTypewriter26-Bold  | Lucida Typewriter 26  | Bold   |         | 27px       | 20pt       |
-| dist/ttf/LucidaTypewriter34-Bold.ttf  | xorg-bh-lucidatypewriter-100dpi/lutBS24.bdf | LucidaTypewriter34-Bold  | Lucida Typewriter 34  | Bold   |         | 35px       | 26pt       |
-| dist/ttf/LucidaTypewriter11.ttf       | xorg-bh-lucidatypewriter-100dpi/lutRS08.bdf | LucidaTypewriter11       | Lucida Typewriter 11  |        |         | 11px       | 8pt        |
-| dist/ttf/LucidaTypewriter14c.ttf      | xorg-bh-lucidatypewriter-100dpi/lutRS10.bdf | LucidaTypewriter14c      | Lucida Typewriter 14c |        |         | 15px       | 11pt       |
-| dist/ttf/LucidaTypewriter17.ttf       | xorg-bh-lucidatypewriter-100dpi/lutRS12.bdf | LucidaTypewriter17       | Lucida Typewriter 17  |        |         | 17px       | 13pt       |
-| dist/ttf/LucidaTypewriter20.ttf       | xorg-bh-lucidatypewriter-100dpi/lutRS14.bdf | LucidaTypewriter20       | Lucida Typewriter 20  |        |         | 20px       | 15pt       |
-| dist/ttf/LucidaTypewriter25.ttf       | xorg-bh-lucidatypewriter-100dpi/lutRS18.bdf | LucidaTypewriter25       | Lucida Typewriter 25  |        |         | 25px       | 19pt       |
-| dist/ttf/LucidaTypewriter26.ttf       | xorg-bh-lucidatypewriter-100dpi/lutRS19.bdf | LucidaTypewriter26       | Lucida Typewriter 26  |        |         | 27px       | 20pt       |
-| dist/ttf/LucidaTypewriter34.ttf       | xorg-bh-lucidatypewriter-100dpi/lutRS24.bdf | LucidaTypewriter34       | Lucida Typewriter 34  |        |         | 35px       | 26pt       |
-| dist/ttf/LucidaTypewriter8-Bold.ttf   | xorg-bh-lucidatypewriter-75dpi/lutBS08.bdf  | LucidaTypewriter8-Bold   | Lucida Typewriter 8   | Bold   |         | 8px        | 6pt        |
-| dist/ttf/LucidaTypewriter10-Bold.ttf  | xorg-bh-lucidatypewriter-75dpi/lutBS10.bdf  | LucidaTypewriter10-Bold  | Lucida Typewriter 10  | Bold   |         | 11px       | 8pt        |
-| dist/ttf/LucidaTypewriter12-Bold.ttf  | xorg-bh-lucidatypewriter-75dpi/lutBS12.bdf  | LucidaTypewriter12-Bold  | Lucida Typewriter 12  | Bold   |         | 12px       | 9pt        |
-| dist/ttf/LucidaTypewriter14-Bold.ttf  | xorg-bh-lucidatypewriter-75dpi/lutBS14.bdf  | LucidaTypewriter14-Bold  | Lucida Typewriter 14  | Bold   |         | 15px       | 11pt       |
-| dist/ttf/LucidaTypewriter18-Bold.ttf  | xorg-bh-lucidatypewriter-75dpi/lutBS18.bdf  | LucidaTypewriter18-Bold  | Lucida Typewriter 18  | Bold   |         | 19px       | 14pt       |
-| dist/ttf/LucidaTypewriter19-Bold.ttf  | xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf  | LucidaTypewriter19-Bold  | Lucida Typewriter 19  | Bold   |         | 19px       | 14pt       |
-| dist/ttf/LucidaTypewriter24-Bold.ttf  | xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf  | LucidaTypewriter24-Bold  | Lucida Typewriter 24  | Bold   |         | 24px       | 18pt       |
-| dist/ttf/LucidaTypewriter8.ttf        | xorg-bh-lucidatypewriter-75dpi/lutRS08.bdf  | LucidaTypewriter8        | Lucida Typewriter 8   |        |         | 8px        | 6pt        |
-| dist/ttf/LucidaTypewriter10.ttf       | xorg-bh-lucidatypewriter-75dpi/lutRS10.bdf  | LucidaTypewriter10       | Lucida Typewriter 10  |        |         | 11px       | 8pt        |
-| dist/ttf/LucidaTypewriter12.ttf       | xorg-bh-lucidatypewriter-75dpi/lutRS12.bdf  | LucidaTypewriter12       | Lucida Typewriter 12  |        |         | 12px       | 9pt        |
-| dist/ttf/LucidaTypewriter14.ttf       | xorg-bh-lucidatypewriter-75dpi/lutRS14.bdf  | LucidaTypewriter14       | Lucida Typewriter 14  |        |         | 15px       | 11pt       |
-| dist/ttf/LucidaTypewriter18.ttf       | xorg-bh-lucidatypewriter-75dpi/lutRS18.bdf  | LucidaTypewriter18       | Lucida Typewriter 18  |        |         | 19px       | 14pt       |
-| dist/ttf/LucidaTypewriter19.ttf       | xorg-bh-lucidatypewriter-75dpi/lutRS19.bdf  | LucidaTypewriter19       | Lucida Typewriter 19  |        |         | 19px       | 14pt       |
-| dist/ttf/LucidaTypewriter24.ttf       | xorg-bh-lucidatypewriter-75dpi/lutRS24.bdf  | LucidaTypewriter24       | Lucida Typewriter 24  |        |         | 24px       | 18pt       |
-| dist/ttf/DECTerminal18.ttf            | xorg-bitstream-100dpi/term14.bdf            | DECTerminal18            | DEC Terminal 18       |        |         | 19px       | 14pt       |
-| dist/ttf/DECTerminal18-Bold.ttf       | xorg-bitstream-100dpi/termB14.bdf           | DECTerminal18-Bold       | DEC Terminal 18       | Bold   |         | 19px       | 14pt       |
-| dist/ttf/DECTerminal14.ttf            | xorg-bitstream-75dpi/term14.bdf             | DECTerminal14            | DEC Terminal 14       |        |         | 15px       | 11pt       |
-| dist/ttf/DECTerminal14-Bold.ttf       | xorg-bitstream-75dpi/termB14.bdf            | DECTerminal14-Bold       | DEC Terminal 14       | Bold   |         | 15px       | 11pt       |
-| dist/ttf/MiscFixed10x20.ttf           | xorg-misc-misc/10x20.bdf                    | MiscFixed10x20           | Misc Fixed 10x20      |        |         | 20px       | 15pt       |
-| dist/ttf/MiscFixed4x6.ttf             | xorg-misc-misc/4x6.bdf                      | MiscFixed4x6             | Misc Fixed 4x6        |        |         | 7px        | 5pt        |
-| dist/ttf/MiscFixed5x7.ttf             | xorg-misc-misc/5x7.bdf                      | MiscFixed5x7             | Misc Fixed 5x7        |        |         | 7px        | 5pt        |
-| dist/ttf/MiscFixed5x8.ttf             | xorg-misc-misc/5x8.bdf                      | MiscFixed5x8             | Misc Fixed 5x8        |        |         | 8px        | 6pt        |
-| dist/ttf/MiscFixed6x10.ttf            | xorg-misc-misc/6x10.bdf                     | MiscFixed6x10            | Misc Fixed 6x10       |        |         | 11px       | 8pt        |
-| dist/ttf/MiscFixed6x12.ttf            | xorg-misc-misc/6x12.bdf                     | MiscFixed6x12            | Misc Fixed 6x12       |        |         | 12px       | 9pt        |
-| dist/ttf/MiscFixed6x13.ttf            | xorg-misc-misc/6x13.bdf                     | MiscFixed6x13            | Misc Fixed 6x13       |        |         | 13px       | 10pt       |
-| dist/ttf/MiscFixed6x13-Bold.ttf       | xorg-misc-misc/6x13B.bdf                    | MiscFixed6x13-Bold       | Misc Fixed 6x13       | Bold   |         | 13px       | 10pt       |
-| dist/ttf/MiscFixed6x13-Oblique.ttf    | xorg-misc-misc/6x13O.bdf                    | MiscFixed6x13-Oblique    | Misc Fixed 6x13       |        | Oblique | 13px       | 10pt       |
-| dist/ttf/MiscFixed6x9.ttf             | xorg-misc-misc/6x9.bdf                      | MiscFixed6x9             | Misc Fixed 6x9        |        |         | 9px        | 7pt        |
-| dist/ttf/MiscFixed7x13.ttf            | xorg-misc-misc/7x13.bdf                     | MiscFixed7x13            | Misc Fixed 7x13       |        |         | 13px       | 10pt       |
-| dist/ttf/MiscFixed7x13-Bold.ttf       | xorg-misc-misc/7x13B.bdf                    | MiscFixed7x13-Bold       | Misc Fixed 7x13       | Bold   |         | 13px       | 10pt       |
-| dist/ttf/MiscFixed7x13-Oblique.ttf    | xorg-misc-misc/7x13O.bdf                    | MiscFixed7x13-Oblique    | Misc Fixed 7x13       |        | Oblique | 13px       | 10pt       |
-| dist/ttf/MiscFixed7x14.ttf            | xorg-misc-misc/7x14.bdf                     | MiscFixed7x14            | Misc Fixed 7x14       |        |         | 15px       | 11pt       |
-| dist/ttf/MiscFixed7x14-Bold.ttf       | xorg-misc-misc/7x14B.bdf                    | MiscFixed7x14-Bold       | Misc Fixed 7x14       | Bold   |         | 15px       | 11pt       |
-| dist/ttf/MiscFixed8x13.ttf            | xorg-misc-misc/8x13.bdf                     | MiscFixed8x13            | Misc Fixed 8x13       |        |         | 13px       | 10pt       |
-| dist/ttf/MiscFixed8x13-Bold.ttf       | xorg-misc-misc/8x13B.bdf                    | MiscFixed8x13-Bold       | Misc Fixed 8x13       | Bold   |         | 13px       | 10pt       |
-| dist/ttf/MiscFixed8x13-Oblique.ttf    | xorg-misc-misc/8x13O.bdf                    | MiscFixed8x13-Oblique    | Misc Fixed 8x13       |        | Oblique | 13px       | 10pt       |
-| dist/ttf/MiscFixed9x15.ttf            | xorg-misc-misc/9x15.bdf                     | MiscFixed9x15            | Misc Fixed 9x15       |        |         | 15px       | 11pt       |
-| dist/ttf/MiscFixed9x15-Bold.ttf       | xorg-misc-misc/9x15B.bdf                    | MiscFixed9x15-Bold       | Misc Fixed 9x15       | Bold   |         | 15px       | 11pt       |
-| dist/ttf/MiscFixed9x18.ttf            | xorg-misc-misc/9x18.bdf                     | MiscFixed9x18            | Misc Fixed 9x18       |        |         | 19px       | 14pt       |
-| dist/ttf/MiscFixed9x18-Bold.ttf       | xorg-misc-misc/9x18B.bdf                    | MiscFixed9x18-Bold       | Misc Fixed 9x18       | Bold   |         | 19px       | 14pt       |
-| dist/ttf/SonyFixed12x24.ttf           | xorg-sony-misc/12x24.bdf                    | SonyFixed12x24           | Sony Fixed 12x24      |        |         | 24px       | 18pt       |
-| dist/ttf/SonyFixed8x16.ttf            | xorg-sony-misc/8x16.bdf                     | SonyFixed8x16            | Sony Fixed 8x16       |        |         | 16px       | 12pt       |
+| dist/ttf/LucidaTypewriter8A-Bold.ttf  | xorg-bh-lucidatypewriter-75dpi/lutBS08.bdf  | LucidaTypewriter8A-Bold  | Lucida Typewriter 8A  | Bold   |         | 8          | 6          |
+| dist/ttf/LucidaTypewriter10A-Bold.ttf | xorg-bh-lucidatypewriter-75dpi/lutBS10.bdf  | LucidaTypewriter10A-Bold | Lucida Typewriter 10A | Bold   |         | 11         | 8          |
+| dist/ttf/LucidaTypewriter12A-Bold.ttf | xorg-bh-lucidatypewriter-75dpi/lutBS12.bdf  | LucidaTypewriter12A-Bold | Lucida Typewriter 12A | Bold   |         | 12         | 9          |
+| dist/ttf/LucidaTypewriter14A-Bold.ttf | xorg-bh-lucidatypewriter-75dpi/lutBS14.bdf  | LucidaTypewriter14A-Bold | Lucida Typewriter 14A | Bold   |         | 15         | 11         |
+| dist/ttf/LucidaTypewriter18A-Bold.ttf | xorg-bh-lucidatypewriter-75dpi/lutBS18.bdf  | LucidaTypewriter18A-Bold | Lucida Typewriter 18A | Bold   |         | 19         | 14         |
+| dist/ttf/LucidaTypewriter19A-Bold.ttf | xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf  | LucidaTypewriter19A-Bold | Lucida Typewriter 19A | Bold   |         | 19         | 14         |
+| dist/ttf/LucidaTypewriter24A-Bold.ttf | xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf  | LucidaTypewriter24A-Bold | Lucida Typewriter 24A | Bold   |         | 24         | 18         |
+| dist/ttf/LucidaTypewriter8A.ttf       | xorg-bh-lucidatypewriter-75dpi/lutRS08.bdf  | LucidaTypewriter8A       | Lucida Typewriter 8A  |        |         | 8          | 6          |
+| dist/ttf/LucidaTypewriter10A.ttf      | xorg-bh-lucidatypewriter-75dpi/lutRS10.bdf  | LucidaTypewriter10A      | Lucida Typewriter 10A |        |         | 11         | 8          |
+| dist/ttf/LucidaTypewriter12A.ttf      | xorg-bh-lucidatypewriter-75dpi/lutRS12.bdf  | LucidaTypewriter12A      | Lucida Typewriter 12A |        |         | 12         | 9          |
+| dist/ttf/LucidaTypewriter14A.ttf      | xorg-bh-lucidatypewriter-75dpi/lutRS14.bdf  | LucidaTypewriter14A      | Lucida Typewriter 14A |        |         | 15         | 11         |
+| dist/ttf/LucidaTypewriter18A.ttf      | xorg-bh-lucidatypewriter-75dpi/lutRS18.bdf  | LucidaTypewriter18A      | Lucida Typewriter 18A |        |         | 19         | 14         |
+| dist/ttf/LucidaTypewriter19A.ttf      | xorg-bh-lucidatypewriter-75dpi/lutRS19.bdf  | LucidaTypewriter19A      | Lucida Typewriter 19A |        |         | 19         | 14         |
+| dist/ttf/LucidaTypewriter24A.ttf      | xorg-bh-lucidatypewriter-75dpi/lutRS24.bdf  | LucidaTypewriter24A      | Lucida Typewriter 24A |        |         | 24         | 18         |
+| dist/ttf/LucidaTypewriter8B-Bold.ttf  | xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf | LucidaTypewriter8B-Bold  | Lucida Typewriter 8B  | Bold   |         | 11         | 8          |
+| dist/ttf/LucidaTypewriter10B-Bold.ttf | xorg-bh-lucidatypewriter-100dpi/lutBS10.bdf | LucidaTypewriter10B-Bold | Lucida Typewriter 10B | Bold   |         | 15         | 11         |
+| dist/ttf/LucidaTypewriter12B-Bold.ttf | xorg-bh-lucidatypewriter-100dpi/lutBS12.bdf | LucidaTypewriter12B-Bold | Lucida Typewriter 12B | Bold   |         | 17         | 13         |
+| dist/ttf/LucidaTypewriter14B-Bold.ttf | xorg-bh-lucidatypewriter-100dpi/lutBS14.bdf | LucidaTypewriter14B-Bold | Lucida Typewriter 14B | Bold   |         | 20         | 15         |
+| dist/ttf/LucidaTypewriter18B-Bold.ttf | xorg-bh-lucidatypewriter-100dpi/lutBS18.bdf | LucidaTypewriter18B-Bold | Lucida Typewriter 18B | Bold   |         | 25         | 19         |
+| dist/ttf/LucidaTypewriter19B-Bold.ttf | xorg-bh-lucidatypewriter-100dpi/lutBS19.bdf | LucidaTypewriter19B-Bold | Lucida Typewriter 19B | Bold   |         | 27         | 20         |
+| dist/ttf/LucidaTypewriter24B-Bold.ttf | xorg-bh-lucidatypewriter-100dpi/lutBS24.bdf | LucidaTypewriter24B-Bold | Lucida Typewriter 24B | Bold   |         | 35         | 26         |
+| dist/ttf/LucidaTypewriter8B.ttf       | xorg-bh-lucidatypewriter-100dpi/lutRS08.bdf | LucidaTypewriter8B       | Lucida Typewriter 8B  |        |         | 11         | 8          |
+| dist/ttf/LucidaTypewriter10B.ttf      | xorg-bh-lucidatypewriter-100dpi/lutRS10.bdf | LucidaTypewriter10B      | Lucida Typewriter 10B |        |         | 15         | 11         |
+| dist/ttf/LucidaTypewriter12B.ttf      | xorg-bh-lucidatypewriter-100dpi/lutRS12.bdf | LucidaTypewriter12B      | Lucida Typewriter 12B |        |         | 17         | 13         |
+| dist/ttf/LucidaTypewriter14B.ttf      | xorg-bh-lucidatypewriter-100dpi/lutRS14.bdf | LucidaTypewriter14B      | Lucida Typewriter 14B |        |         | 20         | 15         |
+| dist/ttf/LucidaTypewriter18B.ttf      | xorg-bh-lucidatypewriter-100dpi/lutRS18.bdf | LucidaTypewriter18B      | Lucida Typewriter 18B |        |         | 25         | 19         |
+| dist/ttf/LucidaTypewriter19B.ttf      | xorg-bh-lucidatypewriter-100dpi/lutRS19.bdf | LucidaTypewriter19B      | Lucida Typewriter 19B |        |         | 27         | 20         |
+| dist/ttf/LucidaTypewriter24B.ttf      | xorg-bh-lucidatypewriter-100dpi/lutRS24.bdf | LucidaTypewriter24B      | Lucida Typewriter 24B |        |         | 35         | 26         |
+| dist/ttf/DECTerminal14A.ttf           | xorg-bitstream-75dpi/term14.bdf             | DECTerminal14A           | DEC Terminal 14A      |        |         | 15         | 11         |
+| dist/ttf/DECTerminal14A-Bold.ttf      | xorg-bitstream-75dpi/termB14.bdf            | DECTerminal14A-Bold      | DEC Terminal 14A      | Bold   |         | 15         | 11         |
+| dist/ttf/DECTerminal14B.ttf           | xorg-bitstream-100dpi/term14.bdf            | DECTerminal14B           | DEC Terminal 14B      |        |         | 19         | 14         |
+| dist/ttf/DECTerminal14B-Bold.ttf      | xorg-bitstream-100dpi/termB14.bdf           | DECTerminal14B-Bold      | DEC Terminal 14B      | Bold   |         | 19         | 14         |
+| dist/ttf/MiscFixed10x20.ttf           | xorg-misc-misc/10x20.bdf                    | MiscFixed10x20           | Misc Fixed 10x20      |        |         | 20         | 15         |
+| dist/ttf/MiscFixed4x6.ttf             | xorg-misc-misc/4x6.bdf                      | MiscFixed4x6             | Misc Fixed 4x6        |        |         | 7          | 5          |
+| dist/ttf/MiscFixed5x7.ttf             | xorg-misc-misc/5x7.bdf                      | MiscFixed5x7             | Misc Fixed 5x7        |        |         | 7          | 5          |
+| dist/ttf/MiscFixed5x8.ttf             | xorg-misc-misc/5x8.bdf                      | MiscFixed5x8             | Misc Fixed 5x8        |        |         | 8          | 6          |
+| dist/ttf/MiscFixed6x10.ttf            | xorg-misc-misc/6x10.bdf                     | MiscFixed6x10            | Misc Fixed 6x10       |        |         | 11         | 8          |
+| dist/ttf/MiscFixed6x12.ttf            | xorg-misc-misc/6x12.bdf                     | MiscFixed6x12            | Misc Fixed 6x12       |        |         | 12         | 9          |
+| dist/ttf/MiscFixed6x13.ttf            | xorg-misc-misc/6x13.bdf                     | MiscFixed6x13            | Misc Fixed 6x13       |        |         | 13         | 10         |
+| dist/ttf/MiscFixed6x13-Bold.ttf       | xorg-misc-misc/6x13B.bdf                    | MiscFixed6x13-Bold       | Misc Fixed 6x13       | Bold   |         | 13         | 10         |
+| dist/ttf/MiscFixed6x13-Oblique.ttf    | xorg-misc-misc/6x13O.bdf                    | MiscFixed6x13-Oblique    | Misc Fixed 6x13       |        | Oblique | 13         | 10         |
+| dist/ttf/MiscFixed6x9.ttf             | xorg-misc-misc/6x9.bdf                      | MiscFixed6x9             | Misc Fixed 6x9        |        |         | 9          | 7          |
+| dist/ttf/MiscFixed7x13.ttf            | xorg-misc-misc/7x13.bdf                     | MiscFixed7x13            | Misc Fixed 7x13       |        |         | 13         | 10         |
+| dist/ttf/MiscFixed7x13-Bold.ttf       | xorg-misc-misc/7x13B.bdf                    | MiscFixed7x13-Bold       | Misc Fixed 7x13       | Bold   |         | 13         | 10         |
+| dist/ttf/MiscFixed7x13-Oblique.ttf    | xorg-misc-misc/7x13O.bdf                    | MiscFixed7x13-Oblique    | Misc Fixed 7x13       |        | Oblique | 13         | 10         |
+| dist/ttf/MiscFixed7x14.ttf            | xorg-misc-misc/7x14.bdf                     | MiscFixed7x14            | Misc Fixed 7x14       |        |         | 15         | 11         |
+| dist/ttf/MiscFixed7x14-Bold.ttf       | xorg-misc-misc/7x14B.bdf                    | MiscFixed7x14-Bold       | Misc Fixed 7x14       | Bold   |         | 15         | 11         |
+| dist/ttf/MiscFixed8x13.ttf            | xorg-misc-misc/8x13.bdf                     | MiscFixed8x13            | Misc Fixed 8x13       |        |         | 13         | 10         |
+| dist/ttf/MiscFixed8x13-Bold.ttf       | xorg-misc-misc/8x13B.bdf                    | MiscFixed8x13-Bold       | Misc Fixed 8x13       | Bold   |         | 13         | 10         |
+| dist/ttf/MiscFixed8x13-Oblique.ttf    | xorg-misc-misc/8x13O.bdf                    | MiscFixed8x13-Oblique    | Misc Fixed 8x13       |        | Oblique | 13         | 10         |
+| dist/ttf/MiscFixed9x15.ttf            | xorg-misc-misc/9x15.bdf                     | MiscFixed9x15            | Misc Fixed 9x15       |        |         | 15         | 11         |
+| dist/ttf/MiscFixed9x15-Bold.ttf       | xorg-misc-misc/9x15B.bdf                    | MiscFixed9x15-Bold       | Misc Fixed 9x15       | Bold   |         | 15         | 11         |
+| dist/ttf/MiscFixed9x18.ttf            | xorg-misc-misc/9x18.bdf                     | MiscFixed9x18            | Misc Fixed 9x18       |        |         | 19         | 14         |
+| dist/ttf/MiscFixed9x18-Bold.ttf       | xorg-misc-misc/9x18B.bdf                    | MiscFixed9x18-Bold       | Misc Fixed 9x18       | Bold   |         | 19         | 14         |
+| dist/ttf/SonyFixed12x24.ttf           | xorg-sony-misc/12x24.bdf                    | SonyFixed12x24           | Sony Fixed 12x24      |        |         | 24         | 18         |
+| dist/ttf/SonyFixed8x16.ttf            | xorg-sony-misc/8x16.bdf                     | SonyFixed8x16            | Sony Fixed 8x16       |        |         | 16         | 12         |
+
+## About the Pixel Heights
+
+Each font has a certain pixel height.  Examples:
+
+-   Misc Fixed 6x13 is 13 pixels tall.
+-   Lucida Typewriter 18A is 18 pixels tall.
+-   Lucida Typewriter 18B is 25 pixels tall.
+
+Normally the point size is the pixel size &times; 0.75, rounded to the
+nearest integer.
+
+However, if the pixel size modulo 4 is 2, you have to add one pixel to
+the pixel height; otherwise you will not get a clean crisp non-blurry
+bitmap at any nearby pixel size.
+
+So, for the previous examples:
+
+-   Misc Fixed 6x13 stays 13 pixels tall.
+-   Lucida Typewriter 18A becomes 19 pixels tall.
+-   Lucida Typewriter 18B stays 25 pixels tall.
