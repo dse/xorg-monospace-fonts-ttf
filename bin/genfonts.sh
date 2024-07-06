@@ -9,41 +9,45 @@ main () {
     _run_fonts "$@"
 }
 
+# PostScript font names
+# - supposed to be A-Za-z0-9
+#   https://adobe-type-tools.github.io/font-tech-notes/pdfs/5902.AdobePSNameGeneration.pdf
+
 _run_fonts () {
     #          subdir               source                                         basename/psfontname         familyname               weight      slant     +px  font sizes
     #          -------------------  ---------------------------------------------  --------------------------  -----------------------  ----------  ---------  -   -----------
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS08.bdf'   'LucidaTypewriter8-Bold'    'Lucida Typewriter 8'    'Bold'      ''         0   8px    6pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS10.bdf'   'LucidaTypewriter10-Bold'   'Lucida Typewriter 10'   'Bold'      ''         1   11px   8pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS12.bdf'   'LucidaTypewriter12-Bold'   'Lucida Typewriter 12'   'Bold'      ''         0   12px   9pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS14.bdf'   'LucidaTypewriter14-Bold'   'Lucida Typewriter 14'   'Bold'      ''         1   15px   11pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS18.bdf'   'LucidaTypewriter18-Bold'   'Lucida Typewriter 18'   'Bold'      ''         1   19px   14pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf'   'LucidaTypewriter19-Bold'   'Lucida Typewriter 19'   'Bold'      ''         0   19px   14pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf'   'LucidaTypewriter24-Bold'   'Lucida Typewriter 24'   'Bold'      ''         0   24px   18pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS08.bdf'   'LucidaTypewriter8'         'Lucida Typewriter 8'    ''          ''         0   8px    6pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS10.bdf'   'LucidaTypewriter10'        'Lucida Typewriter 10'   ''          ''         1   11px   8pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS12.bdf'   'LucidaTypewriter12'        'Lucida Typewriter 12'   ''          ''         0   12px   9pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS14.bdf'   'LucidaTypewriter14'        'Lucida Typewriter 14'   ''          ''         1   15px   11pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS18.bdf'   'LucidaTypewriter18'        'Lucida Typewriter 18'   ''          ''         1   19px   14pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS19.bdf'   'LucidaTypewriter19'        'Lucida Typewriter 19'   ''          ''         0   19px   14pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS24.bdf'   'LucidaTypewriter24'        'Lucida Typewriter 24'   ''          ''         0   24px   18pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf'  'LucidaTypewriter11-Bold'   'Lucida Typewriter 11'   'Bold'      ''         0   11px   8pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS10.bdf'  'LucidaTypewriter14c-Bold'  'Lucida Typewriter 14c'  'Bold'      ''         1   15px   11pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS12.bdf'  'LucidaTypewriter17-Bold'   'Lucida Typewriter 17'   'Bold'      ''         0   17px   13pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS14.bdf'  'LucidaTypewriter20-Bold'   'Lucida Typewriter 20'   'Bold'      ''         0   20px   15pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS18.bdf'  'LucidaTypewriter25-Bold'   'Lucida Typewriter 25'   'Bold'      ''         0   25px   19pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS19.bdf'  'LucidaTypewriter26-Bold'   'Lucida Typewriter 26'   'Bold'      ''         1   27px   20pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS24.bdf'  'LucidaTypewriter34-Bold'   'Lucida Typewriter 34'   'Bold'      ''         1   35px   26pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS08.bdf'  'LucidaTypewriter11'        'Lucida Typewriter 11'   ''          ''         0   11px   8pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS10.bdf'  'LucidaTypewriter14c'       'Lucida Typewriter 14c'  ''          ''         1   15px   11pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS12.bdf'  'LucidaTypewriter17'        'Lucida Typewriter 17'   ''          ''         0   17px   13pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS14.bdf'  'LucidaTypewriter20'        'Lucida Typewriter 20'   ''          ''         0   20px   15pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS18.bdf'  'LucidaTypewriter25'        'Lucida Typewriter 25'   ''          ''         0   25px   19pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS19.bdf'  'LucidaTypewriter26'        'Lucida Typewriter 26'   ''          ''         1   27px   20pt
-    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS24.bdf'  'LucidaTypewriter34'        'Lucida Typewriter 34'   ''          ''         1   35px   26pt
-    _run_font  'dec-terminal'       'xorg-bitstream-75dpi/term14.bdf'              'DECTerminal14'             'DEC Terminal 14'        ''          ''         1   15px   11pt
-    _run_font  'dec-terminal'       'xorg-bitstream-75dpi/termB14.bdf'             'DECTerminal14-Bold'        'DEC Terminal 14'        'Bold'      ''         1   15px   11pt
-    _run_font  'dec-terminal'       'xorg-bitstream-100dpi/term14.bdf'             'DECTerminal18'             'DEC Terminal 18'        ''          ''         1   19px   14pt
-    _run_font  'dec-terminal'       'xorg-bitstream-100dpi/termB14.bdf'            'DECTerminal18-Bold'        'DEC Terminal 18'        'Bold'      ''         1   19px   14pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS08.bdf'   'LucidaTypewriter8A-Bold'   'Lucida Typewriter 8A'   'Bold'      ''         0   8px    6pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS10.bdf'   'LucidaTypewriter10A-Bold'  'Lucida Typewriter 10A'  'Bold'      ''         1   11px   8pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS12.bdf'   'LucidaTypewriter12A-Bold'  'Lucida Typewriter 12A'  'Bold'      ''         0   12px   9pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS14.bdf'   'LucidaTypewriter14A-Bold'  'Lucida Typewriter 14A'  'Bold'      ''         1   15px   11pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS18.bdf'   'LucidaTypewriter18A-Bold'  'Lucida Typewriter 18A'  'Bold'      ''         1   19px   14pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS19.bdf'   'LucidaTypewriter19A-Bold'  'Lucida Typewriter 19A'  'Bold'      ''         0   19px   14pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutBS24.bdf'   'LucidaTypewriter24A-Bold'  'Lucida Typewriter 24A'  'Bold'      ''         0   24px   18pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS08.bdf'   'LucidaTypewriter8A'        'Lucida Typewriter 8A'   ''          ''         0   8px    6pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS10.bdf'   'LucidaTypewriter10A'       'Lucida Typewriter 10A'  ''          ''         1   11px   8pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS12.bdf'   'LucidaTypewriter12A'       'Lucida Typewriter 12A'  ''          ''         0   12px   9pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS14.bdf'   'LucidaTypewriter14A'       'Lucida Typewriter 14A'  ''          ''         1   15px   11pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS18.bdf'   'LucidaTypewriter18A'       'Lucida Typewriter 18A'  ''          ''         1   19px   14pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS19.bdf'   'LucidaTypewriter19A'       'Lucida Typewriter 19A'  ''          ''         0   19px   14pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-75dpi/lutRS24.bdf'   'LucidaTypewriter24A'       'Lucida Typewriter 24A'  ''          ''         0   24px   18pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS08.bdf'  'LucidaTypewriter8B-Bold'   'Lucida Typewriter 8B'   'Bold'      ''         0   11px   8pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS10.bdf'  'LucidaTypewriter10B-Bold'  'Lucida Typewriter 10B'  'Bold'      ''         1   15px   11pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS12.bdf'  'LucidaTypewriter12B-Bold'  'Lucida Typewriter 12B'  'Bold'      ''         0   17px   13pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS14.bdf'  'LucidaTypewriter14B-Bold'  'Lucida Typewriter 14B'  'Bold'      ''         0   20px   15pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS18.bdf'  'LucidaTypewriter18B-Bold'  'Lucida Typewriter 18B'  'Bold'      ''         0   25px   19pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS19.bdf'  'LucidaTypewriter19B-Bold'  'Lucida Typewriter 19B'  'Bold'      ''         1   27px   20pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutBS24.bdf'  'LucidaTypewriter24B-Bold'  'Lucida Typewriter 24B'  'Bold'      ''         1   35px   26pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS08.bdf'  'LucidaTypewriter8B'        'Lucida Typewriter 8B'   ''          ''         0   11px   8pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS10.bdf'  'LucidaTypewriter10B'       'Lucida Typewriter 10B'  ''          ''         1   15px   11pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS12.bdf'  'LucidaTypewriter12B'       'Lucida Typewriter 12B'  ''          ''         0   17px   13pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS14.bdf'  'LucidaTypewriter14B'       'Lucida Typewriter 14B'  ''          ''         0   20px   15pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS18.bdf'  'LucidaTypewriter18B'       'Lucida Typewriter 18B'  ''          ''         0   25px   19pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS19.bdf'  'LucidaTypewriter19B'       'Lucida Typewriter 19B'  ''          ''         1   27px   20pt
+    _run_font  'lucida-typewriter'  'xorg-bh-lucidatypewriter-100dpi/lutRS24.bdf'  'LucidaTypewriter24B'       'Lucida Typewriter 24B'  ''          ''         1   35px   26pt
+    _run_font  'dec-terminal'       'xorg-bitstream-75dpi/term14.bdf'              'DECTerminal14A'            'DEC Terminal 14A'       ''          ''         1   15px   11pt
+    _run_font  'dec-terminal'       'xorg-bitstream-75dpi/termB14.bdf'             'DECTerminal14A-Bold'       'DEC Terminal 14A'       'Bold'      ''         1   15px   11pt
+    _run_font  'dec-terminal'       'xorg-bitstream-100dpi/term14.bdf'             'DECTerminal14B'            'DEC Terminal 14B'       ''          ''         1   19px   14pt
+    _run_font  'dec-terminal'       'xorg-bitstream-100dpi/termB14.bdf'            'DECTerminal14B-Bold'       'DEC Terminal 14B'       'Bold'      ''         1   19px   14pt
     _run_font  'misc-fixed'         'xorg-misc-misc/10x20.bdf'                     'MiscFixed10x20'            'Misc Fixed 10x20'       ''          ''         0   20px   15pt
     _run_font  'misc-fixed'         'xorg-misc-misc/4x6.bdf'                       'MiscFixed4x6'              'Misc Fixed 4x6'         ''          ''         1   7px    5pt
     _run_font  'misc-fixed'         'xorg-misc-misc/5x7.bdf'                       'MiscFixed5x7'              'Misc Fixed 5x7'         ''          ''         0   7px    5pt
