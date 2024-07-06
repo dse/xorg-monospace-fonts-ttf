@@ -19,3 +19,16 @@ This includes:
 -   DEC Terminal
 -   Misc Fixed (6x13, 10x20, and all the others)
 -   Sony bitmap fonts
+
+## macOS
+
+Fonts are named by pixel height or pixel width x pixel height.
+Simply use the pixel height as your font size.
+
+## Windows
+
+In Windows, most times you specify the font's point size, not pixel
+size.
+
+To compute the point size, if the pixel size is 2 modulo 4, add one
+more pixel.  Then multiply by 0.75 and round to the nearest integer.
