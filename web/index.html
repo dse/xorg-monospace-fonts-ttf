@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <title>Xorg Monospace Fonts in TTF</title>
+        <link rel="stylesheet" href="fonts/fonts.css">
+        <style>
+            .container { max-width: 800px; }
+            /* centering hack because margin-left: auto; margin-right: auto; sometimes blurrifies the bitmap fonts. */
+            @media (min-width:  900px) { .container { margin-left:  50px; } }
+            @media (min-width: 1000px) { .container { margin-left: 100px; } }
+            @media (min-width: 1100px) { .container { margin-left: 150px; } }
+            @media (min-width: 1200px) { .container { margin-left: 200px; } }
+            @media (min-width: 1300px) { .container { margin-left: 250px; } }
+
+            :root {
+                --dark-bg: black;
+                --dark-fg: white;
+                --dark-anchor: #ffff00;
+                --dark-visited: #66cc66;
+                --light-bg: white;
+                --light-fg: black;
+                --light-anchor: #0000ff;
+                --light-visited: #990099;
+            }
+
+            :root {
+                --bg: var(--light-bg);
+                --fg: var(--light-fg);
+                --anchor: var(--light-anchor);
+            }
+            @media (prefers-color-scheme: dark) {
+                :root {
+                    --bg: var(--dark-bg);
+                    --fg: var(--dark-fg);
+                    --anchor: var(--dark-anchor);
+                }
+            }
+            :root.light {
+                --bg: var(--light-bg);
+                --fg: var(--light-fg);
+                --anchor: var(--light-anchor);
+            }
+            :root.dark {
+                --bg: var(--dark-bg);
+                --fg: var(--dark-fg);
+                --anchor: var(--dark-anchor);
+            }
+            body {
+                background-color: var(--bg);
+                color: var(--fg);
+            }
+            a {
+                color: var(--anchor);
+            }
+            a:visted {
+                color: var(--visited);
+            }
+        </style>
+    </head>
+    <body>
+        <template id="template">
+            <pre>
+<i>/**
+ * h/t Tom Duff
+ */</i>
+send(to, from, count)
+<b>register</b> short *to, *from;
+<b>register</b> count;
+{
+    <b>register</b> n = (count + 7) / 8;
+    <b>switch</b> (count % 8) {
+    <b>case</b> 0: do { *to = *from++;
+    <b>case</b> 7:      *to = *from++;
+    <b>case</b> 6:      *to = *from++;
+    <b>case</b> 5:      *to = *from++;
+    <b>case</b> 4:      *to = *from++;
+    <b>case</b> 3:      *to = *from++;
+    <b>case</b> 2:      *to = *from++;
+    <b>case</b> 1:      *to = *from++;
+            } <b>while</b> (--n > 0);
+    }
+}</pre>
+        </template>
+        <div class="container">
+            <h1>
+                Xorg Monospace Fonts in TTF
+            </h1>
+            <p>
+                I'm working on porting the monospace fonts shipped with X
+                to TTF so that you can use them (at certain sizes).
+            </p>
+            <section>
+                <h2>
+                    DEC Terminal Fonts
+                </h2>
+                <section>
+                    <h3>
+                        DEC Terminal 14A
+                    </h3>
+                    <div data-slot class="font-demo dec-terminal-14A"></div>
+                </section>
+                <section>
+                    <h3>
+                        DEC Terminal 14B
+                    </h3>
+                    <div data-slot class="font-demo dec-terminal-14B"></div>
+                </section>
+                <h2>
+                    Lucida Typewriter Fonts
+                </h2>
+                <section>
+                    <h3>
+                        Lucida Typewriter 8A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-8A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 10A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-10A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 12A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-12A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 14A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-14A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 18A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-18A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 19A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-19A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 24A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-24A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 8B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-8B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 10B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-10B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 12B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-12B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 14B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-14B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 18B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-18B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 19B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-19B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 24B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-24B"></div>
+                </section>
+                <h2>
+                    Misc Fixed Fonts
+                </h2>
+                <section>
+                    <h3>
+                        Misc Fixed 4x6
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-4x6"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 5x7
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-5x7"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 5x8
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-5x8"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 6x9
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-6x9"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 6x10
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-6x10"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 6x12
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-6x12"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 6x13
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-6x13"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 7x13
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-7x13"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 7x14
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-7x14"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 8x13
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-8x13"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 9x15
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-9x15"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 9x18
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-9x18"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 10x20
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-10x20"></div>
+                </section>
+                <h2>
+                    Sony Fixed Fonts
+                </h2>
+                <section>
+                    <h3>
+                        Sony Fixed 12x24
+                    </h3>
+                    <div data-slot class="font-demo sony-fixed-12x24"></div>
+                </section>
+                <section>
+                    <h3>
+                        Sony Fixed 8x16
+                    </h3>
+                    <div data-slot class="font-demo sony-fixed-8x16"></div>
+                </section>
+            </section>
+            <section class="--pt">
+                <h2>
+                    DEC Terminal Fonts
+                </h2>
+                <section>
+                    <h3>
+                        DEC Terminal 14A
+                    </h3>
+                    <div data-slot class="font-demo dec-terminal-14A"></div>
+                </section>
+                <section>
+                    <h3>
+                        DEC Terminal 14B
+                    </h3>
+                    <div data-slot class="font-demo dec-terminal-14B"></div>
+                </section>
+                <h2>
+                    Lucida Typewriter Fonts
+                </h2>
+                <section>
+                    <h3>
+                        Lucida Typewriter 8A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-8A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 10A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-10A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 12A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-12A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 14A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-14A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 18A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-18A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 19A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-19A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 24A
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-24A"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 8B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-8B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 10B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-10B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 12B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-12B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 14B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-14B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 18B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-18B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 19B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-19B"></div>
+                </section>
+                <section>
+                    <h3>
+                        Lucida Typewriter 24B
+                    </h3>
+                    <div data-slot class="font-demo lucida-typewriter-24B"></div>
+                </section>
+                <h2>
+                    Misc Fixed Fonts
+                </h2>
+                <section>
+                    <h3>
+                        Misc Fixed 4x6
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-4x6"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 5x7
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-5x7"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 5x8
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-5x8"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 6x9
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-6x9"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 6x10
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-6x10"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 6x12
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-6x12"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 6x13
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-6x13"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 7x13
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-7x13"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 7x14
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-7x14"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 8x13
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-8x13"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 9x15
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-9x15"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 9x18
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-9x18"></div>
+                </section>
+                <section>
+                    <h3>
+                        Misc Fixed 10x20
+                    </h3>
+                    <div data-slot class="font-demo misc-fixed-10x20"></div>
+                </section>
+                <h2>
+                    Sony Fixed Fonts
+                </h2>
+                <section>
+                    <h3>
+                        Sony Fixed 12x24
+                    </h3>
+                    <div data-slot class="font-demo sony-fixed-12x24"></div>
+                </section>
+                <section>
+                    <h3>
+                        Sony Fixed 8x16
+                    </h3>
+                    <div data-slot class="font-demo sony-fixed-8x16"></div>
+                </section>
+            </section>
+        </div><!-- container -->
+        <div class="controls-container">
+            <button id="theme">system</button>
+        </div>
+        <script>
+            Array.from(document.querySelectorAll('[data-slot]')).forEach(slot => {
+                slot.innerHTML = document.getElementById('template').innerHTML;
+            });
+            (function () {
+                const theme = document.getElementById('theme');
+                theme.addEventListener('click', function () {
+                    toggleTheme();
+                });
+                toggleTheme();
+            }());
+            function toggleTheme() {
+                const cl = document.documentElement.classList;
+                if (!cl.contains('initialized')) {
+                    cl.add('initialized');
+                } else if (cl.contains('light')) {
+                    cl.add('dark');
+                    cl.remove('light');
+                } else if (cl.contains('dark')) {
+                    cl.remove('dark');
+                    cl.remove('light');
+                } else {
+                    cl.remove('dark');
+                    cl.add('light');
+                }
+                if (cl.contains('light')) {
+                    theme.innerHTML = 'light';
+                } else if (cl.contains('dark')) {
+                    theme.innerHTML = 'dark';
+                } else {
+                    theme.innerHTML = 'system';
+                }
+            }
+        </script>
+    </body>
+</html>

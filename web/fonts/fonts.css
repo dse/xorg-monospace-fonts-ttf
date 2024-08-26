@@ -1,0 +1,211 @@
+@font-face { src: url("ttf/DECTerminal14A.ttf");           font-family: 'DEC Terminal 14A';      font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/DECTerminal14A-Bold.ttf");      font-family: 'DEC Terminal 14A';      font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/DECTerminal14B.ttf");           font-family: 'DEC Terminal 14B';      font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/DECTerminal14B-Bold.ttf");      font-family: 'DEC Terminal 14B';      font-weight: bold;   font-style: normal;  font-stretch: normal; }
+
+@font-face { src: url("ttf/LucidaTypewriter10A.ttf");      font-family: 'Lucida Typewriter 10A'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter10A-Bold.ttf"); font-family: 'Lucida Typewriter 10A'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter10B.ttf");      font-family: 'Lucida Typewriter 10B'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter10B-Bold.ttf"); font-family: 'Lucida Typewriter 10B'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter12A.ttf");      font-family: 'Lucida Typewriter 12A'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter12A-Bold.ttf"); font-family: 'Lucida Typewriter 12A'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter12B.ttf");      font-family: 'Lucida Typewriter 12B'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter12B-Bold.ttf"); font-family: 'Lucida Typewriter 12B'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter14A.ttf");      font-family: 'Lucida Typewriter 14A'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter14A-Bold.ttf"); font-family: 'Lucida Typewriter 14A'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter14B.ttf");      font-family: 'Lucida Typewriter 14B'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter14B-Bold.ttf"); font-family: 'Lucida Typewriter 14B'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter18A.ttf");      font-family: 'Lucida Typewriter 18A'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter18A-Bold.ttf"); font-family: 'Lucida Typewriter 18A'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter18B.ttf");      font-family: 'Lucida Typewriter 18B'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter18B-Bold.ttf"); font-family: 'Lucida Typewriter 18B'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter19A.ttf");      font-family: 'Lucida Typewriter 19A'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter19A-Bold.ttf"); font-family: 'Lucida Typewriter 19A'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter19B.ttf");      font-family: 'Lucida Typewriter 19B'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter19B-Bold.ttf"); font-family: 'Lucida Typewriter 19B'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter24A.ttf");      font-family: 'Lucida Typewriter 24A'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter24A-Bold.ttf"); font-family: 'Lucida Typewriter 24A'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter24B.ttf");      font-family: 'Lucida Typewriter 24B'; font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter24B-Bold.ttf"); font-family: 'Lucida Typewriter 24B'; font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter8A.ttf");       font-family: 'Lucida Typewriter 8A';  font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter8A-Bold.ttf");  font-family: 'Lucida Typewriter 8A';  font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter8B.ttf");       font-family: 'Lucida Typewriter 8B';  font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/LucidaTypewriter8B-Bold.ttf");  font-family: 'Lucida Typewriter 8B';  font-weight: bold;   font-style: normal;  font-stretch: normal; }
+
+@font-face { src: url("ttf/MiscFixed4x6.ttf");             font-family: 'Misc Fixed 4x6';        font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed5x7.ttf");             font-family: 'Misc Fixed 5x7';        font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed5x8.ttf");             font-family: 'Misc Fixed 5x8';        font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed6x9.ttf");             font-family: 'Misc Fixed 6x9';        font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed6x10.ttf");            font-family: 'Misc Fixed 6x10';       font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed6x12.ttf");            font-family: 'Misc Fixed 6x12';       font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed6x13.ttf");            font-family: 'Misc Fixed 6x13';       font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed6x13-Bold.ttf");       font-family: 'Misc Fixed 6x13';       font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed6x13-Oblique.ttf");    font-family: 'Misc Fixed 6x13';       font-weight: normal; font-style: oblique; font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed7x13.ttf");            font-family: 'Misc Fixed 7x13';       font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed7x13-Bold.ttf");       font-family: 'Misc Fixed 7x13';       font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed7x13-Oblique.ttf");    font-family: 'Misc Fixed 7x13';       font-weight: normal; font-style: oblique; font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed7x14.ttf");            font-family: 'Misc Fixed 7x14';       font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed7x14-Bold.ttf");       font-family: 'Misc Fixed 7x14';       font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed8x13.ttf");            font-family: 'Misc Fixed 8x13';       font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed8x13-Bold.ttf");       font-family: 'Misc Fixed 8x13';       font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed8x13-Oblique.ttf");    font-family: 'Misc Fixed 8x13';       font-weight: normal; font-style: oblique; font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed9x15.ttf");            font-family: 'Misc Fixed 9x15';       font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed9x15-Bold.ttf");       font-family: 'Misc Fixed 9x15';       font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed9x18.ttf");            font-family: 'Misc Fixed 9x18';       font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed9x18-Bold.ttf");       font-family: 'Misc Fixed 9x18';       font-weight: bold;   font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/MiscFixed10x20.ttf");           font-family: 'Misc Fixed 10x20';      font-weight: normal; font-style: normal;  font-stretch: normal; }
+
+@font-face { src: url("ttf/SonyFixed12x24.ttf");           font-family: 'Sony Fixed 12x24';      font-weight: normal; font-style: normal;  font-stretch: normal; }
+@font-face { src: url("ttf/SonyFixed8x16.ttf");            font-family: 'Sony Fixed 8x16';       font-weight: normal; font-style: normal;  font-stretch: normal; }
+
+.dec-terminal-14A      { font-family: 'DEC Terminal 14A';      font-size: 15px; } .dec-terminal-14A.--pt,      .--pt .dec-terminal-14A,      .dec-terminal-14A .--pt      { font-size: 11pt; }
+.dec-terminal-14B      { font-family: 'DEC Terminal 14B';      font-size: 19px; } .dec-terminal-14B.--pt,      .--pt .dec-terminal-14B,      .dec-terminal-14B .--pt      { font-size: 14pt; }
+
+.lucida-typewriter-8A  { font-family: 'Lucida Typewriter 8A';  font-size: 8px;  } .lucida-typewriter-8A.--pt,  .--pt .lucida-typewriter-8A,  .lucida-typewriter-8A .--pt  { font-size: 6pt; }
+.lucida-typewriter-10A { font-family: 'Lucida Typewriter 10A'; font-size: 11px; } .lucida-typewriter-10A.--pt, .--pt .lucida-typewriter-10A, .lucida-typewriter-10A .--pt { font-size: 8pt; }
+.lucida-typewriter-12A { font-family: 'Lucida Typewriter 12A'; font-size: 12px; } .lucida-typewriter-12A.--pt, .--pt .lucida-typewriter-12A, .lucida-typewriter-12A .--pt { font-size: 9pt; }
+.lucida-typewriter-14A { font-family: 'Lucida Typewriter 14A'; font-size: 15px; } .lucida-typewriter-14A.--pt, .--pt .lucida-typewriter-14A, .lucida-typewriter-14A .--pt { font-size: 11pt; }
+.lucida-typewriter-18A { font-family: 'Lucida Typewriter 18A'; font-size: 19px; } .lucida-typewriter-18A.--pt, .--pt .lucida-typewriter-18A, .lucida-typewriter-18A .--pt { font-size: 14pt; }
+.lucida-typewriter-19A { font-family: 'Lucida Typewriter 19A'; font-size: 19px; } .lucida-typewriter-19A.--pt, .--pt .lucida-typewriter-19A, .lucida-typewriter-19A .--pt { font-size: 14pt; }
+.lucida-typewriter-24A { font-family: 'Lucida Typewriter 24A'; font-size: 24px; } .lucida-typewriter-24A.--pt, .--pt .lucida-typewriter-24A, .lucida-typewriter-24A .--pt { font-size: 18pt; }
+
+.lucida-typewriter-8B  { font-family: 'Lucida Typewriter 8B';  font-size: 8px;  } .lucida-typewriter-8B.--pt,  .--pt .lucida-typewriter-8B,  .lucida-typewriter-8B .--pt  { font-size: 6pt; }
+.lucida-typewriter-10B { font-family: 'Lucida Typewriter 10B'; font-size: 11px; } .lucida-typewriter-10B.--pt, .--pt .lucida-typewriter-10B, .lucida-typewriter-10B .--pt { font-size: 8pt; }
+.lucida-typewriter-12B { font-family: 'Lucida Typewriter 12B'; font-size: 12px; } .lucida-typewriter-12B.--pt, .--pt .lucida-typewriter-12B, .lucida-typewriter-12B .--pt { font-size: 9pt; }
+.lucida-typewriter-14B { font-family: 'Lucida Typewriter 14B'; font-size: 15px; } .lucida-typewriter-14B.--pt, .--pt .lucida-typewriter-14B, .lucida-typewriter-14B .--pt { font-size: 11pt; }
+.lucida-typewriter-18B { font-family: 'Lucida Typewriter 18B'; font-size: 19px; } .lucida-typewriter-18B.--pt, .--pt .lucida-typewriter-18B, .lucida-typewriter-18B .--pt { font-size: 14pt; }
+.lucida-typewriter-19B { font-family: 'Lucida Typewriter 19B'; font-size: 19px; } .lucida-typewriter-19B.--pt, .--pt .lucida-typewriter-19B, .lucida-typewriter-19B .--pt { font-size: 14pt; }
+.lucida-typewriter-24B { font-family: 'Lucida Typewriter 24B'; font-size: 24px; } .lucida-typewriter-24B.--pt, .--pt .lucida-typewriter-24B, .lucida-typewriter-24B .--pt { font-size: 18pt; }
+
+.misc-fixed-4x6        { font-family: 'Misc Fixed 4x6';        font-size: 7px;  } .misc-fixed-4x6.--pt,        .--pt .misc-fixed-4x6,        .misc-fixed-4x6 .--pt        { font-size: 5pt; }
+.misc-fixed-5x7        { font-family: 'Misc Fixed 5x7';        font-size: 7px;  } .misc-fixed-5x7.--pt,        .--pt .misc-fixed-5x7,        .misc-fixed-5x7 .--pt        { font-size: 5pt; }
+.misc-fixed-5x8        { font-family: 'Misc Fixed 5x8';        font-size: 8px;  } .misc-fixed-5x8.--pt,        .--pt .misc-fixed-5x8,        .misc-fixed-5x8 .--pt        { font-size: 6pt; }
+.misc-fixed-6x9        { font-family: 'Misc Fixed 6x9';        font-size: 9px;  } .misc-fixed-6x9.--pt,        .--pt .misc-fixed-6x9,        .misc-fixed-6x9 .--pt        { font-size: 7pt; }
+.misc-fixed-6x10       { font-family: 'Misc Fixed 6x10';       font-size: 11px; } .misc-fixed-6x10.--pt,       .--pt .misc-fixed-6x10,       .misc-fixed-6x10 .--pt       { font-size: 8pt; }
+.misc-fixed-6x12       { font-family: 'Misc Fixed 6x12';       font-size: 12px; } .misc-fixed-6x12.--pt,       .--pt .misc-fixed-6x12,       .misc-fixed-6x12 .--pt       { font-size: 9pt; }
+.misc-fixed-6x13       { font-family: 'Misc Fixed 6x13';       font-size: 13px; } .misc-fixed-6x13.--pt,       .--pt .misc-fixed-6x13,       .misc-fixed-6x13 .--pt       { font-size: 10pt; }
+.misc-fixed-7x13       { font-family: 'Misc Fixed 7x13';       font-size: 13px; } .misc-fixed-7x13.--pt,       .--pt .misc-fixed-7x13,       .misc-fixed-7x13 .--pt       { font-size: 10pt; }
+.misc-fixed-7x14       { font-family: 'Misc Fixed 7x14';       font-size: 15px; } .misc-fixed-7x14.--pt,       .--pt .misc-fixed-7x14,       .misc-fixed-7x14 .--pt       { font-size: 11pt; }
+.misc-fixed-8x13       { font-family: 'Misc Fixed 8x13';       font-size: 13px; } .misc-fixed-8x13.--pt,       .--pt .misc-fixed-8x13,       .misc-fixed-8x13 .--pt       { font-size: 10pt; }
+.misc-fixed-9x15       { font-family: 'Misc Fixed 9x15';       font-size: 15px; } .misc-fixed-9x15.--pt,       .--pt .misc-fixed-9x15,       .misc-fixed-9x15 .--pt       { font-size: 11pt; }
+.misc-fixed-9x18       { font-family: 'Misc Fixed 9x18';       font-size: 19px; } .misc-fixed-9x18.--pt,       .--pt .misc-fixed-9x18,       .misc-fixed-9x18 .--pt       { font-size: 14pt; }
+.misc-fixed-10x20      { font-family: 'Misc Fixed 10x20';      font-size: 20px; } .misc-fixed-10x20.--pt,      .--pt .misc-fixed-10x20,      .misc-fixed-10x20 .--pt      { font-size: 15pt; }
+
+.sony-fixed-12x24      { font-family: 'Sony Fixed 12x24';      font-size: 24px; } .sony-fixed-12x24.--pt,      .--pt .sony-fixed-12x24,      .sony-fixed-12x24 .--pt      { font-size: 18pt; }
+.sony-fixed-8x16       { font-family: 'Sony Fixed 8x16';       font-size: 16px; } .sony-fixed-8x16.--pt,       .--pt .sony-fixed-8x16,       .sony-fixed-8x16 .--pt       { font-size: 12pt; }
+
+.font-demo pre,
+.font-demo code,
+.font-demo samp,
+.font-demo kbd,
+.font-demo tt {
+    font-family: inherit;
+}
+.font-demo h1,
+.font-demo h2,
+.font-demo h3,
+.font-demo h4,
+.font-demo h5,
+.font-demo h6 {
+    font-size: inherit;
+    font-weight: inherit;
+    font-style: inherit;
+}
+
+/* fake bold for fonts with no actual bold variants */
+.sony-fixed-12x24 b,
+.sony-fixed-12x24 strong,
+.sony-fixed-8x16 b,
+.sony-fixed-8x16 strong,
+.misc-fixed-4x6 b,
+.misc-fixed-4x6 strong,
+.misc-fixed-5x7 b,
+.misc-fixed-5x7 strong,
+.misc-fixed-5x8 b,
+.misc-fixed-5x8 strong,
+.misc-fixed-6x9 b,
+.misc-fixed-6x9 strong,
+.misc-fixed-6x10 b,
+.misc-fixed-6x10 strong,
+.misc-fixed-6x12 b,
+.misc-fixed-6x12 strong,
+.misc-fixed-10x20 b,
+.misc-fixed-10x20 strong {
+    font-weight: inherit;
+    text-shadow: 1px 0 0 currentcolor;
+}
+
+.dec-terminal-14A i,
+.dec-terminal-14A em,
+.dec-terminal-14B i,
+.dec-terminal-14B em,
+.lucida-typewriter-8A i,
+.lucida-typewriter-8A em,
+.lucida-typewriter-10A i,
+.lucida-typewriter-10A em,
+.lucida-typewriter-12A i,
+.lucida-typewriter-12A em,
+.lucida-typewriter-14A i,
+.lucida-typewriter-14A em,
+.lucida-typewriter-18A i,
+.lucida-typewriter-18A em,
+.lucida-typewriter-19A i,
+.lucida-typewriter-19A em,
+.lucida-typewriter-24A i,
+.lucida-typewriter-24A em,
+.lucida-typewriter-8B i,
+.lucida-typewriter-8B em,
+.lucida-typewriter-10B i,
+.lucida-typewriter-10B em,
+.lucida-typewriter-12B i,
+.lucida-typewriter-12B em,
+.lucida-typewriter-14B i,
+.lucida-typewriter-14B em,
+.lucida-typewriter-18B i,
+.lucida-typewriter-18B em,
+.lucida-typewriter-19B i,
+.lucida-typewriter-19B em,
+.lucida-typewriter-24B i,
+.lucida-typewriter-24B em,
+.misc-fixed-4x6 i,
+.misc-fixed-4x6 em,
+.misc-fixed-5x7 i,
+.misc-fixed-5x7 em,
+.misc-fixed-5x8 i,
+.misc-fixed-5x8 em,
+.misc-fixed-6x9 i,
+.misc-fixed-6x9 em,
+.misc-fixed-6x10 i,
+.misc-fixed-6x10 em,
+.misc-fixed-6x12 i,
+.misc-fixed-6x12 em,
+.misc-fixed-7x14 i,
+.misc-fixed-7x14 em,
+.misc-fixed-9x15 i,
+.misc-fixed-9x15 em,
+.misc-fixed-9x18 i,
+.misc-fixed-9x18 em,
+.misc-fixed-10x20 i,
+.misc-fixed-10x20 em,
+.sony-fixed-12x24 i,
+.sony-fixed-12x24 em,
+.sony-fixed-8x16 i,
+.sony-fixed-8x16 em {
+    font-style: normal;
+    color: #ff9933;
+}
+
+.lucida-typewriter-10A,
+.lucida-typewriter-14A,
+.lucida-typewriter-18A,
+.lucida-typewriter-10B,
+.lucida-typewriter-19B,
+.lucida-typewriter-24B,
+.dec-terminal-14A,
+.dec-terminal-14B,
+.misc-fixed-4x6,
+.misc-fixed-6x10,
+.misc-fixed-7x14,
+.misc-fixed-9x18 {
+    background-image: repeating-linear-gradient(45deg, transparent 0, transparent 2em, rgba(255, 255, 0, 0.05) 2em, rgba(255, 255, 0, 0.05) 4em);
+}
