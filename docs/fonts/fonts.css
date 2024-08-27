@@ -135,6 +135,7 @@
     text-shadow: 1px 0 0 currentcolor;
 }
 
+/* for fonts with no italic */
 .dec-terminal-14A i,
 .dec-terminal-14A em,
 .dec-terminal-14B i,
@@ -195,6 +196,8 @@
     color: #ff9933;
 }
 
+/* for fonts we had to add 1px height to in order to have a working
+   integer point size option for windows */
 .lucida-typewriter-10A,
 .lucida-typewriter-14A,
 .lucida-typewriter-18A,
@@ -207,5 +210,5 @@
 .misc-fixed-6x10,
 .misc-fixed-7x14,
 .misc-fixed-9x18 {
-    background-image: repeating-linear-gradient(45deg, transparent 0, transparent 2em, rgba(255, 255, 0, 0.05) 2em, rgba(255, 255, 0, 0.05) 4em);
+    /* background-image: repeating-linear-gradient(45deg, transparent 0, transparent 2em, rgba(255, 255, 0, 0.05) 2em, rgba(255, 255, 0, 0.05) 4em); */
 }
