@@ -79,10 +79,34 @@ Consult the "Pixel Size" column above.
 
 ### Font Family Names
 
-Each pixel size is a separate font family name.
+Each pixel size is a separate font family name.  Boldface and italic
+variants do use the same font family name so syntax highlighting will
+work perfectly if you have those variants installed.
 
 The Lucida Typewriter and DEC Terminal fonts are named after their
 (nominal) point sizes.  The A fonts are the 75dpi fonts; the B fonts
 are the 100dpi fonts.
 
 The Misc Fixed and Sony Fixed fonts are named after their pixel sizes.
+
+### Some Fonts Add One Pixel
+
+Each of the fonts has its original pixel size (height) listed in the
+thusly named column in the table above.
+
+In Windows you specify the font's point size in most applications.  On
+non-HIDPI displays the windows default DPI is 96.  This means that for
+specifying your point size you take the pixel height, multiply by 3/4,
+and round to the nearest integer.  Examples:
+
+    16 * 0.75 = 12.00 => 12
+    13 * 0.75 =  9.75 => 10
+    19 * 0.75 = 14.25 => 14
+
+Notice that under the Pixel Size (not Original Pixel Size) column
+you will not see certain font sizes, i.e., 6, 10, 14, 18, et seq.
+
+After some trial and error I've determined that there is no point size
+you can specify in Windows (at least in mintty) to achieve pixel
+perfection.  For those fonts I added one additional pixel of height
+and that is the listed Pixel Size.
