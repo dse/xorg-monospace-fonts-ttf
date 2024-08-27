@@ -16,7 +16,10 @@ This includes:
 -   Misc Fixed (6x13, 10x20, and all the others)
 -   Sony bitmap fonts
 
-## Usage Instructions
+## ATTENTION NON-HIDPI MONITORS
+
+Each font has a certain pixel size.  For each font you have to specify
+a certain font size if you want to achieve pixel perfection.
 
 ### Windows
 
