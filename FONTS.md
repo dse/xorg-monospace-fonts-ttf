@@ -58,3 +58,31 @@
 | dist/ttf/MiscFixed10x20.ttf           | xorg-misc-misc/10x20.bdf                    | MiscFixed10x20           | Misc Fixed 10x20      |        |         | 20         | 15         | 20                  |
 | dist/ttf/SonyFixed12x24.ttf           | xorg-sony-misc/12x24.bdf                    | SonyFixed12x24           | Sony Fixed 12x24      |        |         | 24         | 18         | 24                  |
 | dist/ttf/SonyFixed8x16.ttf            | xorg-sony-misc/8x16.bdf                     | SonyFixed8x16            | Sony Fixed 8x16       |        |         | 16         | 12         | 16                  |
+
+## Setting The Font Size
+
+If you want a non-blurry appearance, as if you're actually using a
+pixel font instead of a vector font, each font has a specific size you
+need to set it to.
+
+### Windows
+
+On Windows systems, you almost always specify the **point** size.
+Consult the "Point Size" column above.
+
+### macOS
+
+On macOS systems, you almost always specify the **pixel** size.
+Consult the "Pixel Size" column above.
+
+## About The Font Sizes
+
+### Font Family Names
+
+Each pixel size is a separate font family name.
+
+The Lucida Typewriter and DEC Terminal fonts are named after their
+(nominal) point sizes.  The A fonts are the 75dpi fonts; the B fonts
+are the 100dpi fonts.
+
+The Misc Fixed and Sony Fixed fonts are named after their pixel sizes.
