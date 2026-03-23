@@ -1,5 +1,6 @@
 from bdf_char import Char
-import re, statistics
+import re, statistics, math
+from os import path
 
 PARSE_STAGE_INIT    = 0
 PARSE_STAGE_GLOBAL  = 1
@@ -552,6 +553,27 @@ class Font:
 
     # these methods do compute
 
+    def gen_style_suffix(self, space=""):
+        result = ""
+        family_name = self._get_family_name()
+        weight_name = self._get_weight_name()
+        slant_name = self._get_slant_name()
+        add_style_name = self._get_add_style_name()
+        if self.is_an_xorg_font() and weight_name in ["Medium"]:
+            weight_name = None
+        if weight_name is not None and weight_name != "":
+            result += space + weight_name
+        if slant_name is not None and slant_name != "":
+            result += space + slant_name
+        if add_style_name is not None and add_style_name != "":
+            if self.is_an_xorg_font() and family_name == "LucidaTypewriter" and add_style_name == "Sans":
+                pass
+            else:
+                result += space + add_style_name.replace(" ", space)
+        if result != "" and space == "":
+            result = "-" + result
+        return result
+
     def get_ps_font_name(self, default=None, must_compute=False):
         if not must_compute:
             result = self._get_ps_font_name()
@@ -560,18 +582,7 @@ class Font:
         family_name = self._get_family_name()
         if family_name is None:
             return default
-        weight_name = self._get_weight_name()
-        slant_name = self._get_slant_name()
-        if weight_name in ["Medium"]:
-            weight_name = None
-        result = family_name
-        if weight_name is not None or slant_name is not None:
-            result += "-"
-            if weight_name is not None:
-                result += weight_name
-            if slant_name is not None:
-                result += slant_name
-        return result
+        return family_name + self.gen_style_suffix(space="")
 
     def get_full_name(self, default=None, must_compute=False):
         if not must_compute:
@@ -581,16 +592,115 @@ class Font:
         family_name = self._get_family_name()
         if family_name is None:
             return default
-        weight_name = self._get_weight_name()
-        slant_name = self._get_slant_name()
-        if weight_name in ["Medium"]:
-            weight_name = None
-        result = family_name
-        if weight_name is not None:
-            result += " " + weight_name
-        if slant_name is not None:
-            result += " " + slant_name
-        return result
+        return family_name + self.gen_style_suffix(space=" ")
+
+    # these generate new font/family/full names for this project
+
+    def gen_family_name_prefix(self, space=""):
+        if self.is_an_xorg_font():
+            prefix = "X11" + space
+            if self._get_family_name() == "Fixed":
+                if self.prop_foundry is not None and self.prop_foundry.lower() == "sony":
+                    prefix += "Sony" + space
+                elif self.xlfd_foundry is not None and self.xlfd_foundry.lower() == "sony":
+                    prefix += "Sony" + space
+                if self.prop_foundry is not None and self.prop_foundry.lower() == "misc":
+                    prefix += "Misc" + space
+                elif self.xlfd_foundry is not None and self.xlfd_foundry.lower() == "misc":
+                    prefix += "Misc" + space
+            return prefix
+        return ""
+
+    def spacing_is_monospaced(self):
+        if self.prop_spacing is not None and self.prop_spacing.lower() in ["m", "c"]:
+            return True
+        if self.xlfd_spacing is not None and self.prop_spacing.lower() in ["m", "c"]:
+            return True
+        return False
+
+    def gen_family_name_suffix(self, space=""):
+        foundry = ""
+        if self.prop_foundry is not None:
+            foundry = self.prop_foundry
+        elif self.xlfd_foundry is not None:
+            foundry = self.xlfd_foundry
+
+        family_name = self._get_family_name()
+        rx = self.get_resolution_x(default=0)
+        ry = self.get_resolution_y(default=0)
+        px = self.get_pixel_width(default=0)
+        py = self.get_pixel_size(default=0)
+        px_py = f'{rx}x{ry}'
+
+        res_suffix = None
+        if self.is_an_xorg_font():
+            if rx == 100 and ry == 100:
+                if family_name == "Terminal":
+                    pass        # no duplicate pixel sizes here
+                elif foundry == "Misc" and family_name == "Fixed" and px_py in ["18x18", "9x18"]:
+                    pass        # no duplicate pixel sizes here
+                elif foundry == "Sony" and family_name == "Fixed":
+                    pass        # no duplicate pixel sizes here
+                elif family_name == "LucidaTypewriter":
+                    pass        # no duplicate pixel sizes here
+                else:
+                    # COURIER fonts need these.
+                    # Let the proportional fonts have these.
+                    res_suffix = "H"
+            elif rx != 75 or ry != 75:
+                res_suffix = f'R{rx}X{ry}' # should never happen
+
+        pix_suffix = None
+        if self.is_an_xorg_font():
+            if self._get_family_name() == "Fixed" or self.spacing_is_monospaced():
+                pix_suffix = f'{px}x{py}'
+            else:
+                pix_suffix = f'{py}'
+
+        suffix = ""
+        if pix_suffix is not None:
+            suffix += space + pix_suffix
+        if res_suffix is not None:
+            suffix += space + res_suffix
+        if self.is_an_xorg_font() and path.basename(self.filename) == "12x24rk.bdf":
+            suffix += space + "RK"
+        return suffix
+
+    def gen_family_name(self):
+        family_name = self._get_family_name()
+        if family_name is None:
+            return None
+        if self.is_an_xorg_font():
+            if family_name == "Terminal" and path.basename(self.filename).startswith("tech"):
+                family_name = "Terminal DECtech"
+        return (self.gen_family_name_prefix(space=" ") + family_name +
+                self.gen_family_name_suffix(space=" "))
+
+    def gen_ps_font_name(self):
+        name = self._get_ps_font_name()
+        if name is none:
+            return None
+        name = self.gen_family_name_prefix(space="") + name
+        idx = name.find("-")
+        if idx < 0:
+            idx = len(name)
+        return name[0:idx] + self.gen_family_name_suffix(space="") + name[idx:]
+
+    def gen_full_name(self):
+        family_name = self.gen_family_name()
+        if family_name is not None:
+            return family_name + self.gen_style_suffix(space=" ")
+        # return "CANNOT GENERATE FULL NAME DUE TO LACK OF FAMILY NAME"
+
+    def get_actual_ascent(self, pct=95):
+        wyes = [char.bbx_ofs_y + char.bbx_height for char in self.chars]
+        q = statistics.quantiles(wyes, n=round(1/(1-pct/100)))
+        return math.ceil(q[-1])
+
+    def get_actual_descent(self, pct=95):
+        wyes = [char.bbx_ofs_y for char in self.chars]
+        q = statistics.quantiles(wyes, n=round(1/(1-pct/100)))
+        return -math.floor(q[0])
 
     def parse_error(self):
         return Exception(
@@ -599,6 +709,9 @@ class Font:
                 self.current_line_number,
                 self.parse_stage_info,
                 repr(self.line)))
+
+    def is_an_xorg_font(self):
+        return self.filename.startswith("xorg-")
 
     def show_work_calculating_pixel_width(self):
         print(self.filename)
