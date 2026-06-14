@@ -3,8 +3,8 @@ _ := $(shell cat /dev/null >fonts.log)
 default: fonts
 
 FONT_PACKAGE_NAME	:= GorxMonoFonts
-SFNT_REVISION		:= 001.9000
-VERSION			:= 1.90.0
+SFNT_REVISION		:= 001.901
+VERSION			:= 1.91.0
 VENDOR			:= DARN
 COPYRIGHT_OWNER		:= Darren Embry
 COPYRIGHT_EMAIL		:= dsembry@gmail.com
