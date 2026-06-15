@@ -1,5 +1,3 @@
-_ := $(shell cat /dev/null >fonts.log)
-
 default: fonts
 
 FONT_PACKAGE_NAME	:= XorgMonoFonts
@@ -35,9 +33,22 @@ BT_OPTS				:= --monospace --force-monospace \
 					--set-ttf-all-ascent-descent \
 					--windows
 BT				:= $(BT_PROG) $(BT_OPTS)
-BT_REDIR			:= 3>>fonts.log
 
-fonts:				$(TTF_FONTS)
+fonts: clean_logs $(TTF_FONTS) .fonts.log.d/fonts.csv .fonts.log.d/fonts.log
+
+$(TTF_FONTS): clean_logs
+
+clean_logs: FORCE
+	find .fonts.log.d -type f \! -name .gitkeep -exec rm {} +
+.fonts.log.d/fonts.log: $(TTF_FONTS)
+	echo "| Win Pt | Mac Px | PostScript Font Name          | Filename                                                         |" > "$@"
+	echo "|:-------|:-------|:------------------------------|:-----------------------------------------------------------------|" >> "$@"
+	cat .fonts.log.d/*.???.log >> "$@"
+	rm .fonts.log.d/*.???.log
+.fonts.log.d/fonts.csv: $(TTF_FONTS)
+	echo "FILENAME,PSNAME,ASC1,ASC2,DIFF,DESC1,DESC2,DIFF,A1,A2,DIFF,B1,B2,DIFF,C1,C2,DIFF,D1,D2,DIFF,MACPX,WINPT" > "$@"
+	cat .fonts.log.d/*.???.csv >> "$@"
+	rm .fonts.log.d/*.???.csv
 
 xourier-fonts:			$(XOURIER_TTF_FONTS)
 xucida-typewriter-fonts:	$(XUCIDA_TYPEWRITER_TTF_FONTS)
